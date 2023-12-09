@@ -1,0 +1,27 @@
+{
+  "extends": "./temp/tsconfig.cocos.json",
+  "compilerOptions": {
+    //"baseUrl": "./assets/scripts",
+    // "paths": {
+    //   "*": [
+    //     "./assets/scripts/*",
+    //     "./assets/scripts/common/m_scroll_view/*",
+    //     "./assets/scripts/common/*",
+    //     "./assets/scripts/manager/*",
+    //     "./assets/scripts/manager/game_manager/*",
+    //     "./assets/scripts/manager/map_manager/*",
+    //     "./assets/scripts/manager/ui_manager/*",
+    //     "./assets/scripts/modules/*",
+    //     "./assets/scripts/modules/game/*",
+    //     "./assets/scripts/modules/game/game_objects/*",
+    //     "./assets/scripts/modules/ui/*",
+    //     "./assets/scripts/modules/ui/game_panel/*",
+    //     "./assets/scripts/modules/ui/game_tip/*",
+    //     "./assets/scripts/modules/ui/main_menu/*",
+    //     "./assets/scripts/utils/*",
+    //   ],
+    // },
+    "strict": false, /* Enable all strict type-checking options. */
+    "experimentalDecorators": true,
+  }
+}

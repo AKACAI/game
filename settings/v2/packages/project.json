@@ -1,0 +1,9 @@
+{
+  "__version__": "1.0.4",
+  "script": {
+    "importMap": "project://",
+    "useDefineForClassFields": false,
+    "allowDeclareFields": false
+  },
+  "custom_joint_texture_layouts": []
+}

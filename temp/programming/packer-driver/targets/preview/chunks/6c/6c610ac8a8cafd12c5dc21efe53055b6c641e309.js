@@ -1,0 +1,39 @@
+System.register(["cc"], function (_export, _context) {
+  "use strict";
+
+  var _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, _dec, _class, _crd, ccclass, property, EventConstant;
+
+  return {
+    setters: [function (_cc) {
+      _cclegacy = _cc.cclegacy;
+      __checkObsolete__ = _cc.__checkObsolete__;
+      __checkObsoleteInNamespace__ = _cc.__checkObsoleteInNamespace__;
+      _decorator = _cc._decorator;
+      Component = _cc.Component;
+    }],
+    execute: function () {
+      _crd = true;
+
+      _cclegacy._RF.push({}, "b2e46WUH6JL/7YX4oB7NgCG", "EventConstant", undefined);
+
+      __checkObsolete__(['_decorator', 'Component', 'Node']);
+
+      ({
+        ccclass,
+        property
+      } = _decorator);
+
+      _export("EventConstant", EventConstant = (_dec = ccclass('EventConstant'), _dec(_class = class EventConstant extends Component {
+        start() {}
+
+        update(deltaTime) {}
+
+      }) || _class));
+
+      _cclegacy._RF.pop();
+
+      _crd = false;
+    }
+  };
+});
+//# sourceMappingURL=6c610ac8a8cafd12c5dc21efe53055b6c641e309.js.map
