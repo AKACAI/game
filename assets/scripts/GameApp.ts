@@ -1,5 +1,5 @@
 import { _decorator, Component } from "cc";
-import { GameManager } from "./manager/game_manager/GameManager";
+import { GameManager, GameState } from "./manager/game_manager/GameManager";
 import { UIManager } from "./manager/ui_manager/UIManager";
 import { InputManager } from "./manager/InputManager";
 import { MapManager } from "./manager/map_manager/MapManager";

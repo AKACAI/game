@@ -13,7 +13,10 @@ export class RightTriangleObject extends ObjectBase {
 
     public init(objectType: ObjectType, shapeParam: any, objectParam: any): void {
         // TODO 三个点的计算应该有问题
-        let transformCpt = this.node.addComponent(UITransform);
+        let transformCpt = this.node.getComponent(UITransform);
+        if (!transformCpt) {
+            transformCpt = this.node.addComponent(UITransform);
+        }
         if (shapeParam.angle < 0 && shapeParam.angle > -90) {
             transformCpt.setAnchorPoint(1, 0);
         }

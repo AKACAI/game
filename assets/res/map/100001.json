@@ -1,43 +1,62 @@
 {
-    "mapId" : 100001,
-    "objectDatas" : [
-        {   
-            "objectId": 200001,
-            "pos": "{0,0,0}",
-            "rot": "{0,0,0}",
-            "sca": "{0,0,0}",
-            "objectType": 2,
-            "shapeParam": {
-                "height": 100, 
-                "angle": -30
-            }, 
-            "objectParam": {
-                "name": "静止的三角形",
-                "phyGroup": 2,
-                "isStatic": 1,
-                "lineWidth": 2,
-                "lineColor": "#000000",
-                "fillColor": "#FFFFFF"
-            }
-        },
-        {   
-            "objectId": 200002,
-            "pos": "{0,500,0}",
-            "rot": "{0,0,0}",
-            "sca": "{0,0,0}",
-            "objectType": 2,
-            "shapeParam": {
-                "height": 500, 
-                "angle": 30
-            }, 
-            "objectParam": {
-                "name": "运动的三角形",
-                "phyGroup": 2,
-                "isStatic": 0,
-                "lineWidth": 2,
-                "lineColor": "#000000",
-                "fillColor": "#FFFF00"
-            }
-        }
-    ]
+  "mapId": 100001,
+  "objectDatas": [
+    {
+      "objectId": 200001,
+      "pos": "{-100,0,0}",
+      "rot": "{0,0,0}",
+      "sca": "{1,1,1}",
+      "objectType": 2,
+      "shapeParam": {
+        "height": 100,
+        "angle": -30
+      },
+      "objectParam": {
+        "name": "静止的三角形",
+        "phyGroup": 4,
+        "isStatic": 1,
+        "lineWidth": 5,
+        "lineColor": "#000000",
+        "fillColor": "#FFFFFF"
+      }
+    },
+    {
+      "objectId": 200002,
+      "pos": "{0,500,0}",
+      "rot": "{0,0,0}",
+      "sca": "{1,1,1}",
+      "objectType": 2,
+      "shapeParam": {
+        "height": 500,
+        "angle": 30
+      },
+      "objectParam": {
+        "name": "运动的三角形",
+        "phyGroup": 4,
+        "isStatic": 0,
+        "lineWidth": 5,
+        "lineColor": "#000000",
+        "fillColor": "#FFFFFF"
+      }
+    },
+    {
+      "objectId": 200003,
+      "pos": "{0,-200,0}",
+      "rot": "{0,0,0}",
+      "sca": "{1,1,1}",
+      "objectType": 1,
+      "shapeParam": {
+        "width": 1000,
+        "height": 300
+      },
+      "objectParam": {
+        "name": "广阔的大地",
+        "phyGroup": 2,
+        "isStatic": 1,
+        "lineWidth": 5,
+        "lineColor": "#000000",
+        "fillColor": "#FFFFFF"
+      }
+    }
+  ]
 }

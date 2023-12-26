@@ -1,20 +1,15 @@
 import { Color } from "cc"
 
 export default class LogManager {
-    public static log(content: string, color?: Color) {
-        if (color) {
-            console.log(`%c${content}`,`color:${color.toString()}`);
-        }
-        else { 
-            console.log(content);
-        }
+    public static log(...param: any) {
+        console.log(param);
     }
 
-    public static warn(content: string) {
-        console.warn(content);
+    public static warn(...param: any) {
+        console.warn(param);
     }
 
-    public static error(content: string | Error) {
-        console.error(content);
+    public static error(...param: any | Error) {
+        console.error(param);
     }
 }

@@ -85,7 +85,7 @@ export default class TimerManager {
      * @param target 回调的对象
      * @returns 
      */
-    public static addTimer(delayTime: number = 0, isLoop: boolean, triggerTime: number, callback: any, param: any, 
+    public static addTimer(delayTime: number = 0, isLoop: boolean, triggerTime: number, callback: any, param?: any, 
          target: any = this): number {
         if (triggerTime <=0 || delayTime < 0) {
             console.log("定时器的触发时间不能为负数！！！！！！");

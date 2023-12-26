@@ -3,6 +3,7 @@ import { Phy_Group } from "../../manager/game_manager/GameDefinition";
 import { MouseParam } from "../../manager/game_manager/GameManager";
 import { GameTipData } from "../ui/game_tip/GameTipItem";
 import { ObjectType } from "./ObjectFactory";
+import LogManager from "../../utils/LogManager";
 
 const { ccclass, property } = _decorator;
 
@@ -26,6 +27,8 @@ export class ObjectBase extends Component {
     protected _graphics: Graphics;
     protected _collider: PolygonCollider2D;
     protected _rigidbody: RigidBody2D;
+
+    protected _curSpeed: Vec2;
 
     public create(): void {
         this._graphics = this.node.getComponent(Graphics);
@@ -77,11 +80,12 @@ export class ObjectBase extends Component {
         this.initPolygon();
         this.initCollider();
         this.initDynamic();
+        this.reset();
     }
 
     protected initPolygon() {
         this._graphics.lineWidth = this._lineWidth;
-        this._graphics.color = this._lineColor;
+        this._graphics.strokeColor = this._lineColor;
         this._graphics.fillColor = this._fillColor;
 
         let vertices = this._localVertices;
@@ -102,6 +106,8 @@ export class ObjectBase extends Component {
         else {
             this._collider.group = Phy_Group.GAMEOBJECT;
         }
+        this._collider.enabled = true;      // 激活碰撞体
+        this._collider.sensor = false;      // 不是触发器
     }
 
     protected initDynamic() {
@@ -116,6 +122,13 @@ export class ObjectBase extends Component {
         }
         else {
             this._rigidbody.type = ERigidBody2DType.Dynamic;
+        }
+    }
+
+    protected reset() {
+        this._curSpeed = Vec2.ZERO;
+        if (this._rigidbody) {
+            this._rigidbody.linearVelocity = this._curSpeed;
         }
     }
 
@@ -149,6 +162,7 @@ export class ObjectBase extends Component {
         let vertices = [];
         this._localVertices.forEach(vertex => {
             vertices.push(new Vec2(vertex.x + nodePos.x, vertex.y + nodePos.y));
+            // TODO 这里忽略了旋转
         })
         for (let i = 0; i < vertices.length; i++) {
             let curPos = vertices[i];
@@ -167,6 +181,23 @@ export class ObjectBase extends Component {
     public mouseOnObject(isMouseOn: boolean, param: MouseParam) {
 
     }
+
+    public pause() {
+        //LogManager.log("AAAAAAAAAA", this._rigidbody.linearVelocity)
+        if (this._rigidbody) {
+            this._curSpeed = this._rigidbody.linearVelocity;
+            this._rigidbody.linearVelocity = Vec2.ZERO;
+        }
+    }
+
+    public resume() {
+        //LogManager.log("BBBBBBBBBB", this._rigidbody.linearVelocity)
+        if (this._rigidbody) {
+            this._rigidbody.linearVelocity = this._curSpeed;
+        }
+    }
+
+
 }
 
 export interface ObjectParam {

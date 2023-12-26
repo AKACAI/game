@@ -1,16 +1,13 @@
-import { _decorator, director, Vec2, Node } from "cc";
+import { _decorator, director, Vec2, Node, PhysicsSystem2D } from "cc";
 import { Singleton } from "../../common/Singleton";
 import { ObjectBase } from "../../modules/game/ObjectBase";
-import { ObjectFactory } from "../../modules/game/ObjectFactory";
 import { GameTipManager } from "../../modules/ui/game_tip/GameTipManager";
 import { InputManager } from "../InputManager";
 import { MapManager } from "../map_manager/MapManager";
 import { IPreInit } from "../../common/IPreInit";
-import { UIManager } from "../ui_manager/UIManager";
-
 const { ccclass } = _decorator;
 
-enum GameState {
+export enum GameState {
     NotInGame,
     Pause,
     Ongoing,
@@ -53,6 +50,7 @@ export class GameManager extends Singleton {
 
     public start() {
         this._gameState = GameState.Ongoing;
+        PhysicsSystem2D.instance.enable = true;
         MapManager.getInstance().enterMap("100001");
     }
 
@@ -60,51 +58,58 @@ export class GameManager extends Singleton {
         if (this._gameState != GameState.Ongoing) {
             return;
         }
+        for (let i = 0; i < this._gameObjects.length; i++) {
+            const object = this._gameObjects[i];
+            if (!object) {
+                continue;
+            }
+            object.pause();
+        }
         this._gameState = GameState.Pause;
     }
 
-    public unpause() {
+    public resume() {
         if (this._gameState != GameState.Pause) {
             return;
+        }
+        for (let i = 0; i < this._gameObjects.length; i++) {
+            const object = this._gameObjects[i];
+            if (!object) {
+                continue;
+            }
+            object.resume();
         }
         this._gameState = GameState.Ongoing;
     }
 
     public update(deltaTime: number) {
-
-        if (this._gameState == GameState.Ongoing) {
-            let curMousePos = InputManager.getInstance().mousePos;
-            let param: MouseParam = {
-                mousePos: curMousePos,
-            }
-            // 应该改成鼠标坐标变化时调用，而不是每一帧都调用
-            let hasShowTip = false;
-            for (let i = 0; i < this._gameObjects.length; i++) {
-                let object = this._gameObjects[i];
-                // console.log(object.contains(curMousePos))
-                if (object.contains(curMousePos)) {
-                    if (object != this._curDetectObject) {
-                        this._curDetectObject = object;
-                        GameTipManager.getInstance().showTip(object.getObjectParam().name, object.getTipData());
-                        GameTipManager.getInstance().moveTip(curMousePos);
-                        object.mouseOnObject(true, param);
-                    }
-                    else {
-                        GameTipManager.getInstance().moveTip(curMousePos);
-                    }
-                    hasShowTip = true;
-                    break;
-                }
-            }
-            // 在不需要显示提示并且上一帧有检测到物体（说明现在没检测到
-            if (!hasShowTip && this._curDetectObject) {
-                GameTipManager.getInstance().hideTip();
-                this._curDetectObject = null;
-            }
-
+        let curMousePos = InputManager.getInstance().mousePos;
+        let param: MouseParam = {
+            mousePos: curMousePos,
         }
-        else {
-
+        // 应该改成鼠标坐标变化时调用，而不是每一帧都调用
+        let hasShowTip = false;
+        for (let i = 0; i < this._gameObjects.length; i++) {
+            let object = this._gameObjects[i];
+            // console.log(object.contains(curMousePos))
+            if (object.contains(curMousePos)) {
+                if (object != this._curDetectObject) {
+                    this._curDetectObject = object;
+                    GameTipManager.getInstance().showTip(object.getObjectParam().name, object.getTipData());
+                    GameTipManager.getInstance().moveTip(curMousePos);
+                    object.mouseOnObject(true, param);
+                }
+                else {
+                    GameTipManager.getInstance().moveTip(curMousePos);
+                }
+                hasShowTip = true;
+                break;
+            }
+        }
+        // 在不需要显示提示并且上一帧有检测到物体（说明现在没检测到
+        if (!hasShowTip && this._curDetectObject) {
+            GameTipManager.getInstance().hideTip();
+            this._curDetectObject = null;
         }
     }
 
