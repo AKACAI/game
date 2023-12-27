@@ -232,14 +232,14 @@
     "_priority": 0,
     "_fov": 45,
     "_fovAxis": 0,
-    "_orthoHeight": 348.14814814814815,
+    "_orthoHeight": 320,
     "_near": 0,
     "_far": 1000,
     "_color": {
       "__type__": "cc.Color",
-      "r": 0,
-      "g": 0,
-      "b": 0,
+      "r": 226,
+      "g": 226,
+      "b": 226,
       "a": 255
     },
     "_depth": 1,

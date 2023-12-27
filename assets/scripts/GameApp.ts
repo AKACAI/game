@@ -8,6 +8,7 @@ import { GameTipManager } from "./modules/ui/game_tip/GameTipManager";
 import { ResManager } from "./manager/ResManager";
 import EventManager from "./manager/event_manager/EventManager";
 import { EventConstants } from "./manager/event_manager/EventConstants";
+import { PanelName } from "./manager/ui_manager/Name2Panel";
 
 const { ccclass, property } = _decorator;
 
@@ -48,7 +49,8 @@ export class GameApp extends Component {
 
     private onInitFinish() {
         this.isOngoing = true;
-        this._gameMgr.start();
+        this._uiMgr.openPanel(PanelName.GameStartMenuView);
+        //this._gameMgr.start();
     }
 
     public update(deltaTime: number): void {

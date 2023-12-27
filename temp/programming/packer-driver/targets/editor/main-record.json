@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 19288.014300346375,
+      "mTimestamp": 12222.306400299072,
       "chunkId": "cee638a986ad8fae09398db255647defcaa6612a",
       "imports": [
         {
@@ -619,8 +619,8 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 3547590.127500534,
-      "chunkId": "07748249e2d63ca0c206e5511b4f76e83aab1563",
+      "mTimestamp": 5892254.518500328,
+      "chunkId": "1f734225e0668870d8121d621e8ac213e2487f40",
       "imports": [
         {
           "value": "file:///C:/ProgramData/cocos/editors/Creator/3.7.4/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts",
@@ -1015,7 +1015,7 @@
           }
         },
         {
-          "value": "file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_tip/GameTipItem.ts",
+          "value": "file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_menu/GameStartMenuView.ts",
           "resolved": "__unresolved_28",
           "loc": {
             "start": {
@@ -1024,91 +1024,105 @@
             },
             "end": {
               "line": 5,
-              "column": 3328
+              "column": 3341
+            }
+          }
+        },
+        {
+          "value": "file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_tip/GameTipItem.ts",
+          "resolved": "__unresolved_29",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 3357
+            },
+            "end": {
+              "line": 5,
+              "column": 3457
             }
           }
         },
         {
           "value": "file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_tip/GameTipManager.ts",
-          "resolved": "__unresolved_29",
+          "resolved": "__unresolved_30",
           "loc": {
             "start": {
               "line": 5,
-              "column": 3344
+              "column": 3473
             },
             "end": {
               "line": 5,
-              "column": 3447
+              "column": 3576
             }
           }
         },
         {
           "value": "file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_tip/GameTipView.ts",
-          "resolved": "__unresolved_30",
+          "resolved": "__unresolved_31",
           "loc": {
             "start": {
               "line": 5,
-              "column": 3463
+              "column": 3592
             },
             "end": {
               "line": 5,
-              "column": 3563
+              "column": 3692
             }
           }
         },
         {
           "value": "file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/main_menu/MainMenu.ts",
-          "resolved": "__unresolved_31",
+          "resolved": "__unresolved_32",
           "loc": {
             "start": {
               "line": 5,
-              "column": 3579
+              "column": 3708
             },
             "end": {
               "line": 5,
-              "column": 3677
+              "column": 3806
             }
           }
         },
         {
           "value": "file:///D:/cocos_projects/physics_education_game/assets/scripts/utils/LogManager.ts",
-          "resolved": "__unresolved_32",
+          "resolved": "__unresolved_33",
           "loc": {
             "start": {
               "line": 5,
-              "column": 3693
+              "column": 3822
             },
             "end": {
               "line": 5,
-              "column": 3778
+              "column": 3907
             }
           }
         },
         {
           "value": "file:///D:/cocos_projects/physics_education_game/assets/scripts/utils/PriorityQueue.ts",
-          "resolved": "__unresolved_33",
+          "resolved": "__unresolved_34",
           "loc": {
             "start": {
               "line": 5,
-              "column": 3794
+              "column": 3923
             },
             "end": {
               "line": 5,
-              "column": 3882
+              "column": 4011
             }
           }
         },
         {
           "value": "file:///D:/cocos_projects/physics_education_game/assets/scripts/utils/Utils.ts",
-          "resolved": "__unresolved_34",
+          "resolved": "__unresolved_35",
           "loc": {
             "start": {
               "line": 5,
-              "column": 3898
+              "column": 4027
             },
             "end": {
               "line": 5,
-              "column": 3978
+              "column": 4107
             }
           }
         }
@@ -1314,6 +1328,13 @@
         {
           "resolved": {
             "type": "module",
+            "url": "file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_menu/GameStartMenuView.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
             "url": "file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_tip/GameTipItem.ts"
           },
           "messages": []
@@ -1416,10 +1437,10 @@
     },
     "file:///D:/cocos_projects/physics_education_game/assets/scripts/GameApp.ts": {
       "mTimestamp": {
-        "mtime": 1703090306502.7988,
+        "mtime": 1703691988615.1494,
         "uuid": "5c68ed08-7494-4ffc-9306-526d6545f865"
       },
-      "chunkId": "5aa1a2200e2a66f98c8e67ebbc51b91579433d69",
+      "chunkId": "4be658c800cf1db6ef71718cba74199b67695e63",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -1569,6 +1590,20 @@
               "column": 71
             }
           }
+        },
+        {
+          "value": "./manager/ui_manager/Name2Panel",
+          "resolved": "__unresolved_10",
+          "loc": {
+            "start": {
+              "line": 11,
+              "column": 26
+            },
+            "end": {
+              "line": 11,
+              "column": 59
+            }
+          }
         }
       ],
       "type": "esm",
@@ -1663,11 +1698,18 @@
             "url": "file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/event_manager/EventConstants.ts"
           },
           "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/Name2Panel.ts"
+          },
+          "messages": []
         }
       ]
     },
     "cce:/internal/code-quality/cr.mjs": {
-      "mTimestamp": 1703609467141,
+      "mTimestamp": 1703686888952,
       "chunkId": "be027f973d8ff1c6fe3dcfebbc993118a793ec1b",
       "imports": [],
       "type": "esm",
@@ -1907,10 +1949,10 @@
     },
     "file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/TimerManager.ts": {
       "mTimestamp": {
-        "mtime": 1703088044821.973,
+        "mtime": 1703613317691.286,
         "uuid": "5913e784-5a98-4446-8794-9e05c893e234"
       },
-      "chunkId": "de3c364eceb3062fc4588722ebf9877faf83ff19",
+      "chunkId": "62216072981d560e55566840fa089850aeb906b5",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -2250,10 +2292,10 @@
     },
     "file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/game_manager/GameManager.ts": {
       "mTimestamp": {
-        "mtime": 1703612140529.3293,
+        "mtime": 1703692444193.0422,
         "uuid": "cf8771f3-8649-4f9c-8d02-7c048246eab8"
       },
-      "chunkId": "ddffe6a57fb04207969521129867927d39d120e9",
+      "chunkId": "974960aa36af85c8770976ce8f84290673fe92c7",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -2787,10 +2829,10 @@
     },
     "file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/Name2Panel.ts": {
       "mTimestamp": {
-        "mtime": 1697367099951.8008,
+        "mtime": 1703691550364.5146,
         "uuid": "3f7c16d5-7b74-4b13-a24e-30122c281d50"
       },
-      "chunkId": "1241bcc960d43c0263da6b29fbb871bcc172e5ce",
+      "chunkId": "d876e5d54bf9cbceb87d7bc88e5e2974d9d22868",
       "imports": [
         {
           "value": "cc"
@@ -2839,10 +2881,10 @@
     },
     "file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/UIManager.ts": {
       "mTimestamp": {
-        "mtime": 1702124852516.667,
+        "mtime": 1703692678862.6838,
         "uuid": "d8957c8a-bce5-4b89-bf24-4ffec746662c"
       },
-      "chunkId": "b080aa98f9c0cc29dc695e3b1ef49cb78966255c",
+      "chunkId": "425296f67145363abad4658fac658a0b6c821d55",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -2986,10 +3028,10 @@
     },
     "file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/UIPanel.ts": {
       "mTimestamp": {
-        "mtime": 1702120317183.8655,
+        "mtime": 1703692699390.7551,
         "uuid": "6634887d-9853-4958-8455-d03fd3b71c56"
       },
-      "chunkId": "cedc9d68b7a5cc14eb11eb14f06b23e15e5b1068",
+      "chunkId": "6ed089919d1337590f0b597778515da6aa5b7a26",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -3020,11 +3062,11 @@
           "loc": {
             "start": {
               "line": 2,
-              "column": 24
+              "column": 35
             },
             "end": {
               "line": 2,
-              "column": 37
+              "column": 48
             }
           }
         }
@@ -3070,10 +3112,10 @@
     },
     "file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/ObjectBase.ts": {
       "mTimestamp": {
-        "mtime": 1703612997745.7285,
+        "mtime": 1703689340770.714,
         "uuid": "9be97f86-2434-4426-a8ed-ff43677d5258"
       },
-      "chunkId": "3c07243a2f33e11d9b84e241c53147c0ac6d9504",
+      "chunkId": "644559188b6e6ec57b83104dca15caad0028e7b7",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -3090,11 +3132,11 @@
           "loc": {
             "start": {
               "line": 1,
-              "column": 111
+              "column": 117
             },
             "end": {
               "line": 1,
-              "column": 115
+              "column": 121
             }
           }
         },
@@ -3322,7 +3364,7 @@
     },
     "file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/game_objects/RightTriangleObject.ts": {
       "mTimestamp": {
-        "mtime": 1703612540478.87,
+        "mtime": 1703613317693.28,
         "uuid": "494eaf8d-7121-43fe-aa3e-65dd58bfeb44"
       },
       "chunkId": "ae255d2c41518b98b215de36f8257af02e319a44",
@@ -3427,7 +3469,7 @@
     },
     "file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/game_objects/SquareObject.ts": {
       "mTimestamp": {
-        "mtime": 1703091978107.1328,
+        "mtime": 1703613317693.28,
         "uuid": "b005a48e-1ab6-41eb-bf7c-473e4ede4608"
       },
       "chunkId": "d1a028faca0698d2064e9edfd95a9e044a5f439e",
@@ -4361,7 +4403,7 @@
     },
     "file:///D:/cocos_projects/physics_education_game/assets/scripts/utils/LogManager.ts": {
       "mTimestamp": {
-        "mtime": 1703090014922.9165,
+        "mtime": 1703613317694.2773,
         "uuid": "bc61007f-26f4-43bf-ba31-e47c05172383"
       },
       "chunkId": "1e52348c5716a8ca11a2ac438d033a9ca76538e2",
@@ -4415,7 +4457,7 @@
     },
     "file:///D:/cocos_projects/physics_education_game/assets/scripts/utils/Utils.ts": {
       "mTimestamp": {
-        "mtime": 1703609822287.7808,
+        "mtime": 1703688940258.2942,
         "uuid": "bb08deec-13d2-4922-913a-0270f84563ba"
       },
       "chunkId": "0493810444c88f2325073860774a6545274d057e",
@@ -4578,6 +4620,751 @@
           "resolved": {
             "type": "module",
             "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_tip-001/GameTipItem.ts": {
+      "mTimestamp": {
+        "mtime": 1698500823826.9194,
+        "uuid": "8bfd1ee6-f3db-4dd1-91ed-8776b30d2838"
+      },
+      "chunkId": "4c9baaf44ad4f697bdde378e07937161576b0a3a",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 70
+            },
+            "end": {
+              "line": 1,
+              "column": 74
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_tip-001/GameTipManager.ts": {
+      "mTimestamp": {
+        "mtime": 1702124502611.0747,
+        "uuid": "05f7674a-a844-48a4-a677-c5761ee23b6d"
+      },
+      "chunkId": "295a3fde6240b895ee366272f2b503053dc33288",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 33
+            },
+            "end": {
+              "line": 1,
+              "column": 37
+            }
+          }
+        },
+        {
+          "value": "../../../common/Singleton",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 26
+            },
+            "end": {
+              "line": 2,
+              "column": 53
+            }
+          }
+        },
+        {
+          "value": "../../../manager/ui_manager/Name2Panel",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 26
+            },
+            "end": {
+              "line": 3,
+              "column": 66
+            }
+          }
+        },
+        {
+          "value": "../../../manager/ui_manager/UIManager",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 26
+            },
+            "end": {
+              "line": 4,
+              "column": 65
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/cocos_projects/physics_education_game/assets/scripts/common/Singleton.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/Name2Panel.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/UIManager.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_tip-001/GameTipView.ts": {
+      "mTimestamp": {
+        "mtime": 1702121933648.547,
+        "uuid": "90390aa9-b615-45a1-a6ab-7893210a1ae4"
+      },
+      "chunkId": "d5215d410322dbb038ce3b1658ab2f07e49c8805",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 74
+            },
+            "end": {
+              "line": 1,
+              "column": 78
+            }
+          }
+        },
+        {
+          "value": "../../../manager/ResManager",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 37
+            },
+            "end": {
+              "line": 2,
+              "column": 66
+            }
+          }
+        },
+        {
+          "value": "../../../manager/ui_manager/UIManager",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 24
+            },
+            "end": {
+              "line": 3,
+              "column": 63
+            }
+          }
+        },
+        {
+          "value": "../../../manager/ui_manager/UIPanel",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 24
+            },
+            "end": {
+              "line": 4,
+              "column": 61
+            }
+          }
+        },
+        {
+          "value": "./GameTipItem",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 41
+            },
+            "end": {
+              "line": 5,
+              "column": 56
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ResManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/UIManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/UIPanel.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_tip-001/GameTipItem.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_menu/GameTipManager.ts": {
+      "mTimestamp": {
+        "mtime": 1702124502611.0747,
+        "uuid": "05f7674a-a844-48a4-a677-c5761ee23b6d"
+      },
+      "chunkId": "14f762ed209f9e2a1ab7e223c64cf3a9159abb3a",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 33
+            },
+            "end": {
+              "line": 1,
+              "column": 37
+            }
+          }
+        },
+        {
+          "value": "../../../common/Singleton",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 26
+            },
+            "end": {
+              "line": 2,
+              "column": 53
+            }
+          }
+        },
+        {
+          "value": "../../../manager/ui_manager/Name2Panel",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 26
+            },
+            "end": {
+              "line": 3,
+              "column": 66
+            }
+          }
+        },
+        {
+          "value": "../../../manager/ui_manager/UIManager",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 26
+            },
+            "end": {
+              "line": 4,
+              "column": 65
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/cocos_projects/physics_education_game/assets/scripts/common/Singleton.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/Name2Panel.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/UIManager.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_menu/GameTipView.ts": {
+      "mTimestamp": {
+        "mtime": 1702121933648.547,
+        "uuid": "90390aa9-b615-45a1-a6ab-7893210a1ae4"
+      },
+      "chunkId": "351f7e3933fc06d0a5b81800d7e672a5ca0fff86",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 74
+            },
+            "end": {
+              "line": 1,
+              "column": 78
+            }
+          }
+        },
+        {
+          "value": "../../../manager/ResManager",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 37
+            },
+            "end": {
+              "line": 2,
+              "column": 66
+            }
+          }
+        },
+        {
+          "value": "../../../manager/ui_manager/UIManager",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 24
+            },
+            "end": {
+              "line": 3,
+              "column": 63
+            }
+          }
+        },
+        {
+          "value": "../../../manager/ui_manager/UIPanel",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 24
+            },
+            "end": {
+              "line": 4,
+              "column": 61
+            }
+          }
+        },
+        {
+          "value": "./GameTipItem",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 41
+            },
+            "end": {
+              "line": 5,
+              "column": 56
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ResManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/UIManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/UIPanel.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_menu/GameTipItem.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_menu/GameStartMenuView.ts": {
+      "mTimestamp": {
+        "mtime": 1703692779792.396,
+        "uuid": "90390aa9-b615-45a1-a6ab-7893210a1ae4"
+      },
+      "chunkId": "f77b930ad7d33d83df3f64fd973d4011c33c87a0",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 33
+            },
+            "end": {
+              "line": 1,
+              "column": 37
+            }
+          }
+        },
+        {
+          "value": "../../../manager/ui_manager/UIPanel",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 24
+            },
+            "end": {
+              "line": 2,
+              "column": 61
+            }
+          }
+        },
+        {
+          "value": "../../../manager/ui_manager/UIManager",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 24
+            },
+            "end": {
+              "line": 3,
+              "column": 63
+            }
+          }
+        },
+        {
+          "value": "../../../manager/game_manager/GameManager",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 39
+            },
+            "end": {
+              "line": 4,
+              "column": 82
+            }
+          }
+        },
+        {
+          "value": "../../../utils/LogManager",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 23
+            },
+            "end": {
+              "line": 5,
+              "column": 50
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/UIPanel.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/UIManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/game_manager/GameManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/cocos_projects/physics_education_game/assets/scripts/utils/LogManager.ts"
           },
           "messages": []
         }

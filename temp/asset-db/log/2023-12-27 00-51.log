@@ -2186,3 +2186,25 @@
 2023-12-27 01:50:50-debug: asset-db:worker-effect-data-processing (286ms)
 2023-12-27 01:50:50-debug: refresh db assets success
 2023-12-27 01:50:50-debug: asset-db:refresh-all-database (362ms)
+2023-12-27 01:55:24-debug: refresh db internal success
+2023-12-27 01:55:25-debug: asset-db:worker-effect-data-processing (433ms)
+2023-12-27 01:55:25-debug: %cImport%c: D:\cocos_projects\physics_education_game\assets\scriptsbackground: #aaff85; color: #000;color: #000;
+2023-12-27 01:55:25-debug: %cImport%c: D:\cocos_projects\physics_education_game\assets\scenesbackground: #aaff85; color: #000;color: #000;
+2023-12-27 01:55:25-debug: %cImport%c: D:\cocos_projects\physics_education_game\assets\res\mapbackground: #aaff85; color: #000;color: #000;
+2023-12-27 01:55:25-debug: %cImport%c: D:\cocos_projects\physics_education_game\assets\scripts\GameApp.tsbackground: #aaff85; color: #000;color: #000;
+2023-12-27 01:55:25-debug: %cImport%c: D:\cocos_projects\physics_education_game\assets\scripts\managerbackground: #aaff85; color: #000;color: #000;
+2023-12-27 01:55:25-debug: %cImport%c: D:\cocos_projects\physics_education_game\assets\scripts\utilsbackground: #aaff85; color: #000;color: #000;
+2023-12-27 01:55:25-debug: %cImport%c: D:\cocos_projects\physics_education_game\assets\scenes\main_scene.scenebackground: #aaff85; color: #000;color: #000;
+2023-12-27 01:55:25-debug: %cImport%c: D:\cocos_projects\physics_education_game\assets\res\map\100001.jsonbackground: #aaff85; color: #000;color: #000;
+2023-12-27 01:55:25-debug: %cImport%c: D:\cocos_projects\physics_education_game\assets\scripts\manager\game_managerbackground: #aaff85; color: #000;color: #000;
+2023-12-27 01:55:25-debug: %cImport%c: D:\cocos_projects\physics_education_game\assets\scripts\modules\gamebackground: #aaff85; color: #000;color: #000;
+2023-12-27 01:55:25-debug: %cImport%c: D:\cocos_projects\physics_education_game\assets\scripts\utils\LogManager.tsbackground: #aaff85; color: #000;color: #000;
+2023-12-27 01:55:25-debug: %cImport%c: D:\cocos_projects\physics_education_game\assets\scripts\utils\Utils.tsbackground: #aaff85; color: #000;color: #000;
+2023-12-27 01:55:25-debug: %cImport%c: D:\cocos_projects\physics_education_game\assets\scripts\manager\game_manager\GameManager.tsbackground: #aaff85; color: #000;color: #000;
+2023-12-27 01:55:25-debug: %cImport%c: D:\cocos_projects\physics_education_game\assets\scripts\manager\TimerManager.tsbackground: #aaff85; color: #000;color: #000;
+2023-12-27 01:55:25-debug: %cImport%c: D:\cocos_projects\physics_education_game\assets\scripts\modules\game\ObjectBase.tsbackground: #aaff85; color: #000;color: #000;
+2023-12-27 01:55:25-debug: %cImport%c: D:\cocos_projects\physics_education_game\assets\scripts\modules\game\game_objectsbackground: #aaff85; color: #000;color: #000;
+2023-12-27 01:55:25-debug: %cImport%c: D:\cocos_projects\physics_education_game\assets\scripts\modules\game\game_objects\RightTriangleObject.tsbackground: #aaff85; color: #000;color: #000;
+2023-12-27 01:55:25-debug: %cImport%c: D:\cocos_projects\physics_education_game\assets\scripts\modules\game\game_objects\SquareObject.tsbackground: #aaff85; color: #000;color: #000;
+2023-12-27 01:55:25-debug: refresh db assets success
+2023-12-27 01:55:25-debug: asset-db:refresh-all-database (681ms)

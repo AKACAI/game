@@ -1,9 +1,10 @@
-import { _decorator, Component, Color, Vec2, Graphics, PolygonCollider2D, RigidBody2D, ERigidBody2DType } from "cc";
+import { _decorator, Component, Color, Vec2, Graphics, PolygonCollider2D, RigidBody2D, ERigidBody2DType, Vec3 } from "cc";
 import { Phy_Group } from "../../manager/game_manager/GameDefinition";
 import { MouseParam } from "../../manager/game_manager/GameManager";
 import { GameTipData } from "../ui/game_tip/GameTipItem";
 import { ObjectType } from "./ObjectFactory";
 import LogManager from "../../utils/LogManager";
+import Utils from "../../utils/Utils";
 
 const { ccclass, property } = _decorator;
 
@@ -161,8 +162,12 @@ export class ObjectBase extends Component {
         let nodePos = this.node.getWorldPosition();
         let vertices = [];
         this._localVertices.forEach(vertex => {
-            vertices.push(new Vec2(vertex.x + nodePos.x, vertex.y + nodePos.y));
-            // TODO 这里忽略了旋转
+            let rotation: Vec3 = new Vec3();
+            this.node.rotation.getEulerAngles(rotation);
+            let angle = -Math.PI * rotation.z / 180;
+            let x = vertex.x * Math.cos(angle) + vertex.y * Math.sin(angle);
+            let y = -vertex.x * Math.sin(angle) + vertex.y * Math.cos(angle);
+            vertices.push(new Vec2(x + nodePos.x, y + nodePos.y));
         })
         for (let i = 0; i < vertices.length; i++) {
             let curPos = vertices[i];

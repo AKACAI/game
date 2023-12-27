@@ -25,7 +25,7 @@ export class GameManager extends Singleton {
     private _curDetectObject: ObjectBase;       // 当前鼠标检测到的物体
 
     public init() {
-        this._gameState = GameState.Ongoing;
+        this._gameState = GameState.NotInGame;
         this._gameRoot = director.getScene().getChildByName("main_canvas").getChildByName("game_root");
         this._gameObjects = [];
 

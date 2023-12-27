@@ -5,17 +5,17 @@
     "missing": false
   },
   "D:\\cocos_projects\\physics_education_game\\assets\\scenes": {
-    "time": 1701965389780.5342,
+    "time": 1703613317689.291,
     "uuid": "c5d41e9b-cd8c-4d56-b33d-35e54533558a",
     "missing": false
   },
   "D:\\cocos_projects\\physics_education_game\\assets\\scripts": {
-    "time": 1701965390003.8118,
+    "time": 1703613317690.2886,
     "uuid": "e7867214-4c0e-43b2-b897-235b1b8e8182",
     "missing": false
   },
   "D:\\cocos_projects\\physics_education_game\\assets\\res\\map": {
-    "time": 1703092046766.0247,
+    "time": 1703613317688.3184,
     "uuid": "d0cbe5bd-3d5b-4196-bfc0-b85e9ddd96a0",
     "missing": false
   },
@@ -25,7 +25,7 @@
     "missing": false
   },
   "D:\\cocos_projects\\physics_education_game\\assets\\res\\ui": {
-    "time": 1701965389755.16,
+    "time": 1703690691297.8289,
     "uuid": "df42ca40-93fd-45db-953c-a8f26b04e4b1",
     "missing": false
   },
@@ -35,7 +35,7 @@
     "missing": false
   },
   "D:\\cocos_projects\\physics_education_game\\assets\\scripts\\manager": {
-    "time": 1702125416891.7139,
+    "time": 1703613317690.2886,
     "uuid": "e13baacb-9d91-4106-99af-5c8a99535483",
     "missing": false
   },
@@ -45,7 +45,7 @@
     "missing": false
   },
   "D:\\cocos_projects\\physics_education_game\\assets\\scripts\\utils": {
-    "time": 1701965390018.8003,
+    "time": 1703613317694.2773,
     "uuid": "19dac056-78bc-4c81-bc1f-b0d30c2679a2",
     "missing": false
   },
@@ -70,7 +70,7 @@
     "missing": false
   },
   "D:\\cocos_projects\\physics_education_game\\assets\\scripts\\manager\\game_manager": {
-    "time": 1701965389878.671,
+    "time": 1703613317691.286,
     "uuid": "e5e36838-e9b4-4370-978f-4deee162667c",
     "missing": false
   },
@@ -85,12 +85,12 @@
     "missing": false
   },
   "D:\\cocos_projects\\physics_education_game\\assets\\scripts\\modules\\game": {
-    "time": 1701965389931.2134,
+    "time": 1703613317692.2837,
     "uuid": "78ed1942-98ab-449d-8868-d8efc94c9660",
     "missing": false
   },
   "D:\\cocos_projects\\physics_education_game\\assets\\scripts\\modules\\ui": {
-    "time": 1701965389996.7063,
+    "time": 1703690729271.9585,
     "uuid": "35a74b42-fd1e-44ce-acf2-b6f127338701",
     "missing": false
   },
@@ -110,7 +110,7 @@
     "missing": false
   },
   "D:\\cocos_projects\\physics_education_game\\assets\\scripts\\modules\\game\\game_objects": {
-    "time": 1701965389943.0667,
+    "time": 1703613317693.28,
     "uuid": "d3d40ae9-1549-4ce5-bd9f-a17e643c90e8",
     "missing": false
   },
@@ -130,7 +130,7 @@
     "missing": false
   },
   "D:\\cocos_projects\\physics_education_game\\assets\\scripts\\GameApp.ts": {
-    "time": 1703090306502.7988,
+    "time": 1703691988615.1494,
     "uuid": "5c68ed08-7494-4ffc-9306-526d6545f865",
     "missing": false
   },
@@ -155,12 +155,12 @@
     "missing": false
   },
   "D:\\cocos_projects\\physics_education_game\\assets\\scripts\\manager\\TimerManager.ts": {
-    "time": 1703088044821.973,
+    "time": 1703613317691.286,
     "uuid": "5913e784-5a98-4446-8794-9e05c893e234",
     "missing": false
   },
   "D:\\cocos_projects\\physics_education_game\\assets\\scripts\\utils\\LogManager.ts": {
-    "time": 1703090014922.9165,
+    "time": 1703613317694.2773,
     "uuid": "bc61007f-26f4-43bf-ba31-e47c05172383",
     "missing": false
   },
@@ -170,7 +170,7 @@
     "missing": false
   },
   "D:\\cocos_projects\\physics_education_game\\assets\\scripts\\utils\\Utils.ts": {
-    "time": 1703609822287.7808,
+    "time": 1703688940258.2942,
     "uuid": "bb08deec-13d2-4922-913a-0270f84563ba",
     "missing": false
   },
@@ -190,7 +190,7 @@
     "missing": false
   },
   "D:\\cocos_projects\\physics_education_game\\assets\\scripts\\manager\\game_manager\\GameManager.ts": {
-    "time": 1703612140529.3293,
+    "time": 1703692444193.0422,
     "uuid": "cf8771f3-8649-4f9c-8d02-7c048246eab8",
     "missing": false
   },
@@ -210,22 +210,22 @@
     "missing": false
   },
   "D:\\cocos_projects\\physics_education_game\\assets\\scripts\\manager\\ui_manager\\Name2Panel.ts": {
-    "time": 1697367099951.8008,
+    "time": 1703691550364.5146,
     "uuid": "3f7c16d5-7b74-4b13-a24e-30122c281d50",
     "missing": false
   },
   "D:\\cocos_projects\\physics_education_game\\assets\\scripts\\manager\\ui_manager\\UIManager.ts": {
-    "time": 1702124852516.667,
+    "time": 1703692678862.6838,
     "uuid": "d8957c8a-bce5-4b89-bf24-4ffec746662c",
     "missing": false
   },
   "D:\\cocos_projects\\physics_education_game\\assets\\scripts\\manager\\ui_manager\\UIPanel.ts": {
-    "time": 1702120317183.8655,
+    "time": 1703692699390.7551,
     "uuid": "6634887d-9853-4958-8455-d03fd3b71c56",
     "missing": false
   },
   "D:\\cocos_projects\\physics_education_game\\assets\\scripts\\modules\\game\\ObjectBase.ts": {
-    "time": 1703612997745.7285,
+    "time": 1703689340770.714,
     "uuid": "9be97f86-2434-4426-a8ed-ff43677d5258",
     "missing": false
   },
@@ -235,12 +235,12 @@
     "missing": false
   },
   "D:\\cocos_projects\\physics_education_game\\assets\\scripts\\modules\\game\\game_objects\\RightTriangleObject.ts": {
-    "time": 1703612540478.87,
+    "time": 1703613317693.28,
     "uuid": "494eaf8d-7121-43fe-aa3e-65dd58bfeb44",
     "missing": false
   },
   "D:\\cocos_projects\\physics_education_game\\assets\\scripts\\modules\\game\\game_objects\\SquareObject.ts": {
-    "time": 1703091978107.1328,
+    "time": 1703613317693.28,
     "uuid": "b005a48e-1ab6-41eb-bf7c-473e4ede4608",
     "missing": false
   },
@@ -456,7 +456,7 @@
     "time": 1696303642423.967
   },
   "D:\\cocos_projects\\physics_education_game\\assets\\scenes\\main_scene.scene": {
-    "time": 1703612813318.472,
+    "time": 1703688772176.2068,
     "uuid": "2ec3e41c-be32-4462-adfa-159b01697d6e",
     "missing": false
   },
@@ -547,7 +547,7 @@
     "time": 1697563085439.793
   },
   "D:\\cocos_projects\\physics_education_game\\assets\\res\\map\\100001.json": {
-    "time": 1703612842483.5908,
+    "time": 1703613317689.291,
     "uuid": "343a532f-c4af-4a2d-98cd-7788ea28b917",
     "missing": false
   },
@@ -581,6 +581,54 @@
   "D:\\cocos_projects\\physics_education_game\\assets\\scripts\\manager\\event_manager\\EventConstants.ts": {
     "time": 1702125597241.5754,
     "uuid": "b2e46594-1fa2-4bff-b617-e2807b360086",
+    "missing": false
+  },
+  "D:\\cocos_projects\\physics_education_game\\assets\\res\\ui\\game_start_menu.meta": {
+    "time": 1703690682611.3748
+  },
+  "D:\\cocos_projects\\physics_education_game\\assets\\res\\ui\\game_start_menu\\res.meta": {
+    "time": 1703690682657.2495
+  },
+  "D:\\cocos_projects\\physics_education_game\\assets\\res\\ui\\game_start_menu": {
+    "time": 1703690749007.5745,
+    "uuid": "17264846-d226-42ec-830f-232f34661b2e",
+    "missing": false
+  },
+  "D:\\cocos_projects\\physics_education_game\\assets\\res\\ui\\game_start_menu\\res": {
+    "time": 1703690682620.347,
+    "uuid": "479f5910-9c64-4986-8476-c77e6424df4c",
+    "missing": false
+  },
+  "D:\\cocos_projects\\physics_education_game\\assets\\res\\ui\\game_start_menu\\res\\tip_bg_1.png.meta": {
+    "time": 1703690682724.0696
+  },
+  "D:\\cocos_projects\\physics_education_game\\assets\\res\\ui\\game_start_menu\\res\\tip_bg_1.png": {
+    "time": 1697347489849.0225,
+    "uuid": "cb453272-284f-41b0-ac2f-4bb823c43b1c",
+    "missing": false
+  },
+  "D:\\cocos_projects\\physics_education_game\\assets\\scripts\\modules\\ui\\game_start_menu.meta": {
+    "time": 1703690723945.1545
+  },
+  "D:\\cocos_projects\\physics_education_game\\assets\\scripts\\modules\\ui\\game_start_menu": {
+    "time": 1703690757646.371,
+    "uuid": "b767c52a-2b6d-4087-a7db-210f15e42a10",
+    "missing": false
+  },
+  "D:\\cocos_projects\\physics_education_game\\assets\\res\\ui\\game_start_menu\\game_start_menu_view.prefab.meta": {
+    "time": 1703690749015.5518
+  },
+  "D:\\cocos_projects\\physics_education_game\\assets\\res\\ui\\game_start_menu\\game_start_menu_view.prefab": {
+    "time": 1703692213303.2036,
+    "uuid": "d0b905de-856a-4da3-b25d-90a102f75b5e",
+    "missing": false
+  },
+  "D:\\cocos_projects\\physics_education_game\\assets\\scripts\\modules\\ui\\game_start_menu\\GameStartMenuView.ts.meta": {
+    "time": 1703690723981.0823
+  },
+  "D:\\cocos_projects\\physics_education_game\\assets\\scripts\\modules\\ui\\game_start_menu\\GameStartMenuView.ts": {
+    "time": 1703692779792.396,
+    "uuid": "90390aa9-b615-45a1-a6ab-7893210a1ae4",
     "missing": false
   }
 }

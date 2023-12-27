@@ -66,6 +66,7 @@ export class UIManager extends Singleton implements IPreInit {
                 node.parent = this.getLayerNode(uIPanel.layer);
                 node.setPosition(0, 0, 0);
                 this.openingPanel.set(panelName, uIPanel);
+                uIPanel.panelName = panelName;
                 uIPanel.init();
                 uIPanel.bindFunc();
                 uIPanel.open();
@@ -93,7 +94,6 @@ export class UIManager extends Singleton implements IPreInit {
             return;
         }
         let uIPanel = this.openingPanel.get(panelName);
-        let node = uIPanel.node;
         uIPanel.disbindFunc();
         uIPanel.close();
 
