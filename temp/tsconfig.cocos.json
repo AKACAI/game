@@ -6,8 +6,8 @@
     "strict": true,
     "types": [
       "./temp/declarations/cc.custom-macro",
-      "./temp/declarations/cc",
       "./temp/declarations/jsb",
+      "./temp/declarations/cc",
       "./temp/declarations/cc.env"
     ],
     "paths": {
@@ -15,7 +15,7 @@
         "C:\\ProgramData\\cocos\\editors\\Creator\\3.7.4\\resources\\resources\\3d\\engine\\editor\\assets\\*"
       ],
       "db://assets/*": [
-        "D:\\cocos_projects\\physics_education_game\\assets\\*"
+        "E:\\education_game\\game\\assets\\*"
       ]
     },
     "experimentalDecorators": true,

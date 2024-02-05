@@ -9,11 +9,13 @@ const { ccclass, property } = _decorator;
 export class InputManager extends Singleton implements IPreInit {
     private _layerMouseInput: Node;
     private _mousePos: Vec2;
+    private _isLeftBtnPressed: boolean;
 
     public init() {
         this._layerMouseInput = UIManager.getInstance().getLayerNode(UILayer.mouse_input);
 
         this._mousePos = new Vec2();
+        this._isLeftBtnPressed = false;
         this.initFunc();
         if (this.nextInitManager) {
             this.nextInitManager.init();
@@ -29,14 +31,30 @@ export class InputManager extends Singleton implements IPreInit {
         return this._mousePos;
     }
 
+    public getMouseData(): MouseParam {
+        let mouseParam: MouseParam = {
+            mousePos: this._mousePos,
+            isLeftBtnPressed: this._isLeftBtnPressed,
+        }
+        return mouseParam;
+    }
+
     private initFunc() {
-        // TODO 这样的检测很不准确
         this._layerMouseInput.on(Node.EventType.MOUSE_MOVE, (mouseEvent) => {
-            // console.log(mouseEvent.getUILocation())
             this._mousePos = mouseEvent.getUILocation();
-            // console.log(this._mousePos)
-        })
+        });
+
+        this._layerMouseInput.on(Node.EventType.MOUSE_DOWN, () => {
+            this._isLeftBtnPressed = true;
+        });
+
+        this._layerMouseInput.on(Node.EventType.MOUSE_UP, () => {
+            this._isLeftBtnPressed = false;
+        });
     }
 }
 
-
+export interface MouseParam {
+    mousePos: Vec2,
+    isLeftBtnPressed: boolean,
+}

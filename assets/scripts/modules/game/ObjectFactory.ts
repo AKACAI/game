@@ -1,7 +1,7 @@
 import { _decorator, Vec3, Node } from "cc";
 import { Singleton } from "../../common/Singleton";
 import { GameManager } from "../../manager/game_manager/GameManager";
-import { ObjectBase } from "./ObjectBase";
+import { ObjectBase, PhysicsParam } from "./ObjectBase";
 import { RightTriangleObject } from "./game_objects/RightTriangleObject";
 import { SquareObject } from "./game_objects/SquareObject";
 import { IPreInit } from "../../common/IPreInit";
@@ -26,7 +26,7 @@ export class ObjectFactory extends Singleton implements IPreInit {
         this.nextInitManager = nextInitManager;
     }
 
-    public createObject(type: ObjectType): ObjectBase {
+    public createObject(type: ObjectType, objectId: number,): ObjectBase {
         let newNode = new Node();
         newNode.setParent(this.map_root);
         newNode.active = false;
@@ -36,16 +36,16 @@ export class ObjectFactory extends Singleton implements IPreInit {
         return component;
     }
 
-    public getObject(type: ObjectType, shapeParam: any, pos: Vec3, objectData: any, parent?: Node): ObjectBase {
+    public getObject(type: ObjectType, objectId: number, shapeParam: any, pos: Vec3, objectData: any, physicsParam: PhysicsParam, parent?: Node): ObjectBase {
         let object = this.objects_pre.shift();
         if (!object) {
-            object = this.createObject(type);
+            object = this.createObject(type, objectId);
             object = this.objects_pre.shift();
         }
         object.node.name = objectData.name;
         object.node.setParent(parent ? parent : this.map_root);
         object.node.setPosition(pos);
-        object.init(type, shapeParam, objectData);
+        object.setObject(objectId, type, shapeParam, objectData, physicsParam);
         object.node.active = true;
         return object;
     }

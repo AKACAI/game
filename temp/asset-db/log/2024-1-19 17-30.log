@@ -1,0 +1,24 @@
+2024-1-19 17:30:04-debug: asset-db:worker-init (1044ms)
+2024-1-19 17:30:04-debug: Preimport db internal success
+2024-1-19 17:30:04-debug: Preimport db assets success
+2024-1-19 17:30:05-debug: asset-db:worker-effect-data-processing (127ms)
+2024-1-19 17:30:08-debug: Set detail map pack:///resolution-detail-map.json: {}
+2024-1-19 17:30:08-debug: Start up the 'internal' database...
+2024-1-19 17:30:08-debug: asset-db:worker-init-script (26ms)
+2024-1-19 17:30:08-debug: start asset-db with asset: 419
+2024-1-19 17:30:08-debug: Start up the 'assets' database...
+2024-1-19 17:30:08-debug: asset-db:worker-startup-database[internal] (3903ms)
+2024-1-19 17:30:08-debug: start asset-db with asset: 82
+2024-1-19 17:30:08-debug: asset-db:worker-startup-database[assets] (3833ms)
+2024-1-19 17:30:08-debug: init worker message success
+2024-1-19 17:30:08-debug: Asset DB is ready!
+2024-1-19 17:30:09-debug: builder:worker-init (403ms)
+2024-1-19 17:30:12-debug: programming:execute-script (3ms)
+2024-1-19 17:30:45-debug: refresh db internal success
+2024-1-19 17:30:45-debug: asset-db:worker-effect-data-processing (158ms)
+2024-1-19 17:30:45-debug: refresh db assets success
+2024-1-19 17:30:45-debug: asset-db:refresh-all-database (199ms)
+2024-1-19 21:51:25-debug: refresh db internal success
+2024-1-19 21:51:25-debug: asset-db:worker-effect-data-processing (206ms)
+2024-1-19 21:51:25-debug: refresh db assets success
+2024-1-19 21:51:25-debug: asset-db:refresh-all-database (334ms)

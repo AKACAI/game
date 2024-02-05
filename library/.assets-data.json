@@ -485,5 +485,40 @@
   "90390aa9-b615-45a1-a6ab-7893210a1ae4": {
     "url": "db://assets/scripts/modules/ui/game_start_menu/GameStartMenuView.ts",
     "value": {}
+  },
+  "59cc90b8-54ad-4faf-9ffb-bc3d71347f30": {
+    "url": "db://assets/scenes/test_scene.scene",
+    "value": {
+      "depends": [
+        "f46876e4-e81b-4931-b493-6d367be385e7",
+        "d032ac98-05e1-4090-88bb-eb640dcb5fc1@b47c0",
+        "d032ac98-05e1-4090-88bb-eb640dcb5fc1@b47c0",
+        "6f01cf7f-81bf-4a7e-bd5d-0afc19696480@b47c0"
+      ]
+    }
+  },
+  "e256c569-5317-4a64-b7d8-31a53751a414": {
+    "url": "db://assets/scripts/test",
+    "value": {}
+  },
+  "ca979bef-4a51-4b97-a872-fa89ca9941a1": {
+    "url": "db://assets/scripts/test/start.ts",
+    "value": {}
+  },
+  "eb6ae732-c016-4451-916c-c9fb6b640237": {
+    "url": "db://assets/scripts/test/test.ts",
+    "value": {}
+  },
+  "515e5582-9ced-4899-981e-7e8e5e692760": {
+    "url": "db://assets/scripts/test",
+    "value": {}
+  },
+  "f6ae7ac9-922c-4716-8b47-37ed6c8f8ffb": {
+    "url": "db://assets/scripts/manager/game_manager/InteractSpace.ts",
+    "value": {}
+  },
+  "4fad704c-1e3c-4b2e-a286-c71da37e1095": {
+    "url": "db://assets/scripts/manager/game_manager/InteractManager.ts",
+    "value": {}
   }
 }

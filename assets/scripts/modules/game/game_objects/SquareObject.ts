@@ -1,6 +1,6 @@
-import { _decorator, Vec2 } from "cc";
+import { _decorator, Vec2, UITransform } from "cc";
 import { GameTipData } from "../../ui/game_tip/GameTipItem";
-import { ObjectBase, ObjectParam } from "../ObjectBase";
+import { ObjectBase, ObjectParam, PhysicsParam } from "../ObjectBase";
 import { ObjectType } from "../ObjectFactory";
 import Utils from "../../../utils/Utils";
 
@@ -11,14 +11,19 @@ export class SquareObject extends ObjectBase {
     protected _width: number;
     protected _height: number;
 
-    public init(objectType: ObjectType, shapeParam: { width: number, height: number }, objectParam: any): void {
+    public setObject(objectId: number, objectType: ObjectType, shapeParam: { width: number, height: number }, objectParam: any, physicsParam: PhysicsParam): void {
         this._width = shapeParam.width;
         this._height = shapeParam.height;
+        let transformCpt = this.node.getComponent(UITransform);
+        if (!transformCpt) {
+            transformCpt = this.node.addComponent(UITransform);
+        }
+        transformCpt.setAnchorPoint(0.5, 0);
         let vertices: Vec2[] = [
-            new Vec2(- this._width / 2, - this._height / 2),
-            new Vec2(this._width / 2, - this._height / 2),
-            new Vec2(this._width / 2, this._height / 2),
-            new Vec2(- this._width / 2, this._height / 2),
+            new Vec2(- this._width / 2, 0),
+            new Vec2(this._width / 2, 0),
+            new Vec2(this._width / 2, this._height),
+            new Vec2(- this._width / 2, this._height),
         ]
         let mObjectParam: ObjectParam = {
             name: objectParam.name,
@@ -28,7 +33,7 @@ export class SquareObject extends ObjectBase {
             lineColor: Utils.str2color(objectParam.lineColor),
             fillColor: Utils.str2color(objectParam.fillColor),
         }
-        super.init(objectType, vertices, mObjectParam);
+        super.setObject(objectId, objectType, vertices, mObjectParam, physicsParam);
         let tipsData: GameTipData[] = [
             {
                 tipContent: "宽度为：" + this._width,
