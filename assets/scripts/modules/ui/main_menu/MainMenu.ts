@@ -7,7 +7,7 @@ const { ccclass, property } = _decorator;
 @ccclass('MainMenu')
 export class MainMenu extends UIPanel {
     public init() {
-        this._layer = UILayer.menu;
+        this._layer = UILayer.normal;
     }
 
     public open() {

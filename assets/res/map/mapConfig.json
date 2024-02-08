@@ -1,0 +1,36 @@
+[
+    {
+        "modeId": 0,
+        "modeName": "霓虹",
+        "modeBg": "",
+        "levelDatas": [
+            {
+                "levelId": 1,
+                "levelPath": "0_001",
+                "isLock": 0
+            },
+            {
+                "levelId": 2,
+                "levelPath": "0_002",
+                "isLock": 0
+            }
+        ]
+    },
+    {
+        "modeId": 1,
+        "modeName": "璀璨",
+        "modeBg": "",
+        "levelDatas": [
+            {
+                "levelId": 1,
+                "levelPath": "1_001",
+                "isLock": 0
+            },
+            {
+                "levelId": 2,
+                "levelPath": "1_002",
+                "isLock": 0
+            }
+        ]
+    }
+]

@@ -19,13 +19,25 @@ export interface IOpenObjectData {
 }
 
 export interface IOpenMapData {
-    mapId: number,
+    mapPath: string,
     objectDatas: any,
+}
+
+export interface IMapConfig {
+    modeId: number,
+    modeName: string,
+    modeBg: string
+    levelDatas: {
+        levelId: number,
+        levelPath: string,
+        isLock: number,
+    }[],
 }
 
 export default class MapData extends Singleton {
     private inited: boolean = false;
     private mapDatas: { [mapName: string]: IOpenMapData };
+    private mode2MapDatas: { [mode: number]: IMapConfig };
 
     constructor() {
         super();
@@ -35,14 +47,45 @@ export default class MapData extends Singleton {
         this.mapDatas = {};
         ResManager.getInstance().loadBundle("map", () => {
             this.inited = true;
-            if (finishCb) {
-                finishCb();
-            }
+            ResManager.getInstance().loadAsset("mapConfig", LoadType.JSON, "map", (json: JsonAsset) => {
+                let mapData = json.json as IMapConfig[];
+                if (mapData) {
+                    this.mode2MapDatas = {};
+                    for (let i = 0; i < mapData.length; i++) {
+                        const modeItemData = mapData[i];
+                        const modeID = modeItemData.modeId;
+                        this.mode2MapDatas[modeID] = modeItemData;
+                    }
+                }
+                if (finishCb) {
+                    finishCb();
+                }
+            }, (err) => {
+                LogManager.error(err);
+            });
         });
     }
 
+    public getModeDatas() {
+        if (!this.inited) {
+            LogManager.warn("MapManager未初始化");
+            return;
+        }
+        return this.mode2MapDatas;
+    }
+
+    public getModeDatasById(modeId: number) {
+        if (!this.inited) {
+            LogManager.warn("MapManager未初始化");
+            return;
+        }
+        if (this.getModeDatas) {
+            return this.mode2MapDatas[modeId];
+        }
+    }
+
     public loadMapData(mapName: string, finishCb?: (mapData: IOpenMapData) => void) {
-        if (!this.init) {
+        if (!this.inited) {
             LogManager.warn("MapManager未初始化");
             return;
         }

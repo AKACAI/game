@@ -1,4 +1,4 @@
-import { _decorator, director, Vec2, Node, PhysicsSystem2D } from "cc";
+import { _decorator, director, Vec2, Node, PhysicsSystem2D, game, Game } from "cc";
 import { Singleton } from "../../common/Singleton";
 import { ObjectBase } from "../../modules/game/ObjectBase";
 import { GameTipManager } from "../../modules/ui/game_tip/GameTipManager";
@@ -6,6 +6,18 @@ import { InputManager } from "../InputManager";
 import { MapManager } from "../map_manager/MapManager";
 import { IPreInit } from "../../common/IPreInit";
 const { ccclass } = _decorator;
+
+let timeScale = 1;
+//@ts-ignore
+game._calculateDT = function (now: number) {
+    if (!now) now = performance.now();
+    this._deltaTime = now > this._startTime ? (now - this._startTime) / 1000 : 0;
+    if (this._deltaTime > Game.DEBUG_DT_THRESHOLD) {
+        this._deltaTime = this.frameTime / 1000;
+    }
+    this._startTime = now;
+    return this._deltaTime * timeScale;
+};
 
 export enum GameState {
     NotInGame,
@@ -50,21 +62,27 @@ export class GameManager extends Singleton {
 
     public start() {
         this._gameState = GameState.Ongoing;
+        timeScale = 1;
         PhysicsSystem2D.instance.enable = true;
         MapManager.getInstance().enterMap("100001");
+    }
+
+    public setTimeScale(value) {
+        timeScale = value < 0 ? 0 : value > 2 ? 2 : value;
     }
 
     public pause() {
         if (this._gameState != GameState.Ongoing) {
             return;
         }
-        for (let i = 0; i < this._gameObjects.length; i++) {
-            const object = this._gameObjects[i];
-            if (!object) {
-                continue;
-            }
-            object.pause();
-        }
+        // for (let i = 0; i < this._gameObjects.length; i++) {
+        //     const object = this._gameObjects[i];
+        //     if (!object) {
+        //         continue;
+        //     }
+        //     object.pause();
+        // }
+        timeScale = 0;
         this._gameState = GameState.Pause;
     }
 
@@ -72,13 +90,14 @@ export class GameManager extends Singleton {
         if (this._gameState != GameState.Pause) {
             return;
         }
-        for (let i = 0; i < this._gameObjects.length; i++) {
-            const object = this._gameObjects[i];
-            if (!object) {
-                continue;
-            }
-            object.resume();
-        }
+        // for (let i = 0; i < this._gameObjects.length; i++) {
+        //     const object = this._gameObjects[i];
+        //     if (!object) {
+        //         continue;
+        //     }
+        //     object.resume();
+        // }
+        timeScale = 1;
         this._gameState = GameState.Ongoing;
     }
 

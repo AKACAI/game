@@ -427,11 +427,11 @@
     }
   },
   "17264846-d226-42ec-830f-232f34661b2e": {
-    "url": "db://assets/res/ui/game_start_menu",
+    "url": "db://assets/res/ui/game_start_ui",
     "value": {}
   },
   "479f5910-9c64-4986-8476-c77e6424df4c": {
-    "url": "db://assets/res/ui/game_start_menu/res",
+    "url": "db://assets/res/ui/game_start_ui/res",
     "value": {}
   },
   "0fcfedd0-b91b-466e-8039-b8c152bd2fe9": {
@@ -439,9 +439,10 @@
     "value": {}
   },
   "d0b905de-856a-4da3-b25d-90a102f75b5e": {
-    "url": "db://assets/res/ui/game_start_menu/game_start_menu_view.prefab",
+    "url": "db://assets/res/ui/game_start_ui/game_start_menu_view.prefab",
     "value": {
       "depends": [
+        "57520716-48c8-4a19-8acf-41c9f8777fb0@f9941",
         "57520716-48c8-4a19-8acf-41c9f8777fb0@f9941",
         "57520716-48c8-4a19-8acf-41c9f8777fb0@f9941",
         "57520716-48c8-4a19-8acf-41c9f8777fb0@f9941"
@@ -450,9 +451,7 @@
   },
   "cb453272-284f-41b0-ac2f-4bb823c43b1c": {
     "url": "db://assets/res/ui/game_start_menu/res/tip_bg_1.png",
-    "value": {
-      "depends": []
-    }
+    "value": {}
   },
   "cb453272-284f-41b0-ac2f-4bb823c43b1c@6c48a": {
     "url": "db://assets/res/ui/game_start_menu/res/tip_bg_1.png@6c48a",
@@ -471,7 +470,7 @@
     }
   },
   "b767c52a-2b6d-4087-a7db-210f15e42a10": {
-    "url": "db://assets/scripts/modules/ui/game_start_menu",
+    "url": "db://assets/scripts/modules/ui/game_start_ui",
     "value": {}
   },
   "8bfd1ee6-f3db-4dd1-91ed-8776b30d2838": {
@@ -483,7 +482,244 @@
     "value": {}
   },
   "90390aa9-b615-45a1-a6ab-7893210a1ae4": {
-    "url": "db://assets/scripts/modules/ui/game_start_menu/GameStartMenuView.ts",
+    "url": "db://assets/scripts/modules/ui/game_start_ui/GameStartMenuView.ts",
     "value": {}
+  },
+  "56ecadb8-9ac9-45c6-9abd-180c92b9451b": {
+    "url": "db://assets/res/ui/game_start_menu/game_main_ui_view.prefab",
+    "value": {}
+  },
+  "4daac8ba-9ba9-4114-8b25-a78e77e84845": {
+    "url": "db://assets/scripts/modules/ui/game_main_ui/GameMainUIView.ts",
+    "value": {}
+  },
+  "e3136172-971b-434b-a9e8-7d850c86552e": {
+    "url": "db://assets/res/ui/game_main_ui",
+    "value": {}
+  },
+  "3ea83f76-fc93-4f7a-a8da-560a1028a6d0": {
+    "url": "db://assets/res/ui/game_main_ui/res",
+    "value": {}
+  },
+  "ff12580f-fdd9-4521-a182-20c1d1a289af": {
+    "url": "db://assets/res/ui/game_main_ui/game_main_ui_view.prefab",
+    "value": {
+      "depends": [
+        "e51d61b8-b34e-467e-a9b8-85814b65cba7@f9941",
+        "e51d61b8-b34e-467e-a9b8-85814b65cba7@f9941",
+        "e51d61b8-b34e-467e-a9b8-85814b65cba7@f9941"
+      ]
+    }
+  },
+  "4f482fb1-3174-4eff-9af8-10dc13de2f41": {
+    "url": "db://assets/res/ui/game_main_ui/game_start_menu_view.prefab",
+    "value": {}
+  },
+  "c2ff8d5f-bdee-4a27-bcde-6701f432a9c0": {
+    "url": "db://assets/res/ui/game_main_ui/res/tip_bg_1.png",
+    "value": {}
+  },
+  "c2ff8d5f-bdee-4a27-bcde-6701f432a9c0@6c48a": {
+    "url": "db://assets/res/ui/game_main_ui/res/tip_bg_1.png@6c48a",
+    "value": {
+      "depends": [
+        "c2ff8d5f-bdee-4a27-bcde-6701f432a9c0"
+      ]
+    }
+  },
+  "c2ff8d5f-bdee-4a27-bcde-6701f432a9c0@f9941": {
+    "url": "db://assets/res/ui/game_main_ui/res/tip_bg_1.png@f9941",
+    "value": {
+      "depends": [
+        "c2ff8d5f-bdee-4a27-bcde-6701f432a9c0@6c48a"
+      ]
+    }
+  },
+  "e51d61b8-b34e-467e-a9b8-85814b65cba7": {
+    "url": "db://assets/res/ui/game_main_ui/res/main_ui_btn_1.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "e51d61b8-b34e-467e-a9b8-85814b65cba7@6c48a": {
+    "url": "db://assets/res/ui/game_main_ui/res/main_ui_btn_1.png@6c48a",
+    "value": {
+      "depends": [
+        "e51d61b8-b34e-467e-a9b8-85814b65cba7"
+      ]
+    }
+  },
+  "e51d61b8-b34e-467e-a9b8-85814b65cba7@f9941": {
+    "url": "db://assets/res/ui/game_main_ui/res/main_ui_btn_1.png@f9941",
+    "value": {
+      "depends": [
+        "e51d61b8-b34e-467e-a9b8-85814b65cba7@6c48a"
+      ]
+    }
+  },
+  "ea0a466b-94b2-49d9-9d7f-c8f4c850173b": {
+    "url": "db://assets/scripts/modules/ui/game_main_ui",
+    "value": {}
+  },
+  "0e81a4c9-f195-4050-9066-8eab8f0e8c32": {
+    "url": "db://assets/scripts/common/ComponentHelper.ts",
+    "value": {}
+  },
+  "c395a140-e3b0-47a0-a050-feea7acb8e90": {
+    "url": "db://assets/scripts/common/NodeHelper.ts",
+    "value": {}
+  },
+  "b79e0457-c023-48fe-9840-7543d4ef1ae6": {
+    "url": "db://assets/res/ui/game_main_ui/main_ui_btn.prefab",
+    "value": {}
+  },
+  "ac193cc3-57e7-4738-9e7f-84d6d635b9d2": {
+    "url": "db://assets/scripts/manager/ui_manager/component",
+    "value": {}
+  },
+  "d7fb4dc4-c72f-488f-94ab-705941b41ccc": {
+    "url": "db://assets/scripts/manager/ui_manager/component/ComButton.ts",
+    "value": {}
+  },
+  "4aa0d71f-27f1-4f9a-b21a-5a6754533913": {
+    "url": "db://assets/scripts/modules/ui/game_start_menu-001",
+    "value": {}
+  },
+  "993788a8-c720-40b3-867f-cb5aee7ffa0d": {
+    "url": "db://assets/scripts/modules/ui/game_start_menu-001/GameStartMenuView.ts",
+    "value": {}
+  },
+  "7a86a0f9-1c5f-4728-a637-98a0a3861876": {
+    "url": "db://assets/res/ui/game_start_ui/level_select_view.prefab",
+    "value": {
+      "depends": [
+        "1ef892f1-739d-474c-98dc-b60f73114caf@f9941",
+        "d6a41346-9faa-4386-89b0-5f79506771d6@f9941"
+      ]
+    }
+  },
+  "9f0ce9bf-e36f-4fa0-a13b-fcc96417ec44": {
+    "url": "db://assets/scripts/modules/ui/game_start_ui/LevelSelectView.ts",
+    "value": {}
+  },
+  "97b3454a-cc90-4305-8695-b4dcce1a81bc": {
+    "url": "db://assets/res/ui/game_start_ui/level_select_mode_item.prefab",
+    "value": {
+      "depends": [
+        "57520716-48c8-4a19-8acf-41c9f8777fb0@f9941",
+        "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca@f9941",
+        "57520716-48c8-4a19-8acf-41c9f8777fb0@f9941",
+        "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca@f9941"
+      ]
+    }
+  },
+  "eca3b0e4-c019-40fe-a694-f0259b6c973d": {
+    "url": "db://assets/res/ui/common",
+    "value": {}
+  },
+  "c270894a-2aa6-4ffa-b656-f1e1bb79565e": {
+    "url": "db://assets/res/ui/common/res",
+    "value": {}
+  },
+  "e549ea72-715c-4646-988f-5ba579494a54": {
+    "url": "db://assets/res/ui/common/res/common_back_btn.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "e549ea72-715c-4646-988f-5ba579494a54@6c48a": {
+    "url": "db://assets/res/ui/common/res/common_back_btn.png@6c48a",
+    "value": {
+      "depends": [
+        "e549ea72-715c-4646-988f-5ba579494a54"
+      ]
+    }
+  },
+  "e549ea72-715c-4646-988f-5ba579494a54@f9941": {
+    "url": "db://assets/res/ui/common/res/common_back_btn.png@f9941",
+    "value": {
+      "depends": [
+        "e549ea72-715c-4646-988f-5ba579494a54@6c48a"
+      ]
+    }
+  },
+  "d6a41346-9faa-4386-89b0-5f79506771d6": {
+    "url": "db://assets/res/ui/common/res/common_close_btn.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "d6a41346-9faa-4386-89b0-5f79506771d6@6c48a": {
+    "url": "db://assets/res/ui/common/res/common_close_btn.png@6c48a",
+    "value": {
+      "depends": [
+        "d6a41346-9faa-4386-89b0-5f79506771d6"
+      ]
+    }
+  },
+  "d6a41346-9faa-4386-89b0-5f79506771d6@f9941": {
+    "url": "db://assets/res/ui/common/res/common_close_btn.png@f9941",
+    "value": {
+      "depends": [
+        "d6a41346-9faa-4386-89b0-5f79506771d6@6c48a"
+      ]
+    }
+  },
+  "1ef892f1-739d-474c-98dc-b60f73114caf": {
+    "url": "db://assets/res/ui/common/res/common_tip_btn.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "1ef892f1-739d-474c-98dc-b60f73114caf@6c48a": {
+    "url": "db://assets/res/ui/common/res/common_tip_btn.png@6c48a",
+    "value": {
+      "depends": [
+        "1ef892f1-739d-474c-98dc-b60f73114caf"
+      ]
+    }
+  },
+  "1ef892f1-739d-474c-98dc-b60f73114caf@f9941": {
+    "url": "db://assets/res/ui/common/res/common_tip_btn.png@f9941",
+    "value": {
+      "depends": [
+        "1ef892f1-739d-474c-98dc-b60f73114caf@6c48a"
+      ]
+    }
+  },
+  "fd547cb7-d67a-40ff-9482-e2a060141ed6": {
+    "url": "db://assets/scripts/modules/ui/game_start_ui/LevelSelectModeItem.ts",
+    "value": {}
+  },
+  "ed143145-f2fc-469a-8440-eb25baa05abe": {
+    "url": "db://assets/scripts/utils/Stack.ts",
+    "value": {}
+  },
+  "a0cb00fd-9f9e-4274-9215-e2e206f35ec0": {
+    "url": "db://assets/scripts/common/Display.ts",
+    "value": {}
+  },
+  "0adb74d4-94c8-49fd-8f22-fe670c861d59": {
+    "url": "db://assets/res/ui/game_start_ui/level_item.prefab",
+    "value": {
+      "depends": [
+        "57520716-48c8-4a19-8acf-41c9f8777fb0@f9941",
+        "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca@f9941"
+      ]
+    }
+  },
+  "c17d9fb0-5fb2-4a24-b78d-c635a18ea938": {
+    "url": "db://assets/scripts/modules/ui/game_start_ui/LevelItem.ts",
+    "value": {}
+  },
+  "bc766d3c-e800-4402-9425-f6ae26012a49": {
+    "url": "db://assets/res/map/mapConfig.ts",
+    "value": {}
+  },
+  "6d8870d4-9d3d-4495-8da8-8d2412af1303": {
+    "url": "db://assets/res/map/mapConfig.json",
+    "value": {
+      "depends": []
+    }
   }
 }

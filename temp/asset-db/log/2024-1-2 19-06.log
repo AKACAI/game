@@ -1,0 +1,81 @@
+2024-1-2 19:06:48-debug: asset-db:worker-init (4239ms)
+2024-1-2 19:06:52-debug: Preimport db internal success
+2024-1-2 19:06:52-debug: Preimport db assets success
+2024-1-2 19:06:53-debug: asset-db:worker-effect-data-processing (717ms)
+2024-1-2 19:07:04-debug: Set detail map pack:///resolution-detail-map.json: {  "./chunks/d1/d19a655d481b83ce76ddd930c2b865f0ecc1d139.js": {    "AutoPrefabI18nMgr": {      "error": "Error: 以 file:///D:/cocos_projects/physics_education_game/assets/scripts/common/Display.ts 为起点找不到模块 \"AutoPrefabI18nMgr\""    },    "ComButton": {      "error": "Error: 以 file:///D:/cocos_projects/physics_education_game/assets/scripts/common/Display.ts 为起点找不到模块 \"ComButton\""    },    "ComponentHelper": {      "error": "Error: 以 file:///D:/cocos_projects/physics_education_game/assets/scripts/common/Display.ts 为起点找不到模块 \"ComponentHelper\""    },    "FashionData": {      "error": "Error: 以 file:///D:/cocos_projects/physics_education_game/assets/scripts/common/Display.ts 为起点找不到模块 \"FashionData\""    },    "FashionInfo": {      "error": "Error: 以 file:///D:/cocos_projects/physics_education_game/assets/scripts/common/Display.ts 为起点找不到模块 \"FashionInfo\""    },    "FashionManager": {      "error": "Error: 以 file:///D:/cocos_projects/physics_education_game/assets/scripts/common/Display.ts 为起点找不到模块 \"FashionManager\""    },    "GlobalHelper": {      "error": "Error: 以 file:///D:/cocos_projects/physics_education_game/assets/scripts/common/Display.ts 为起点找不到模块 \"GlobalHelper\""    },    "LayerHelper": {      "error": "Error: 以 file:///D:/cocos_projects/physics_education_game/assets/scripts/common/Display.ts 为起点找不到模块 \"LayerHelper\""    },    "LoadAndSetImageComponent": {      "error": "Error: 以 file:///D:/cocos_projects/physics_education_game/assets/scripts/common/Display.ts 为起点找不到模块 \"LoadAndSetImageComponent\""    },    "LogManager": {      "error": "Error: 以 file:///D:/cocos_projects/physics_education_game/assets/scripts/common/Display.ts 为起点找不到模块 \"LogManager\""    },    "MoveOutInScreenComponent": {      "error": "Error: 以 file:///D:/cocos_projects/physics_education_game/assets/scripts/common/Display.ts 为起点找不到模块 \"MoveOutInScreenComponent\""    },    "PathDefine": {      "error": "Error: 以 file:///D:/cocos_projects/physics_education_game/assets/scripts/common/Display.ts 为起点找不到模块 \"PathDefine\""    },    "ResManager": {      "error": "Error: 以 file:///D:/cocos_projects/physics_education_game/assets/scripts/common/Display.ts 为起点找不到模块 \"ResManager\""    },    "SdkManager": {      "error": "Error: 以 file:///D:/cocos_projects/physics_education_game/assets/scripts/common/Display.ts 为起点找不到模块 \"SdkManager\""    },    "TextureManager": {      "error": "Error: 以 file:///D:/cocos_projects/physics_education_game/assets/scripts/common/Display.ts 为起点找不到模块 \"TextureManager\""    },    "TimerManager": {      "error": "Error: 以 file:///D:/cocos_projects/physics_education_game/assets/scripts/common/Display.ts 为起点找不到模块 \"TimerManager\""    },    "Utils": {      "error": "Error: 以 file:///D:/cocos_projects/physics_education_game/assets/scripts/common/Display.ts 为起点找不到模块 \"Utils\""    },    "WindowManager": {      "error": "Error: 以 file:///D:/cocos_projects/physics_education_game/assets/scripts/common/Display.ts 为起点找不到模块 \"WindowManager\""    },    "lang": {      "error": "Error: 以 file:///D:/cocos_projects/physics_education_game/assets/scripts/common/Display.ts 为起点找不到模块 \"lang\""    }  },  "./chunks/6b/6b1686ce719ed0550b78a59aa8dd1c2e8ea91c1c.js": {    "ComButton": {      "error": "Error: 以 file:///D:/cocos_projects/physics_education_game/assets/scripts/common/ComponentHelper.ts 为起点找不到模块 \"ComButton\""    },    "ComButtonEnum": {      "error": "Error: 以 file:///D:/cocos_projects/physics_education_game/assets/scripts/common/ComponentHelper.ts 为起点找不到模块 \"ComButtonEnum\""    },    "ComScrollContent": {      "error": "Error: 以 file:///D:/cocos_projects/physics_education_game/assets/scripts/common/ComponentHelper.ts 为起点找不到模块 \"ComScrollContent\""    },    "ComScrollContent2": {      "error": "Error: 以 file:///D:/cocos_projects/physics_education_game/assets/scripts/common/ComponentHelper.ts 为起点找不到模块 \"ComScrollContent2\""    },    "ComScrollEnum": {      "error": "Error: 以 file:///D:/cocos_projects/physics_education_game/assets/scripts/common/ComponentHelper.ts 为起点找不到模块 \"ComScrollEnum\""    },    "ComScrollView": {      "error": "Error: 以 file:///D:/cocos_projects/physics_education_game/assets/scripts/common/ComponentHelper.ts 为起点找不到模块 \"ComScrollView\""    },    "GlobalHelper": {      "error": "Error: 以 file:///D:/cocos_projects/physics_education_game/assets/scripts/common/ComponentHelper.ts 为起点找不到模块 \"GlobalHelper\""    },    "Singleton": {      "error": "Error: 以 file:///D:/cocos_projects/physics_education_game/assets/scripts/common/ComponentHelper.ts 为起点找不到模块 \"Singleton\""    },    "TextureManager": {      "error": "Error: 以 file:///D:/cocos_projects/physics_education_game/assets/scripts/common/ComponentHelper.ts 为起点找不到模块 \"TextureManager\""    }  }}
+2024-1-2 19:07:04-debug: Start up the 'internal' database...
+2024-1-2 19:07:05-debug: asset-db:worker-init-script (87ms)
+2024-1-2 19:07:05-debug: start asset-db with asset: 419
+2024-1-2 19:07:05-debug: Start up the 'assets' database...
+2024-1-2 19:07:05-debug: asset-db:worker-startup-database[internal] (14930ms)
+2024-1-2 19:07:05-debug: start asset-db with asset: 86
+2024-1-2 19:07:05-debug: Asset DB is ready!
+2024-1-2 19:07:05-debug: asset-db:worker-startup-database[assets] (13291ms)
+2024-1-2 19:07:05-debug: init worker message success
+2024-1-2 19:07:08-debug: builder:worker-init (3096ms)
+2024-1-2 19:07:11-debug: programming:execute-script (5ms)
+2024-1-2 19:08:01-debug: refresh db internal success
+2024-1-2 19:08:01-debug: asset-db:worker-effect-data-processing (440ms)
+2024-1-2 19:08:01-debug: refresh db assets success
+2024-1-2 19:08:01-debug: asset-db:refresh-all-database (541ms)
+2024-1-2 19:08:14-debug: refresh db internal success
+2024-1-2 19:08:15-debug: asset-db:worker-effect-data-processing (474ms)
+2024-1-2 19:08:15-debug: refresh db assets success
+2024-1-2 19:08:15-debug: asset-db:refresh-all-database (563ms)
+2024-1-2 19:08:18-debug: refresh db internal success
+2024-1-2 19:08:18-debug: asset-db:worker-effect-data-processing (256ms)
+2024-1-2 19:08:18-debug: refresh db assets success
+2024-1-2 19:08:18-debug: asset-db:refresh-all-database (349ms)
+2024-1-2 19:09:36-debug: refresh db internal success
+2024-1-2 19:09:36-debug: asset-db:worker-effect-data-processing (565ms)
+2024-1-2 19:09:36-debug: %cImport%c: D:\cocos_projects\physics_education_game\assets\scripts\modules\ui\game_main_ui\GameMainUIView.tsbackground: #aaff85; color: #000;color: #000;
+2024-1-2 19:09:36-debug: refresh db assets success
+2024-1-2 19:09:36-debug: asset-db:refresh-all-database (667ms)
+2024-1-2 19:09:54-debug: refresh db internal success
+2024-1-2 19:09:54-debug: asset-db:worker-effect-data-processing (296ms)
+2024-1-2 19:09:54-debug: %cImport%c: D:\cocos_projects\physics_education_game\assets\scripts\modules\ui\game_main_ui\GameMainUIView.tsbackground: #aaff85; color: #000;color: #000;
+2024-1-2 19:09:54-debug: refresh db assets success
+2024-1-2 19:09:54-debug: asset-db:refresh-all-database (381ms)
+2024-1-2 19:10:00-debug: refresh db internal success
+2024-1-2 19:10:01-debug: asset-db:worker-effect-data-processing (221ms)
+2024-1-2 19:10:01-debug: refresh db assets success
+2024-1-2 19:10:01-debug: asset-db:refresh-all-database (302ms)
+2024-1-2 19:14:46-debug: refresh db internal success
+2024-1-2 19:14:46-debug: asset-db:worker-effect-data-processing (302ms)
+2024-1-2 19:14:46-debug: %cImport%c: D:\cocos_projects\physics_education_game\assets\scripts\common\Display.tsbackground: #aaff85; color: #000;color: #000;
+2024-1-2 19:14:46-debug: %cImport%c: D:\cocos_projects\physics_education_game\assets\scripts\modules\ui\game_main_ui\GameMainUIView.tsbackground: #aaff85; color: #000;color: #000;
+2024-1-2 19:14:46-debug: refresh db assets success
+2024-1-2 19:14:46-debug: asset-db:refresh-all-database (387ms)
+2024-1-2 19:22:30-debug: %cDestroy%c: D:\cocos_projects\physics_education_game\assets\scripts\common\ComponentHelper.tsbackground: #ffb8b8; color: #000;color: #000;
+2024-1-2 19:22:30-debug: refresh db internal success
+2024-1-2 19:22:31-debug: asset-db:worker-effect-data-processing (525ms)
+2024-1-2 19:22:31-debug: %cImport%c: D:\cocos_projects\physics_education_game\assets\scripts\commonbackground: #aaff85; color: #000;color: #000;
+2024-1-2 19:22:31-debug: %cImport%c: D:\cocos_projects\physics_education_game\assets\scripts\common\Display.tsbackground: #aaff85; color: #000;color: #000;
+2024-1-2 19:22:31-debug: refresh db assets success
+2024-1-2 19:22:31-debug: asset-db:refresh-all-database (721ms)
+2024-1-2 19:23:06-debug: start refresh asset from D:\cocos_projects\physics_education_game\assets\scripts\manager\ui_manager\component...
+2024-1-2 19:23:06-debug: %cImport%c: D:\cocos_projects\physics_education_game\assets\scripts\manager\ui_manager\componentbackground: #aaff85; color: #000;color: #000;
+2024-1-2 19:23:06-debug: refresh asset D:\cocos_projects\physics_education_game\assets\scripts\manager\ui_manager success
+2024-1-2 19:23:06-debug: %cImport%c: D:\cocos_projects\physics_education_game\assets\scripts\manager\ui_managerbackground: #aaff85; color: #000;color: #000;
+2024-1-2 20:44:53-debug: start refresh asset from D:\cocos_projects\physics_education_game\assets\scripts\manager\ui_manager\component\ComButton.ts...
+2024-1-2 20:44:53-debug: %cImport%c: D:\cocos_projects\physics_education_game\assets\scripts\manager\ui_manager\component\ComButton.tsbackground: #aaff85; color: #000;color: #000;
+2024-1-2 20:44:53-debug: refresh asset D:\cocos_projects\physics_education_game\assets\scripts\manager\ui_manager\component success
+2024-1-2 20:44:53-debug: %cImport%c: D:\cocos_projects\physics_education_game\assets\scripts\manager\ui_manager\componentbackground: #aaff85; color: #000;color: #000;
+2024-1-2 20:45:17-debug: start refresh asset from D:\cocos_projects\physics_education_game\assets\res\ui\game_main_ui\game_main_ui_view.prefab...
+2024-1-2 20:45:17-debug: %cImport%c: D:\cocos_projects\physics_education_game\assets\res\ui\game_main_ui\game_main_ui_view.prefabbackground: #aaff85; color: #000;color: #000;
+2024-1-2 20:45:17-debug: refresh asset D:\cocos_projects\physics_education_game\assets\res\ui\game_main_ui success
+2024-1-2 20:47:28-debug: refresh db internal success
+2024-1-2 20:47:28-debug: asset-db:worker-effect-data-processing (681ms)
+2024-1-2 20:47:28-debug: %cImport%c: D:\cocos_projects\physics_education_game\assets\scripts\manager\ui_manager\component\ComButton.tsbackground: #aaff85; color: #000;color: #000;
+2024-1-2 20:47:28-debug: refresh db assets success
+2024-1-2 20:47:28-debug: asset-db:refresh-all-database (827ms)
+2024-1-2 20:52:28-debug: refresh db internal success
+2024-1-2 20:52:29-debug: asset-db:worker-effect-data-processing (810ms)
+2024-1-2 20:52:29-debug: %cImport%c: D:\cocos_projects\physics_education_game\assets\scripts\manager\ui_manager\component\ComButton.tsbackground: #aaff85; color: #000;color: #000;
+2024-1-2 20:52:29-debug: refresh db assets success
+2024-1-2 20:52:29-debug: asset-db:refresh-all-database (1156ms)
+2024-1-2 21:06:49-debug: refresh db internal success
+2024-1-2 21:06:50-debug: asset-db:worker-effect-data-processing (947ms)
+2024-1-2 21:06:50-debug: %cImport%c: D:\cocos_projects\physics_education_game\assets\scripts\manager\ui_manager\component\ComButton.tsbackground: #aaff85; color: #000;color: #000;
+2024-1-2 21:06:50-debug: refresh db assets success
+2024-1-2 21:06:50-debug: asset-db:refresh-all-database (1385ms)

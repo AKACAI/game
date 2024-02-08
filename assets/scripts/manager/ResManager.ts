@@ -62,9 +62,19 @@ export class ResManager extends Singleton implements IPreInit {
         };
         LoadHelper.loadAsset(loadTask);
     }
+
+    releaseAssetByPath(path: string, bundleName: string) {
+        LoadHelper.releaseAssetByPath(path, bundleName);
+    }
+
+    releaseAsset(asset: Asset) {
+        LoadHelper.releaseAsset(asset);
+    }
 }
 
 class LoadHelper {
+    private static assetsDict: { [bundleName: string]: { [resPath: string]: Asset } } = {};
+
     static loadBundle(bundleName: string, successCb?: (bundle) => void, failCb?: (err) => void, target?) {
         assetManager.loadBundle(bundleName, (err, bundle) => {
             if (err) {
@@ -124,10 +134,28 @@ class LoadHelper {
                     console.log("成功加载asset：", params.resPath);
                     if (params.successCb) {
                         params.successCb.apply(params.target, [asset, params.target])
+                        if (!this.assetsDict[params.bundleName]) {
+                            this.assetsDict[params.bundleName] = {};
+                        }
+                        this.assetsDict[params.bundleName][params.resPath] = asset;
                     }
                 }
             }
         );
+    }
+
+    static releaseAssetByPath(path: string, bundleName: string) {
+        if (!this.assetsDict[bundleName]) {
+            return;
+        }
+        let asset = this.assetsDict[bundleName][path];
+        assetManager.releaseAsset(asset);
+    }
+
+    static releaseAsset(asset: Asset) {
+        if (asset) {
+            assetManager.releaseAsset(asset);
+        }
     }
 }
 

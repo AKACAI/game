@@ -2,6 +2,7 @@ import { Color, Vec2, Vec3 } from "cc";
 import LogManager from "./LogManager";
 
 export default class Utils {
+    /**获取当前时间戳（ms） */
     public static getCurTimeStamp(): number {
         return Date.now();
     }

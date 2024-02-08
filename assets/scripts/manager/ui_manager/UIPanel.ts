@@ -1,23 +1,19 @@
-import { _decorator, Component, Node } from 'cc';
+import { _decorator, Component, Node, Prefab } from 'cc';
 import { UILayer, UIManager } from './UIManager';
+import { LoadType, ResManager } from '../ResManager';
 const { ccclass, property } = _decorator;
 
 @ccclass('UIPanel')
 export class UIPanel extends Component {
-    protected _layer: UILayer = UILayer.alert;
+    protected _layer: UILayer = UILayer.alert_no_bg;
     protected _resDestroyType: ResDestroyType = ResDestroyType.delayRelease;
-    protected _panelName: string = "";
+    public panelName: string = "";
+    public bundleName: string = "";
+
+    //protected preloadResDict: { [type: number]: string[] }; //type是LoadType
 
     public init() {
 
-    }
-
-    public bindFunc() {
-
-    }
-
-    public disbindFunc() {
-        //EventManager.getInstance().removeListener();
     }
 
     public open() {
@@ -30,7 +26,7 @@ export class UIPanel extends Component {
     }
 
     protected closeBySelf() {
-        UIManager.getInstance().closePanel(this._panelName);
+        UIManager.getInstance().closePanel(this.panelName);
     }
 
     public dispose() {
@@ -44,12 +40,15 @@ export class UIPanel extends Component {
         return this._resDestroyType;
     }
 
-    public get panelName() {
-        return this._panelName;
-    }
-    public set panelName(value: string) {
-        this._panelName = value;
-    }
+    // /**在init之前调用，增加 */
+    // protected addLoadPrefab(path: string, bundleName?: string) {
+    //     this.preloadResDict[LoadType.PrefableRes].push();
+    //     if (bundleName) {
+    //         ResManager.getInstance().loadAsset(path, LoadType.PrefableRes, bundleName, (prefab: Prefab) => {
+    //             this.modeItemPrefab = prefab;
+    //         });
+    //     }
+    // }
 }
 
 export enum ResDestroyType {

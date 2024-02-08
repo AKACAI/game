@@ -3,8 +3,6 @@ import { Phy_Group } from "../../manager/game_manager/GameDefinition";
 import { MouseParam } from "../../manager/game_manager/GameManager";
 import { GameTipData } from "../ui/game_tip/GameTipItem";
 import { ObjectType } from "./ObjectFactory";
-import LogManager from "../../utils/LogManager";
-import Utils from "../../utils/Utils";
 
 const { ccclass, property } = _decorator;
 
@@ -123,6 +121,7 @@ export class ObjectBase extends Component {
         }
         else {
             this._rigidbody.type = ERigidBody2DType.Dynamic;
+            this.addForce(new Vec2(0, -10));
         }
     }
 
@@ -202,7 +201,13 @@ export class ObjectBase extends Component {
         }
     }
 
+    public addForce(value: Vec2) {
+        this._rigidbody.applyForce(value, new Vec2(this.node.position.x, this.node.position.y), true);
+    }
 
+    // public addForce(x: number, y: number) {
+    //     this._rigidbody.applyForce(value, new Vec2(this.node.position.x, this.node.position.y), true);
+    // }
 }
 
 export interface ObjectParam {

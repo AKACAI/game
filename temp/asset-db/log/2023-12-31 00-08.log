@@ -1,0 +1,320 @@
+2023-12-31 00:08:29-debug: asset-db:worker-init (6383ms)
+2023-12-31 00:08:30-debug: Preimport db internal success
+2023-12-31 00:08:30-debug: Preimport db assets success
+2023-12-31 00:08:31-debug: asset-db:worker-effect-data-processing (1019ms)
+2023-12-31 00:08:53-debug: Set detail map pack:///resolution-detail-map.json: {}
+2023-12-31 00:08:53-debug: Start up the 'internal' database...
+2023-12-31 00:08:55-debug: asset-db:worker-init-script (86ms)
+2023-12-31 00:08:55-debug: start asset-db with asset: 419
+2023-12-31 00:08:55-debug: Start up the 'assets' database...
+2023-12-31 00:08:55-debug: asset-db:worker-startup-database[internal] (29051ms)
+2023-12-31 00:08:55-debug: start asset-db with asset: 79
+2023-12-31 00:08:55-debug: asset-db:worker-startup-database[assets] (25835ms)
+2023-12-31 00:08:55-debug: Asset DB is ready!
+2023-12-31 00:08:55-debug: init worker message success
+2023-12-31 00:09:01-debug: builder:worker-init (5317ms)
+2023-12-31 00:09:04-debug: refresh db internal success
+2023-12-31 00:09:05-debug: asset-db:worker-effect-data-processing (592ms)
+2023-12-31 00:09:05-debug: refresh db assets success
+2023-12-31 00:09:05-debug: asset-db:refresh-all-database (745ms)
+2023-12-31 00:09:08-debug: programming:execute-script (10ms)
+2023-12-31 00:10:23-debug: refresh db internal success
+2023-12-31 00:10:24-debug: asset-db:worker-effect-data-processing (444ms)
+2023-12-31 00:10:24-debug: refresh db assets success
+2023-12-31 00:10:24-debug: asset-db:refresh-all-database (724ms)
+2023-12-31 00:10:42-debug: refresh db internal success
+2023-12-31 00:10:43-debug: asset-db:worker-effect-data-processing (612ms)
+2023-12-31 00:10:43-debug: refresh db assets success
+2023-12-31 00:10:43-debug: asset-db:refresh-all-database (792ms)
+2023-12-31 00:10:55-debug: start refresh asset from D:\cocos_projects\physics_education_game\assets\res\ui\game_start_menu\game_start_menu_view-001.prefab...
+2023-12-31 00:10:55-debug: %cImport%c: D:\cocos_projects\physics_education_game\assets\res\ui\game_start_menu\game_start_menu_view-001.prefabbackground: #aaff85; color: #000;color: #000;
+2023-12-31 00:10:55-debug: refresh asset D:\cocos_projects\physics_education_game\assets\res\ui\game_start_menu success
+2023-12-31 00:10:55-debug: %cImport%c: D:\cocos_projects\physics_education_game\assets\res\ui\game_start_menubackground: #aaff85; color: #000;color: #000;
+2023-12-31 00:11:49-debug: start move asset from D:\cocos_projects\physics_education_game\assets\res\ui\game_start_menu\game_start_menu_view-001.prefab -> D:\cocos_projects\physics_education_game\assets\res\ui\game_start_menu\game_main_ui_view.prefab...
+2023-12-31 00:11:49-debug: start refresh asset from D:\cocos_projects\physics_education_game\assets\res\ui\game_start_menu\game_main_ui_view.prefab...
+2023-12-31 00:11:49-debug: %cImport%c: D:\cocos_projects\physics_education_game\assets\res\ui\game_start_menu\game_main_ui_view.prefabbackground: #aaff85; color: #000;color: #000;
+2023-12-31 00:11:49-debug: refresh asset D:\cocos_projects\physics_education_game\assets\res\ui\game_start_menu success
+2023-12-31 00:11:49-debug: start refresh asset from D:\cocos_projects\physics_education_game\assets\res\ui\game_start_menu...
+2023-12-31 00:11:49-debug: %cImport%c: D:\cocos_projects\physics_education_game\assets\res\ui\game_start_menubackground: #aaff85; color: #000;color: #000;
+2023-12-31 00:11:49-debug: move asset from D:\cocos_projects\physics_education_game\assets\res\ui\game_start_menu\game_start_menu_view-001.prefab -> D:\cocos_projects\physics_education_game\assets\res\ui\game_start_menu\game_main_ui_view.prefab success
+2023-12-31 00:11:49-debug: refresh asset D:\cocos_projects\physics_education_game\assets\res\ui success
+2023-12-31 00:12:02-debug: start refresh asset from D:\cocos_projects\physics_education_game\assets\scripts\modules\ui\game_start_menu\GameStartMenuView-001.ts...
+2023-12-31 00:12:02-debug: %cImport%c: D:\cocos_projects\physics_education_game\assets\scripts\modules\ui\game_start_menu\GameStartMenuView-001.tsbackground: #aaff85; color: #000;color: #000;
+2023-12-31 00:12:02-debug: refresh asset D:\cocos_projects\physics_education_game\assets\scripts\modules\ui\game_start_menu success
+2023-12-31 00:12:02-debug: %cImport%c: D:\cocos_projects\physics_education_game\assets\scripts\modules\ui\game_start_menubackground: #aaff85; color: #000;color: #000;
+2023-12-31 00:12:08-debug: start move asset from D:\cocos_projects\physics_education_game\assets\scripts\modules\ui\game_start_menu\GameStartMenuView-001.ts -> D:\cocos_projects\physics_education_game\assets\scripts\modules\ui\game_start_menu\GameMainUIView.ts...
+2023-12-31 00:12:08-debug: start refresh asset from D:\cocos_projects\physics_education_game\assets\scripts\modules\ui\game_start_menu\GameMainUIView.ts...
+2023-12-31 00:12:08-debug: %cImport%c: D:\cocos_projects\physics_education_game\assets\scripts\modules\ui\game_start_menu\GameMainUIView.tsbackground: #aaff85; color: #000;color: #000;
+2023-12-31 00:12:08-debug: refresh asset D:\cocos_projects\physics_education_game\assets\scripts\modules\ui\game_start_menu success
+2023-12-31 00:12:08-debug: start refresh asset from D:\cocos_projects\physics_education_game\assets\scripts\modules\ui\game_start_menu...
+2023-12-31 00:12:08-debug: %cImport%c: D:\cocos_projects\physics_education_game\assets\scripts\modules\ui\game_start_menubackground: #aaff85; color: #000;color: #000;
+2023-12-31 00:12:08-debug: move asset from D:\cocos_projects\physics_education_game\assets\scripts\modules\ui\game_start_menu\GameStartMenuView-001.ts -> D:\cocos_projects\physics_education_game\assets\scripts\modules\ui\game_start_menu\GameMainUIView.ts success
+2023-12-31 00:12:08-debug: refresh asset D:\cocos_projects\physics_education_game\assets\scripts\modules\ui success
+2023-12-31 00:13:15-debug: refresh db internal success
+2023-12-31 00:13:16-debug: asset-db:worker-effect-data-processing (617ms)
+2023-12-31 00:13:16-debug: refresh db assets success
+2023-12-31 00:13:16-debug: asset-db:refresh-all-database (927ms)
+2023-12-31 00:13:22-debug: refresh db internal success
+2023-12-31 00:13:22-debug: asset-db:worker-effect-data-processing (543ms)
+2023-12-31 00:13:23-debug: %cImport%c: D:\cocos_projects\physics_education_game\assets\scripts\modules\ui\game_start_menu\GameMainUIView.tsbackground: #aaff85; color: #000;color: #000;
+2023-12-31 00:13:23-debug: refresh db assets success
+2023-12-31 00:13:23-debug: asset-db:refresh-all-database (847ms)
+2023-12-31 00:13:29-debug: refresh db internal success
+2023-12-31 00:13:29-debug: asset-db:worker-effect-data-processing (335ms)
+2023-12-31 00:13:29-debug: refresh db assets success
+2023-12-31 00:13:29-debug: asset-db:refresh-all-database (453ms)
+2023-12-31 00:13:56-debug: refresh db internal success
+2023-12-31 00:13:57-debug: asset-db:worker-effect-data-processing (386ms)
+2023-12-31 00:13:57-debug: refresh db assets success
+2023-12-31 00:13:57-debug: asset-db:refresh-all-database (486ms)
+2023-12-31 00:17:46-debug: start refresh asset from D:\cocos_projects\physics_education_game\assets\res\ui\game_start_menu\game_main_ui_view.prefab...
+2023-12-31 00:17:46-debug: %cImport%c: D:\cocos_projects\physics_education_game\assets\res\ui\game_start_menu\game_main_ui_view.prefabbackground: #aaff85; color: #000;color: #000;
+2023-12-31 00:17:46-debug: refresh asset D:\cocos_projects\physics_education_game\assets\res\ui\game_start_menu success
+2023-12-31 00:19:34-debug: start refresh asset from D:\cocos_projects\physics_education_game\assets\res\ui\game_start_menu\game_main_ui_view.prefab...
+2023-12-31 00:19:34-debug: %cImport%c: D:\cocos_projects\physics_education_game\assets\res\ui\game_start_menu\game_main_ui_view.prefabbackground: #aaff85; color: #000;color: #000;
+2023-12-31 00:19:34-debug: refresh asset D:\cocos_projects\physics_education_game\assets\res\ui\game_start_menu success
+2023-12-31 00:24:25-debug: refresh db internal success
+2023-12-31 00:24:25-debug: asset-db:worker-effect-data-processing (552ms)
+2023-12-31 00:24:26-debug: refresh db assets success
+2023-12-31 00:24:26-debug: asset-db:refresh-all-database (791ms)
+2023-12-31 00:26:16-debug: refresh db internal success
+2023-12-31 00:26:17-debug: asset-db:worker-effect-data-processing (662ms)
+2023-12-31 00:26:17-debug: refresh db assets success
+2023-12-31 00:26:17-debug: asset-db:refresh-all-database (871ms)
+2023-12-31 00:26:25-debug: start refresh asset from D:\cocos_projects\physics_education_game\assets\res\ui\game_start_menu-001...
+2023-12-31 00:26:25-debug: %cImport%c: D:\cocos_projects\physics_education_game\assets\res\ui\game_start_menu-001background: #aaff85; color: #000;color: #000;
+2023-12-31 00:26:25-debug: %cImport%c: D:\cocos_projects\physics_education_game\assets\res\ui\game_start_menu-001\resbackground: #aaff85; color: #000;color: #000;
+2023-12-31 00:26:25-debug: %cImport%c: D:\cocos_projects\physics_education_game\assets\res\ui\game_start_menu-001\game_main_ui_view.prefabbackground: #aaff85; color: #000;color: #000;
+2023-12-31 00:26:25-debug: %cImport%c: D:\cocos_projects\physics_education_game\assets\res\ui\game_start_menu-001\game_start_menu_view.prefabbackground: #aaff85; color: #000;color: #000;
+2023-12-31 00:26:25-debug: %cImport%c: D:\cocos_projects\physics_education_game\assets\res\ui\game_start_menu-001\res\tip_bg_1.pngbackground: #aaff85; color: #000;color: #000;
+2023-12-31 00:26:25-debug: %cImport%c: D:\cocos_projects\physics_education_game\assets\res\ui\game_start_menu-001\res\tip_bg_1.png@6c48abackground: #aaff85; color: #000;color: #000;
+2023-12-31 00:26:25-debug: %cImport%c: D:\cocos_projects\physics_education_game\assets\res\ui\game_start_menu-001\res\tip_bg_1.png@f9941background: #aaff85; color: #000;color: #000;
+2023-12-31 00:26:25-debug: refresh asset D:\cocos_projects\physics_education_game\assets\res\ui success
+2023-12-31 00:26:25-debug: %cImport%c: D:\cocos_projects\physics_education_game\assets\res\uibackground: #aaff85; color: #000;color: #000;
+2023-12-31 00:26:31-debug: start move asset from D:\cocos_projects\physics_education_game\assets\res\ui\game_start_menu-001 -> D:\cocos_projects\physics_education_game\assets\res\ui\game_main_ui...
+2023-12-31 00:26:31-debug: start refresh asset from D:\cocos_projects\physics_education_game\assets\res\ui\game_main_ui...
+2023-12-31 00:26:31-debug: %cImport%c: D:\cocos_projects\physics_education_game\assets\res\ui\game_main_uibackground: #aaff85; color: #000;color: #000;
+2023-12-31 00:26:31-debug: %cImport%c: D:\cocos_projects\physics_education_game\assets\res\ui\game_main_ui\resbackground: #aaff85; color: #000;color: #000;
+2023-12-31 00:26:31-debug: %cImport%c: D:\cocos_projects\physics_education_game\assets\res\ui\game_main_ui\game_main_ui_view.prefabbackground: #aaff85; color: #000;color: #000;
+2023-12-31 00:26:31-debug: %cImport%c: D:\cocos_projects\physics_education_game\assets\res\ui\game_main_ui\game_start_menu_view.prefabbackground: #aaff85; color: #000;color: #000;
+2023-12-31 00:26:31-debug: %cImport%c: D:\cocos_projects\physics_education_game\assets\res\ui\game_main_ui\res\tip_bg_1.pngbackground: #aaff85; color: #000;color: #000;
+2023-12-31 00:26:31-debug: %cReImport%c: D:\cocos_projects\physics_education_game\assets\res\ui\game_main_ui\res\tip_bg_1.png@6c48abackground: #aaff85; color: #000;color: #000;
+2023-12-31 00:26:31-debug: %cReImport%c: D:\cocos_projects\physics_education_game\assets\res\ui\game_main_ui\res\tip_bg_1.png@f9941background: #aaff85; color: #000;color: #000;
+2023-12-31 00:26:31-debug: refresh asset D:\cocos_projects\physics_education_game\assets\res\ui success
+2023-12-31 00:26:31-debug: start refresh asset from D:\cocos_projects\physics_education_game\assets\res\ui...
+2023-12-31 00:26:31-debug: %cImport%c: D:\cocos_projects\physics_education_game\assets\res\uibackground: #aaff85; color: #000;color: #000;
+2023-12-31 00:26:31-debug: refresh asset D:\cocos_projects\physics_education_game\assets\res success
+2023-12-31 00:26:31-debug: move asset from D:\cocos_projects\physics_education_game\assets\res\ui\game_start_menu-001 -> D:\cocos_projects\physics_education_game\assets\res\ui\game_main_ui success
+2023-12-31 00:26:38-debug: start remove asset D:\cocos_projects\physics_education_game\assets\res\ui\game_main_ui\game_start_menu_view.prefab...
+2023-12-31 00:26:38-debug: refresh db internal success
+2023-12-31 00:26:38-debug: %cDestroy%c: D:\cocos_projects\physics_education_game\assets\res\ui\game_main_ui\game_start_menu_view.prefabbackground: #ffb8b8; color: #000;color: #000;
+2023-12-31 00:26:38-debug: start refresh asset from D:\cocos_projects\physics_education_game\assets\res\ui\game_main_ui\game_start_menu_view.prefab...
+2023-12-31 00:26:38-debug: refresh asset D:\cocos_projects\physics_education_game\assets\res\ui\game_main_ui success
+2023-12-31 00:26:38-debug: remove asset D:\cocos_projects\physics_education_game\assets\res\ui\game_main_ui\game_start_menu_view.prefab success
+2023-12-31 00:26:38-debug: asset-db:worker-effect-data-processing (437ms)
+2023-12-31 00:26:38-debug: %cImport%c: D:\cocos_projects\physics_education_game\assets\res\ui\game_main_uibackground: #aaff85; color: #000;color: #000;
+2023-12-31 00:26:38-debug: refresh db assets success
+2023-12-31 00:26:38-debug: asset-db:refresh-all-database (610ms)
+2023-12-31 00:26:40-debug: programming:execute-script (1ms)
+2023-12-31 00:26:40-debug: start remove asset D:\cocos_projects\physics_education_game\assets\res\ui\game_start_menu\game_main_ui_view.prefab...
+2023-12-31 00:26:40-debug: start refresh asset from D:\cocos_projects\physics_education_game\assets\res\ui\game_start_menu\game_main_ui_view.prefab...
+2023-12-31 00:26:40-debug: %cDestroy%c: D:\cocos_projects\physics_education_game\assets\res\ui\game_start_menu\game_main_ui_view.prefabbackground: #ffb8b8; color: #000;color: #000;
+2023-12-31 00:26:40-debug: refresh asset D:\cocos_projects\physics_education_game\assets\res\ui\game_start_menu success
+2023-12-31 00:26:40-debug: remove asset D:\cocos_projects\physics_education_game\assets\res\ui\game_start_menu\game_main_ui_view.prefab success
+2023-12-31 00:26:40-debug: refresh db internal success
+2023-12-31 00:26:41-debug: asset-db:worker-effect-data-processing (357ms)
+2023-12-31 00:26:41-debug: %cImport%c: D:\cocos_projects\physics_education_game\assets\res\ui\game_start_menubackground: #aaff85; color: #000;color: #000;
+2023-12-31 00:26:41-debug: refresh db assets success
+2023-12-31 00:26:41-debug: asset-db:refresh-all-database (507ms)
+2023-12-31 00:26:46-debug: refresh db internal success
+2023-12-31 00:26:47-debug: asset-db:worker-effect-data-processing (257ms)
+2023-12-31 00:26:47-debug: refresh db assets success
+2023-12-31 00:26:47-debug: asset-db:refresh-all-database (353ms)
+2023-12-31 00:26:50-debug: start refresh asset from D:\cocos_projects\physics_education_game\assets\scenes\main_scene.scene...
+2023-12-31 00:26:50-debug: %cImport%c: D:\cocos_projects\physics_education_game\assets\scenes\main_scene.scenebackground: #aaff85; color: #000;color: #000;
+2023-12-31 00:26:50-debug: refresh asset D:\cocos_projects\physics_education_game\assets\scenes success
+2023-12-31 00:27:05-debug: start remove asset D:\cocos_projects\physics_education_game\assets\res\ui\game_start_menu\res\tip_bg_1.png...
+2023-12-31 00:27:05-debug: start refresh asset from D:\cocos_projects\physics_education_game\assets\res\ui\game_start_menu\res\tip_bg_1.png...
+2023-12-31 00:27:05-debug: %cDestroy%c: D:\cocos_projects\physics_education_game\assets\res\ui\game_start_menu\res\tip_bg_1.png@6c48abackground: #ffb8b8; color: #000;color: #000;
+2023-12-31 00:27:05-debug: %cDestroy%c: D:\cocos_projects\physics_education_game\assets\res\ui\game_start_menu\res\tip_bg_1.png@f9941background: #ffb8b8; color: #000;color: #000;
+2023-12-31 00:27:05-debug: %cDestroy%c: D:\cocos_projects\physics_education_game\assets\res\ui\game_start_menu\res\tip_bg_1.pngbackground: #ffb8b8; color: #000;color: #000;
+2023-12-31 00:27:05-debug: refresh asset D:\cocos_projects\physics_education_game\assets\res\ui\game_start_menu\res success
+2023-12-31 00:27:05-debug: remove asset D:\cocos_projects\physics_education_game\assets\res\ui\game_start_menu\res\tip_bg_1.png success
+2023-12-31 00:27:05-debug: refresh db internal success
+2023-12-31 00:27:06-debug: asset-db:worker-effect-data-processing (493ms)
+2023-12-31 00:27:06-debug: %cImport%c: D:\cocos_projects\physics_education_game\assets\res\ui\game_start_menu\resbackground: #aaff85; color: #000;color: #000;
+2023-12-31 00:27:06-debug: refresh db assets success
+2023-12-31 00:27:06-debug: asset-db:refresh-all-database (646ms)
+2023-12-31 00:27:09-debug: start remove asset D:\cocos_projects\physics_education_game\assets\res\ui\game_main_ui\res\tip_bg_1.png...
+2023-12-31 00:27:09-debug: start refresh asset from D:\cocos_projects\physics_education_game\assets\res\ui\game_main_ui\res\tip_bg_1.png...
+2023-12-31 00:27:09-debug: %cDestroy%c: D:\cocos_projects\physics_education_game\assets\res\ui\game_main_ui\res\tip_bg_1.png@6c48abackground: #ffb8b8; color: #000;color: #000;
+2023-12-31 00:27:09-debug: %cDestroy%c: D:\cocos_projects\physics_education_game\assets\res\ui\game_main_ui\res\tip_bg_1.png@f9941background: #ffb8b8; color: #000;color: #000;
+2023-12-31 00:27:09-debug: %cDestroy%c: D:\cocos_projects\physics_education_game\assets\res\ui\game_main_ui\res\tip_bg_1.pngbackground: #ffb8b8; color: #000;color: #000;
+2023-12-31 00:27:10-debug: refresh asset D:\cocos_projects\physics_education_game\assets\res\ui\game_main_ui\res success
+2023-12-31 00:27:10-debug: remove asset D:\cocos_projects\physics_education_game\assets\res\ui\game_main_ui\res\tip_bg_1.png success
+2023-12-31 00:27:10-debug: refresh db internal success
+2023-12-31 00:27:10-debug: asset-db:worker-effect-data-processing (287ms)
+2023-12-31 00:27:10-debug: %cImport%c: D:\cocos_projects\physics_education_game\assets\res\ui\game_main_ui\resbackground: #aaff85; color: #000;color: #000;
+2023-12-31 00:27:10-debug: refresh db assets success
+2023-12-31 00:27:10-debug: asset-db:refresh-all-database (445ms)
+2023-12-31 00:27:11-debug: refresh db internal success
+2023-12-31 00:27:12-debug: asset-db:worker-effect-data-processing (381ms)
+2023-12-31 00:27:12-debug: refresh db assets success
+2023-12-31 00:27:12-debug: asset-db:refresh-all-database (568ms)
+2023-12-31 00:27:20-debug: refresh db internal success
+2023-12-31 00:27:21-debug: asset-db:worker-effect-data-processing (362ms)
+2023-12-31 00:27:21-debug: refresh db assets success
+2023-12-31 00:27:21-debug: asset-db:refresh-all-database (451ms)
+2023-12-31 00:27:26-debug: refresh db internal success
+2023-12-31 00:27:27-debug: asset-db:worker-effect-data-processing (609ms)
+2023-12-31 00:27:27-debug: refresh db assets success
+2023-12-31 00:27:27-debug: asset-db:refresh-all-database (721ms)
+2023-12-31 00:27:33-debug: refresh db internal success
+2023-12-31 00:27:33-debug: asset-db:worker-effect-data-processing (304ms)
+2023-12-31 00:27:33-debug: refresh db assets success
+2023-12-31 00:27:33-debug: asset-db:refresh-all-database (451ms)
+2023-12-31 00:28:04-debug: refresh db internal success
+2023-12-31 00:28:05-debug: asset-db:worker-effect-data-processing (572ms)
+2023-12-31 00:28:05-debug: %cImport%c: D:\cocos_projects\physics_education_game\assets\res\ui\game_main_ui\res\main_ui_btn_1.pngbackground: #aaff85; color: #000;color: #000;
+2023-12-31 00:28:05-debug: %cImport%c: D:\cocos_projects\physics_education_game\assets\res\ui\game_main_ui\resbackground: #aaff85; color: #000;color: #000;
+2023-12-31 00:28:05-debug: %cImport%c: D:\cocos_projects\physics_education_game\assets\res\ui\game_main_ui\res\main_ui_btn_1.png@6c48abackground: #aaff85; color: #000;color: #000;
+2023-12-31 00:28:05-debug: refresh db assets success
+2023-12-31 00:28:05-debug: asset-db:refresh-all-database (771ms)
+2023-12-31 00:28:32-debug: refresh db internal success
+2023-12-31 00:28:32-debug: asset-db:worker-effect-data-processing (335ms)
+2023-12-31 00:28:32-debug: refresh db assets success
+2023-12-31 00:28:32-debug: asset-db:refresh-all-database (450ms)
+2023-12-31 00:28:47-debug: %cImport%c: D:\cocos_projects\physics_education_game\assets\res\ui\game_main_ui\res\main_ui_btn_1.pngbackground: #aaff85; color: #000;color: #000;
+2023-12-31 00:28:47-debug: %cReImport%c: D:\cocos_projects\physics_education_game\assets\res\ui\game_main_ui\res\main_ui_btn_1.png@6c48abackground: #aaff85; color: #000;color: #000;
+2023-12-31 00:28:47-debug: %cImport%c: D:\cocos_projects\physics_education_game\assets\res\ui\game_main_ui\res\main_ui_btn_1.png@f9941background: #aaff85; color: #000;color: #000;
+2023-12-31 00:28:47-debug: asset-db:reimport-assete51d61b8-b34e-467e-a9b8-85814b65cba7 (115ms)
+2023-12-31 00:28:48-debug: start refresh asset from D:\cocos_projects\physics_education_game\assets\res\ui\game_main_ui\game_main_ui_view.prefab...
+2023-12-31 00:28:48-debug: %cImport%c: D:\cocos_projects\physics_education_game\assets\res\ui\game_main_ui\game_main_ui_view.prefabbackground: #aaff85; color: #000;color: #000;
+2023-12-31 00:28:48-debug: refresh asset D:\cocos_projects\physics_education_game\assets\res\ui\game_main_ui success
+2023-12-31 00:30:01-debug: start refresh asset from D:\cocos_projects\physics_education_game\assets\res\ui\game_main_ui\game_main_ui_view.prefab...
+2023-12-31 00:30:01-debug: %cImport%c: D:\cocos_projects\physics_education_game\assets\res\ui\game_main_ui\game_main_ui_view.prefabbackground: #aaff85; color: #000;color: #000;
+2023-12-31 00:30:01-debug: refresh asset D:\cocos_projects\physics_education_game\assets\res\ui\game_main_ui success
+2023-12-31 00:30:39-debug: start refresh asset from D:\cocos_projects\physics_education_game\assets\res\ui\game_main_ui\game_main_ui_view.prefab...
+2023-12-31 00:30:39-debug: %cImport%c: D:\cocos_projects\physics_education_game\assets\res\ui\game_main_ui\game_main_ui_view.prefabbackground: #aaff85; color: #000;color: #000;
+2023-12-31 00:30:39-debug: refresh asset D:\cocos_projects\physics_education_game\assets\res\ui\game_main_ui success
+2023-12-31 00:30:43-debug: start refresh asset from D:\cocos_projects\physics_education_game\assets\res\ui\game_main_ui\game_main_ui_view.prefab...
+2023-12-31 00:30:43-debug: %cImport%c: D:\cocos_projects\physics_education_game\assets\res\ui\game_main_ui\game_main_ui_view.prefabbackground: #aaff85; color: #000;color: #000;
+2023-12-31 00:30:43-debug: refresh asset D:\cocos_projects\physics_education_game\assets\res\ui\game_main_ui success
+2023-12-31 00:31:07-debug: start refresh asset from D:\cocos_projects\physics_education_game\assets\scripts\modules\ui\folder...
+2023-12-31 00:31:07-debug: %cImport%c: D:\cocos_projects\physics_education_game\assets\scripts\modules\ui\folderbackground: #aaff85; color: #000;color: #000;
+2023-12-31 00:31:07-debug: refresh asset D:\cocos_projects\physics_education_game\assets\scripts\modules\ui success
+2023-12-31 00:31:07-debug: %cImport%c: D:\cocos_projects\physics_education_game\assets\scripts\modules\uibackground: #aaff85; color: #000;color: #000;
+2023-12-31 00:31:14-debug: start move asset from D:\cocos_projects\physics_education_game\assets\scripts\modules\ui\folder -> D:\cocos_projects\physics_education_game\assets\scripts\modules\ui\game_main_ui...
+2023-12-31 00:31:14-debug: start refresh asset from D:\cocos_projects\physics_education_game\assets\scripts\modules\ui\game_main_ui...
+2023-12-31 00:31:14-debug: %cImport%c: D:\cocos_projects\physics_education_game\assets\scripts\modules\ui\game_main_uibackground: #aaff85; color: #000;color: #000;
+2023-12-31 00:31:14-debug: refresh asset D:\cocos_projects\physics_education_game\assets\scripts\modules\ui success
+2023-12-31 00:31:14-debug: start refresh asset from D:\cocos_projects\physics_education_game\assets\scripts\modules\ui...
+2023-12-31 00:31:14-debug: %cImport%c: D:\cocos_projects\physics_education_game\assets\scripts\modules\uibackground: #aaff85; color: #000;color: #000;
+2023-12-31 00:31:14-debug: refresh asset D:\cocos_projects\physics_education_game\assets\scripts\modules success
+2023-12-31 00:31:14-debug: move asset from D:\cocos_projects\physics_education_game\assets\scripts\modules\ui\folder -> D:\cocos_projects\physics_education_game\assets\scripts\modules\ui\game_main_ui success
+2023-12-31 00:31:17-debug: start move asset from D:\cocos_projects\physics_education_game\assets\scripts\modules\ui\game_start_menu\GameMainUIView.ts -> D:\cocos_projects\physics_education_game\assets\scripts\modules\ui\game_main_ui\GameMainUIView.ts...
+2023-12-31 00:31:17-debug: start refresh asset from D:\cocos_projects\physics_education_game\assets\scripts\modules\ui\game_main_ui\GameMainUIView.ts...
+2023-12-31 00:31:17-debug: %cImport%c: D:\cocos_projects\physics_education_game\assets\scripts\modules\ui\game_main_ui\GameMainUIView.tsbackground: #aaff85; color: #000;color: #000;
+2023-12-31 00:31:17-debug: refresh asset D:\cocos_projects\physics_education_game\assets\scripts\modules\ui\game_main_ui success
+2023-12-31 00:31:17-debug: start refresh asset from D:\cocos_projects\physics_education_game\assets\scripts\modules\ui\game_start_menu...
+2023-12-31 00:31:17-debug: %cImport%c: D:\cocos_projects\physics_education_game\assets\scripts\modules\ui\game_start_menubackground: #aaff85; color: #000;color: #000;
+2023-12-31 00:31:17-debug: move asset from D:\cocos_projects\physics_education_game\assets\scripts\modules\ui\game_start_menu\GameMainUIView.ts -> D:\cocos_projects\physics_education_game\assets\scripts\modules\ui\game_main_ui\GameMainUIView.ts success
+2023-12-31 00:31:17-debug: refresh asset D:\cocos_projects\physics_education_game\assets\scripts\modules\ui success
+2023-12-31 00:31:17-debug: %cImport%c: D:\cocos_projects\physics_education_game\assets\scripts\modules\ui\game_main_uibackground: #aaff85; color: #000;color: #000;
+2023-12-31 00:31:55-debug: refresh db internal success
+2023-12-31 00:31:56-debug: asset-db:worker-effect-data-processing (499ms)
+2023-12-31 00:31:56-debug: %cImport%c: D:\cocos_projects\physics_education_game\assets\scripts\modules\ui\game_main_ui\GameMainUIView.tsbackground: #aaff85; color: #000;color: #000;
+2023-12-31 00:31:56-debug: refresh db assets success
+2023-12-31 00:31:56-debug: asset-db:refresh-all-database (716ms)
+2023-12-31 00:31:58-debug: refresh db internal success
+2023-12-31 00:31:59-debug: asset-db:worker-effect-data-processing (680ms)
+2023-12-31 00:31:59-debug: refresh db assets success
+2023-12-31 00:31:59-debug: asset-db:refresh-all-database (976ms)
+2023-12-31 00:32:17-debug: refresh db internal success
+2023-12-31 00:32:17-debug: asset-db:worker-effect-data-processing (364ms)
+2023-12-31 00:32:17-debug: %cImport%c: D:\cocos_projects\physics_education_game\assets\scripts\modules\ui\game_main_ui\GameMainUIView.tsbackground: #aaff85; color: #000;color: #000;
+2023-12-31 00:32:17-debug: refresh db assets success
+2023-12-31 00:32:17-debug: asset-db:refresh-all-database (453ms)
+2023-12-31 00:32:22-debug: refresh db internal success
+2023-12-31 00:32:22-debug: asset-db:worker-effect-data-processing (244ms)
+2023-12-31 00:32:22-debug: refresh db assets success
+2023-12-31 00:32:22-debug: asset-db:refresh-all-database (324ms)
+2023-12-31 00:32:28-debug: refresh db internal success
+2023-12-31 00:32:28-debug: asset-db:worker-effect-data-processing (429ms)
+2023-12-31 00:32:28-debug: %cImport%c: D:\cocos_projects\physics_education_game\assets\scripts\modules\ui\game_main_ui\GameMainUIView.tsbackground: #aaff85; color: #000;color: #000;
+2023-12-31 00:32:28-debug: refresh db assets success
+2023-12-31 00:32:28-debug: asset-db:refresh-all-database (673ms)
+2023-12-31 00:32:36-debug: refresh db internal success
+2023-12-31 00:32:36-debug: asset-db:worker-effect-data-processing (303ms)
+2023-12-31 00:32:36-debug: %cImport%c: D:\cocos_projects\physics_education_game\assets\scripts\modules\ui\game_main_ui\GameMainUIView.tsbackground: #aaff85; color: #000;color: #000;
+2023-12-31 00:32:36-debug: refresh db assets success
+2023-12-31 00:32:36-debug: asset-db:refresh-all-database (474ms)
+2023-12-31 00:32:51-debug: refresh db internal success
+2023-12-31 00:32:52-debug: asset-db:worker-effect-data-processing (861ms)
+2023-12-31 00:32:52-debug: %cImport%c: D:\cocos_projects\physics_education_game\assets\scripts\modules\ui\game_main_ui\GameMainUIView.tsbackground: #aaff85; color: #000;color: #000;
+2023-12-31 00:32:52-debug: refresh db assets success
+2023-12-31 00:32:52-debug: asset-db:refresh-all-database (1139ms)
+2023-12-31 00:33:21-debug: refresh db internal success
+2023-12-31 00:33:21-debug: asset-db:worker-effect-data-processing (370ms)
+2023-12-31 00:33:21-debug: %cImport%c: D:\cocos_projects\physics_education_game\assets\scripts\modules\ui\game_main_ui\GameMainUIView.tsbackground: #aaff85; color: #000;color: #000;
+2023-12-31 00:33:21-debug: refresh db assets success
+2023-12-31 00:33:21-debug: asset-db:refresh-all-database (470ms)
+2023-12-31 00:35:32-debug: refresh db internal success
+2023-12-31 00:35:32-debug: %cImport%c: D:\cocos_projects\physics_education_game\assets\scripts\common\ComponentHelper.tsbackground: #aaff85; color: #000;color: #000;
+2023-12-31 00:35:32-debug: %cImport%c: D:\cocos_projects\physics_education_game\assets\scripts\common\Display.tsbackground: #aaff85; color: #000;color: #000;
+2023-12-31 00:35:32-debug: asset-db:worker-effect-data-processing (478ms)
+2023-12-31 00:35:32-debug: %cImport%c: D:\cocos_projects\physics_education_game\assets\scripts\commonbackground: #aaff85; color: #000;color: #000;
+2023-12-31 00:35:32-debug: %cImport%c: D:\cocos_projects\physics_education_game\assets\scripts\modules\ui\game_main_ui\GameMainUIView.tsbackground: #aaff85; color: #000;color: #000;
+2023-12-31 00:35:33-debug: refresh db assets success
+2023-12-31 00:35:33-debug: asset-db:refresh-all-database (797ms)
+2023-12-31 00:40:58-debug: refresh db internal success
+2023-12-31 00:40:58-debug: asset-db:worker-effect-data-processing (532ms)
+2023-12-31 00:40:58-debug: %cImport%c: D:\cocos_projects\physics_education_game\assets\scripts\common\Display.tsbackground: #aaff85; color: #000;color: #000;
+2023-12-31 00:40:58-debug: %cImport%c: D:\cocos_projects\physics_education_game\assets\scripts\modules\ui\game_main_ui\GameMainUIView.tsbackground: #aaff85; color: #000;color: #000;
+2023-12-31 00:40:58-debug: refresh db assets success
+2023-12-31 00:40:58-debug: asset-db:refresh-all-database (672ms)
+2023-12-31 00:41:41-debug: start refresh asset from D:\cocos_projects\physics_education_game\assets\res\ui\game_main_ui\main_ui_btn.prefab...
+2023-12-31 00:41:41-debug: %cImport%c: D:\cocos_projects\physics_education_game\assets\res\ui\game_main_ui\main_ui_btn.prefabbackground: #aaff85; color: #000;color: #000;
+2023-12-31 00:41:41-debug: refresh asset D:\cocos_projects\physics_education_game\assets\res\ui\game_main_ui success
+2023-12-31 00:41:41-debug: %cImport%c: D:\cocos_projects\physics_education_game\assets\res\ui\game_main_uibackground: #aaff85; color: #000;color: #000;
+2023-12-31 00:41:47-debug: start refresh asset from D:\cocos_projects\physics_education_game\assets\res\ui\game_main_ui\game_main_ui_view.prefab...
+2023-12-31 00:41:48-debug: %cImport%c: D:\cocos_projects\physics_education_game\assets\res\ui\game_main_ui\game_main_ui_view.prefabbackground: #aaff85; color: #000;color: #000;
+2023-12-31 00:41:48-debug: refresh asset D:\cocos_projects\physics_education_game\assets\res\ui\game_main_ui success
+2023-12-31 00:43:07-debug: refresh db internal success
+2023-12-31 00:43:08-debug: asset-db:worker-effect-data-processing (570ms)
+2023-12-31 00:43:08-debug: %cImport%c: D:\cocos_projects\physics_education_game\assets\scripts\modules\ui\game_main_ui\GameMainUIView.tsbackground: #aaff85; color: #000;color: #000;
+2023-12-31 00:43:08-debug: refresh db assets success
+2023-12-31 00:43:08-debug: asset-db:refresh-all-database (726ms)
+2023-12-31 00:43:23-debug: refresh db internal success
+2023-12-31 00:43:24-debug: asset-db:worker-effect-data-processing (371ms)
+2023-12-31 00:43:24-debug: refresh db assets success
+2023-12-31 00:43:24-debug: asset-db:refresh-all-database (511ms)
+2023-12-31 00:43:28-debug: start remove asset D:\cocos_projects\physics_education_game\assets\res\ui\game_main_ui\main_ui_btn.prefab...
+2023-12-31 00:43:28-debug: refresh db internal success
+2023-12-31 00:43:28-debug: %cDestroy%c: D:\cocos_projects\physics_education_game\assets\res\ui\game_main_ui\main_ui_btn.prefabbackground: #ffb8b8; color: #000;color: #000;
+2023-12-31 00:43:28-debug: start refresh asset from D:\cocos_projects\physics_education_game\assets\res\ui\game_main_ui\main_ui_btn.prefab...
+2023-12-31 00:43:28-debug: refresh asset D:\cocos_projects\physics_education_game\assets\res\ui\game_main_ui success
+2023-12-31 00:43:28-debug: remove asset D:\cocos_projects\physics_education_game\assets\res\ui\game_main_ui\main_ui_btn.prefab success
+2023-12-31 00:43:29-debug: asset-db:worker-effect-data-processing (327ms)
+2023-12-31 00:43:29-debug: %cImport%c: D:\cocos_projects\physics_education_game\assets\res\ui\game_main_uibackground: #aaff85; color: #000;color: #000;
+2023-12-31 00:43:29-debug: refresh db assets success
+2023-12-31 00:43:29-debug: asset-db:refresh-all-database (444ms)
+2023-12-31 00:43:29-debug: start refresh asset from D:\cocos_projects\physics_education_game\assets\res\ui\game_main_ui\game_main_ui_view.prefab...
+2023-12-31 00:43:29-debug: %cImport%c: D:\cocos_projects\physics_education_game\assets\res\ui\game_main_ui\game_main_ui_view.prefabbackground: #aaff85; color: #000;color: #000;
+2023-12-31 00:43:29-debug: refresh asset D:\cocos_projects\physics_education_game\assets\res\ui\game_main_ui success
+2023-12-31 00:43:38-debug: start refresh asset from D:\cocos_projects\physics_education_game\assets\res\ui\game_main_ui\game_main_ui_view.prefab...
+2023-12-31 00:43:38-debug: %cImport%c: D:\cocos_projects\physics_education_game\assets\res\ui\game_main_ui\game_main_ui_view.prefabbackground: #aaff85; color: #000;color: #000;
+2023-12-31 00:43:38-debug: refresh asset D:\cocos_projects\physics_education_game\assets\res\ui\game_main_ui success
+2023-12-31 00:44:11-debug: start refresh asset from D:\cocos_projects\physics_education_game\assets\res\ui\game_main_ui\game_main_ui_view.prefab...
+2023-12-31 00:44:11-debug: %cImport%c: D:\cocos_projects\physics_education_game\assets\res\ui\game_main_ui\game_main_ui_view.prefabbackground: #aaff85; color: #000;color: #000;
+2023-12-31 00:44:11-debug: refresh asset D:\cocos_projects\physics_education_game\assets\res\ui\game_main_ui success
+2023-12-31 00:44:29-debug: refresh db internal success
+2023-12-31 00:44:30-debug: asset-db:worker-effect-data-processing (622ms)
+2023-12-31 00:44:30-debug: %cImport%c: D:\cocos_projects\physics_education_game\assets\scripts\modules\ui\game_main_ui\GameMainUIView.tsbackground: #aaff85; color: #000;color: #000;
+2023-12-31 00:44:30-debug: refresh db assets success
+2023-12-31 00:44:30-debug: asset-db:refresh-all-database (771ms)
+2023-12-31 00:48:22-debug: refresh db internal success
+2023-12-31 00:48:22-debug: asset-db:worker-effect-data-processing (413ms)
+2023-12-31 00:48:22-debug: %cImport%c: D:\cocos_projects\physics_education_game\assets\scripts\modules\ui\game_main_ui\GameMainUIView.tsbackground: #aaff85; color: #000;color: #000;
+2023-12-31 00:48:22-debug: refresh db assets success
+2023-12-31 00:48:22-debug: asset-db:refresh-all-database (577ms)
