@@ -24,7 +24,7 @@ export class GameApp extends Component {
     private _mapMgr: MapManager;
     private _gameMgr: GameManager;
 
-    private readonly isTest: boolean = false;
+    private isTest: boolean = false;
 
     public gameLaunch(): void {
         this.isOngoing = false;
@@ -64,7 +64,5 @@ export class GameApp extends Component {
             return;
         }
         GameManager.getInstance().update(deltaTime);
-    }l
+    }
 }
-
-
