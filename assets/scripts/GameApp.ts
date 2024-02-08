@@ -24,6 +24,8 @@ export class GameApp extends Component {
     private _mapMgr: MapManager;
     private _gameMgr: GameManager;
 
+    private readonly isTest: boolean = false;
+
     public gameLaunch(): void {
         this.isOngoing = false;
         EventManager.addEvent(EventConstants.GameControl.GameStart, this.onInitFinish, this);
@@ -49,7 +51,11 @@ export class GameApp extends Component {
 
     private onInitFinish() {
         this.isOngoing = true;
-        this._uiMgr.openPanel(PanelName.GameStartMenuView);
+        if (this.isTest) {
+            GameManager.getInstance().start();
+        } else {
+            this._uiMgr.openPanel(PanelName.GameStartMenuView);
+        }
         //this._gameMgr.start();
     }
 
@@ -58,7 +64,7 @@ export class GameApp extends Component {
             return;
         }
         GameManager.getInstance().update(deltaTime);
-    }
+    }l
 }
 
 

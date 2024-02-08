@@ -11,7 +11,8 @@ const { ccclass, property } = _decorator;
 @ccclass('GameTipManager')
 export class GameTipManager extends Singleton implements IPreInit {
     private gameTipView: GameTipView;
-
+    private isShowing: boolean;
+    private showObjectId: number = 0;
     public init() {
         UIManager.getInstance().openPanel(PanelName.GameTip, () => {
             this.gameTipView = UIManager.getInstance().getPanel(PanelName.GameTip) as GameTipView;
@@ -20,6 +21,7 @@ export class GameTipManager extends Singleton implements IPreInit {
         if (this.nextInitManager) {
             this.nextInitManager.init();
         }
+        this.isShowing = false;
     }
 
     public nextInitManager: IPreInit;
@@ -27,15 +29,23 @@ export class GameTipManager extends Singleton implements IPreInit {
         this.nextInitManager = nextInitManager;
     }
 
-    public showTip(name: string, data: GameTipData[]) {
+    public showTip(showObjectId: number, name: string, data: GameTipData[]) {
         if (!this.gameTipView) {
             return;
         }
+        if (this.showObjectId == showObjectId) {
+            return;
+        }
+        this.isShowing = true;
+        this.showObjectId = showObjectId;
         this.gameTipView.showTip(name, data);
     }
 
     public moveTip(pos: Vec2) {
         if (!this.gameTipView) {
+            return;
+        }
+        if (!this.isShowing) {
             return;
         }
         this.gameTipView.node.setWorldPosition(pos.x, pos.y, 0);
@@ -45,7 +55,9 @@ export class GameTipManager extends Singleton implements IPreInit {
         if (!this.gameTipView) {
             return;
         }
+        this.isShowing = false;
         this.gameTipView.hideTips();
+        this.showObjectId = 0;
     }
 }
 

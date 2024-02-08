@@ -5,24 +5,24 @@
     "missing": false
   },
   "D:\\cocos_projects\\physics_education_game\\assets\\scenes": {
-    "time": 1703692981552.762,
+    "time": 1707366015603.8987,
     "uuid": "c5d41e9b-cd8c-4d56-b33d-35e54533558a",
     "missing": false
   },
   "D:\\cocos_projects\\physics_education_game\\assets\\scripts": {
-    "time": 1703692981552.762,
+    "time": 1707366015619.5203,
     "uuid": "e7867214-4c0e-43b2-b897-235b1b8e8182",
     "missing": false
   },
   "D:\\cocos_projects\\physics_education_game\\assets\\res\\map": {
-    "time": 1706067601801.5383,
+    "time": 1707366015588.2773,
     "uuid": "d0cbe5bd-3d5b-4196-bfc0-b85e9ddd96a0",
     "missing": false
   },
   "D:\\cocos_projects\\physics_education_game\\assets\\res\\preload_res": {
     "time": 1696303088639.442,
     "uuid": "75ec13db-f887-4402-b7a7-cf7f6bdf9b64",
-    "missing": false
+    "missing": true
   },
   "D:\\cocos_projects\\physics_education_game\\assets\\res\\ui": {
     "time": 1704384466889.6643,
@@ -30,12 +30,12 @@
     "missing": false
   },
   "D:\\cocos_projects\\physics_education_game\\assets\\scripts\\common": {
-    "time": 1704470403820.0945,
+    "time": 1707366015603.8987,
     "uuid": "d5dbeb3e-9c34-468a-9d4b-b1d7b03895d0",
     "missing": false
   },
   "D:\\cocos_projects\\physics_education_game\\assets\\scripts\\manager": {
-    "time": 1703692981552.762,
+    "time": 1707366015603.8987,
     "uuid": "e13baacb-9d91-4106-99af-5c8a99535483",
     "missing": false
   },
@@ -70,12 +70,12 @@
     "missing": false
   },
   "D:\\cocos_projects\\physics_education_game\\assets\\scripts\\manager\\game_manager": {
-    "time": 1703692981552.762,
+    "time": 1707366015603.8987,
     "uuid": "e5e36838-e9b4-4370-978f-4deee162667c",
     "missing": false
   },
   "D:\\cocos_projects\\physics_education_game\\assets\\scripts\\manager\\map_manager": {
-    "time": 1701965389890.9631,
+    "time": 1707366015619.5203,
     "uuid": "3fbc2b11-8281-461d-9374-59007d6966a6",
     "missing": false
   },
@@ -85,7 +85,7 @@
     "missing": false
   },
   "D:\\cocos_projects\\physics_education_game\\assets\\scripts\\modules\\game": {
-    "time": 1703692981552.762,
+    "time": 1707366015619.5203,
     "uuid": "78ed1942-98ab-449d-8868-d8efc94c9660",
     "missing": false
   },
@@ -110,7 +110,7 @@
     "missing": false
   },
   "D:\\cocos_projects\\physics_education_game\\assets\\scripts\\modules\\game\\game_objects": {
-    "time": 1703692981552.762,
+    "time": 1707366015619.5203,
     "uuid": "d3d40ae9-1549-4ce5-bd9f-a17e643c90e8",
     "missing": false
   },
@@ -120,7 +120,7 @@
     "missing": false
   },
   "D:\\cocos_projects\\physics_education_game\\assets\\scripts\\modules\\ui\\game_tip": {
-    "time": 1701965389993.689,
+    "time": 1707366015619.5203,
     "uuid": "c2438675-9081-469c-aa1b-eff329682a27",
     "missing": false
   },
@@ -130,7 +130,7 @@
     "missing": false
   },
   "D:\\cocos_projects\\physics_education_game\\assets\\scripts\\GameApp.ts": {
-    "time": 1703692981552.762,
+    "time": 1707368605033.96,
     "uuid": "5c68ed08-7494-4ffc-9306-526d6545f865",
     "missing": false
   },
@@ -140,12 +140,12 @@
     "missing": false
   },
   "D:\\cocos_projects\\physics_education_game\\assets\\scripts\\common\\Singleton.ts": {
-    "time": 1696302170521.276,
+    "time": 1707366015603.8987,
     "uuid": "acb6eac7-ba3a-40f6-b5fc-c60cff1469fc",
     "missing": false
   },
   "D:\\cocos_projects\\physics_education_game\\assets\\scripts\\manager\\InputManager.ts": {
-    "time": 1702124491149.527,
+    "time": 1707366015603.8987,
     "uuid": "83797cca-9c36-446c-993e-a8c017c0b7d2",
     "missing": false
   },
@@ -190,7 +190,7 @@
     "missing": false
   },
   "D:\\cocos_projects\\physics_education_game\\assets\\scripts\\manager\\game_manager\\GameManager.ts": {
-    "time": 1704300900482.5522,
+    "time": 1707366046629.325,
     "uuid": "cf8771f3-8649-4f9c-8d02-7c048246eab8",
     "missing": false
   },
@@ -200,12 +200,12 @@
     "missing": false
   },
   "D:\\cocos_projects\\physics_education_game\\assets\\scripts\\manager\\map_manager\\MapData.ts": {
-    "time": 1706418220728.343,
+    "time": 1707366015619.5203,
     "uuid": "ebed7069-5293-4765-8a8c-cc7a412cf0c5",
     "missing": false
   },
   "D:\\cocos_projects\\physics_education_game\\assets\\scripts\\manager\\map_manager\\MapManager.ts": {
-    "time": 1702126090765.71,
+    "time": 1707366015619.5203,
     "uuid": "94156142-d557-46ac-a278-814d83eac4f2",
     "missing": false
   },
@@ -225,22 +225,22 @@
     "missing": false
   },
   "D:\\cocos_projects\\physics_education_game\\assets\\scripts\\modules\\game\\ObjectBase.ts": {
-    "time": 1704301303840.5984,
+    "time": 1707366060823.8325,
     "uuid": "9be97f86-2434-4426-a8ed-ff43677d5258",
     "missing": false
   },
   "D:\\cocos_projects\\physics_education_game\\assets\\scripts\\modules\\game\\ObjectFactory.ts": {
-    "time": 1702124723384.014,
+    "time": 1707366015619.5203,
     "uuid": "f677770a-7929-4d61-b303-c4605e6d6107",
     "missing": false
   },
   "D:\\cocos_projects\\physics_education_game\\assets\\scripts\\modules\\game\\game_objects\\RightTriangleObject.ts": {
-    "time": 1703692981552.762,
+    "time": 1707366015619.5203,
     "uuid": "494eaf8d-7121-43fe-aa3e-65dd58bfeb44",
     "missing": false
   },
   "D:\\cocos_projects\\physics_education_game\\assets\\scripts\\modules\\game\\game_objects\\SquareObject.ts": {
-    "time": 1703692981552.762,
+    "time": 1707366015619.5203,
     "uuid": "b005a48e-1ab6-41eb-bf7c-473e4ede4608",
     "missing": false
   },
@@ -270,7 +270,7 @@
     "missing": false
   },
   "D:\\cocos_projects\\physics_education_game\\assets\\scripts\\modules\\ui\\game_tip\\GameTipManager.ts": {
-    "time": 1702124502611.0747,
+    "time": 1707366015619.5203,
     "uuid": "f11bed6c-fd22-4bbf-b05e-8b572c8f00e8",
     "missing": false
   },
@@ -456,7 +456,7 @@
     "time": 1696303642423.967
   },
   "D:\\cocos_projects\\physics_education_game\\assets\\scenes\\main_scene.scene": {
-    "time": 1703953610390.7708,
+    "time": 1707366037237.6577,
     "uuid": "2ec3e41c-be32-4462-adfa-159b01697d6e",
     "missing": false
   },
@@ -547,7 +547,7 @@
     "time": 1697563085439.793
   },
   "D:\\cocos_projects\\physics_education_game\\assets\\res\\map\\100001.json": {
-    "time": 1706418176917.1914,
+    "time": 1707366015588.2773,
     "uuid": "343a532f-c4af-4a2d-98cd-7788ea28b917",
     "missing": false
   },
@@ -806,5 +806,725 @@
     "time": 1706419736006.088,
     "uuid": "6d8870d4-9d3d-4495-8da8-8d2412af1303",
     "missing": false
+  },
+  "E:\\education_game\\game\\assets\\res": {
+    "time": 1704974491748.8472,
+    "uuid": "d2bf607b-0a07-444f-a52b-4683fff24e38",
+    "missing": false
+  },
+  "E:\\education_game\\game\\assets\\scenes": {
+    "time": 1705561884275.0806,
+    "uuid": "c5d41e9b-cd8c-4d56-b33d-35e54533558a",
+    "missing": false
+  },
+  "E:\\education_game\\game\\assets\\scripts": {
+    "time": 1705563027453.283,
+    "uuid": "e7867214-4c0e-43b2-b897-235b1b8e8182",
+    "missing": false
+  },
+  "E:\\education_game\\game\\assets\\res\\map": {
+    "time": 1704974491747.8503,
+    "uuid": "d0cbe5bd-3d5b-4196-bfc0-b85e9ddd96a0",
+    "missing": false
+  },
+  "E:\\education_game\\game\\assets\\res\\ui": {
+    "time": 1704974491761.5237,
+    "uuid": "df42ca40-93fd-45db-953c-a8f26b04e4b1",
+    "missing": false
+  },
+  "E:\\education_game\\game\\assets\\scripts\\common": {
+    "time": 1704974491767.41,
+    "uuid": "d5dbeb3e-9c34-468a-9d4b-b1d7b03895d0",
+    "missing": false
+  },
+  "E:\\education_game\\game\\assets\\scripts\\manager": {
+    "time": 1704974491774.214,
+    "uuid": "e13baacb-9d91-4106-99af-5c8a99535483",
+    "missing": false
+  },
+  "E:\\education_game\\game\\assets\\scripts\\modules": {
+    "time": 1704974491779.639,
+    "uuid": "daf3ad1e-1bcd-48cc-84cb-a5b919366128",
+    "missing": false
+  },
+  "E:\\education_game\\game\\assets\\scripts\\utils": {
+    "time": 1704974491787.2961,
+    "uuid": "19dac056-78bc-4c81-bc1f-b0d30c2679a2",
+    "missing": false
+  },
+  "E:\\education_game\\game\\assets\\res\\ui\\game_panel": {
+    "time": 1704974491750.84,
+    "uuid": "62d21c09-dc66-4b98-aa01-29393cb24c3b",
+    "missing": false
+  },
+  "E:\\education_game\\game\\assets\\res\\ui\\game_start_menu": {
+    "time": 1704974491757.8174,
+    "uuid": "17264846-d226-42ec-830f-232f34661b2e",
+    "missing": false
+  },
+  "E:\\education_game\\game\\assets\\res\\ui\\game_tip": {
+    "time": 1704974491760.5273,
+    "uuid": "a6a510e1-dd06-4a1f-92e1-61fceee77533",
+    "missing": false
+  },
+  "E:\\education_game\\game\\assets\\res\\ui\\main_menu": {
+    "time": 1704974491762.7358,
+    "uuid": "0455cc8f-b10c-4592-ae0e-bd88962b830c",
+    "missing": false
+  },
+  "E:\\education_game\\game\\assets\\scripts\\common\\m_scroll_view": {
+    "time": 1704974491768.408,
+    "uuid": "4bdb9c09-0335-4621-9384-00267fae59f4",
+    "missing": false
+  },
+  "E:\\education_game\\game\\assets\\scripts\\manager\\event_manager": {
+    "time": 1704974491771.833,
+    "uuid": "a96a86bf-1bdf-428b-a63f-572ad6a542ce",
+    "missing": false
+  },
+  "E:\\education_game\\game\\assets\\scripts\\manager\\game_manager": {
+    "time": 1707134511062.2737,
+    "uuid": "e5e36838-e9b4-4370-978f-4deee162667c",
+    "missing": false
+  },
+  "E:\\education_game\\game\\assets\\scripts\\manager\\map_manager": {
+    "time": 1704974491774.214,
+    "uuid": "3fbc2b11-8281-461d-9374-59007d6966a6",
+    "missing": false
+  },
+  "E:\\education_game\\game\\assets\\scripts\\manager\\ui_manager": {
+    "time": 1704974491776.6477,
+    "uuid": "2bc49195-3ab8-4ff4-81c7-a4d59e643dcf",
+    "missing": false
+  },
+  "E:\\education_game\\game\\assets\\scripts\\modules\\game": {
+    "time": 1704974491778.6423,
+    "uuid": "78ed1942-98ab-449d-8868-d8efc94c9660",
+    "missing": false
+  },
+  "E:\\education_game\\game\\assets\\scripts\\modules\\ui": {
+    "time": 1704974491784.242,
+    "uuid": "35a74b42-fd1e-44ce-acf2-b6f127338701",
+    "missing": false
+  },
+  "E:\\education_game\\game\\assets\\res\\ui\\game_panel\\res": {
+    "time": 1704974491756.8208,
+    "uuid": "09686b39-4eb9-488f-8d82-a91bb648fdb0",
+    "missing": false
+  },
+  "E:\\education_game\\game\\assets\\res\\ui\\game_start_menu\\res": {
+    "time": 1704974491758.8645,
+    "uuid": "479f5910-9c64-4986-8476-c77e6424df4c",
+    "missing": false
+  },
+  "E:\\education_game\\game\\assets\\res\\ui\\game_tip\\res": {
+    "time": 1704974491760.5273,
+    "uuid": "2375add8-14d3-4ecf-9c35-c1fe2d93e8bd",
+    "missing": false
+  },
+  "E:\\education_game\\game\\assets\\res\\ui\\main_menu\\res": {
+    "time": 1704974491763.2576,
+    "uuid": "5ed0c732-a6fc-46cc-9820-f35c3a687844",
+    "missing": false
+  },
+  "E:\\education_game\\game\\assets\\scripts\\modules\\game\\game_objects": {
+    "time": 1704974491778.6423,
+    "uuid": "d3d40ae9-1549-4ce5-bd9f-a17e643c90e8",
+    "missing": false
+  },
+  "E:\\education_game\\game\\assets\\scripts\\modules\\ui\\game_panel": {
+    "time": 1704974491781.8145,
+    "uuid": "5262d521-a536-419d-a488-2e9ba6c1c069",
+    "missing": false
+  },
+  "E:\\education_game\\game\\assets\\scripts\\modules\\ui\\game_start_menu": {
+    "time": 1704974491782.2466,
+    "uuid": "b767c52a-2b6d-4087-a7db-210f15e42a10",
+    "missing": false
+  },
+  "E:\\education_game\\game\\assets\\scripts\\modules\\ui\\game_tip": {
+    "time": 1704974491784.242,
+    "uuid": "c2438675-9081-469c-aa1b-eff329682a27",
+    "missing": false
+  },
+  "E:\\education_game\\game\\assets\\scripts\\modules\\ui\\main_menu": {
+    "time": 1704974491785.2383,
+    "uuid": "632fba5c-3f15-4880-8784-5a97ec8f5c29",
+    "missing": false
+  },
+  "E:\\education_game\\game\\assets\\scripts\\GameApp.ts": {
+    "time": 1705901214128.778,
+    "uuid": "5c68ed08-7494-4ffc-9306-526d6545f865",
+    "missing": false
+  },
+  "E:\\education_game\\game\\assets\\scripts\\GameLaunch.ts": {
+    "time": 1704974491765.8245,
+    "uuid": "b145cab9-88c5-40be-9389-542844a0f8ad",
+    "missing": false
+  },
+  "E:\\education_game\\game\\assets\\scripts\\common\\IPreInit.ts": {
+    "time": 1704974491766.862,
+    "uuid": "45052121-8307-4512-acab-a8bab0aa433c",
+    "missing": false
+  },
+  "E:\\education_game\\game\\assets\\scripts\\common\\Singleton.ts": {
+    "time": 1707134650174.433,
+    "uuid": "acb6eac7-ba3a-40f6-b5fc-c60cff1469fc",
+    "missing": false
+  },
+  "E:\\education_game\\game\\assets\\scripts\\manager\\InputManager.ts": {
+    "time": 1707126980935.4607,
+    "uuid": "83797cca-9c36-446c-993e-a8c017c0b7d2",
+    "missing": false
+  },
+  "E:\\education_game\\game\\assets\\scripts\\manager\\ResManager.ts": {
+    "time": 1704974491769.4043,
+    "uuid": "998251a6-5a81-4f85-986e-b6c685b5a4ce",
+    "missing": false
+  },
+  "E:\\education_game\\game\\assets\\scripts\\manager\\TimerManager.ts": {
+    "time": 1704974491769.4043,
+    "uuid": "5913e784-5a98-4446-8794-9e05c893e234",
+    "missing": false
+  },
+  "E:\\education_game\\game\\assets\\scripts\\utils\\LogManager.ts": {
+    "time": 1704974491785.2383,
+    "uuid": "bc61007f-26f4-43bf-ba31-e47c05172383",
+    "missing": false
+  },
+  "E:\\education_game\\game\\assets\\scripts\\utils\\PriorityQueue.ts": {
+    "time": 1704974491786.2346,
+    "uuid": "011357a7-f573-4f99-b4c0-339438a7437c",
+    "missing": false
+  },
+  "E:\\education_game\\game\\assets\\scripts\\utils\\Utils.ts": {
+    "time": 1704974491786.2346,
+    "uuid": "bb08deec-13d2-4922-913a-0270f84563ba",
+    "missing": false
+  },
+  "E:\\education_game\\game\\assets\\scripts\\common\\m_scroll_view\\MScrollItem.ts": {
+    "time": 1704974491767.41,
+    "uuid": "6433486b-d050-4e8e-b0d2-2966d39c058d",
+    "missing": false
+  },
+  "E:\\education_game\\game\\assets\\scripts\\common\\m_scroll_view\\MScrollView.ts": {
+    "time": 1704974491768.408,
+    "uuid": "1f60d0d1-4cf6-4f29-9bc5-e5faf1f37e3c",
+    "missing": false
+  },
+  "E:\\education_game\\game\\assets\\scripts\\manager\\event_manager\\EventConstants.ts": {
+    "time": 1704974491770.4016,
+    "uuid": "b2e46594-1fa2-4bff-b617-e2807b360086",
+    "missing": false
+  },
+  "E:\\education_game\\game\\assets\\scripts\\manager\\event_manager\\EventManager.ts": {
+    "time": 1704974491771.5735,
+    "uuid": "1c31c307-4223-4691-bbb1-57d04f848827",
+    "missing": false
+  },
+  "E:\\education_game\\game\\assets\\scripts\\manager\\game_manager\\GameDefinition.ts": {
+    "time": 1704974491772.1885,
+    "uuid": "d938c4f9-5aa6-4927-9604-19e26a51dbb9",
+    "missing": false
+  },
+  "E:\\education_game\\game\\assets\\scripts\\manager\\game_manager\\GameManager.ts": {
+    "time": 1707135013712.608,
+    "uuid": "cf8771f3-8649-4f9c-8d02-7c048246eab8",
+    "missing": false
+  },
+  "E:\\education_game\\game\\assets\\scripts\\manager\\game_manager\\PhysicsController.ts": {
+    "time": 1704974491773.2166,
+    "uuid": "707e9b6d-8269-4ca2-8ae0-e057749adb44",
+    "missing": false
+  },
+  "E:\\education_game\\game\\assets\\scripts\\manager\\map_manager\\MapData.ts": {
+    "time": 1705900317778.781,
+    "uuid": "ebed7069-5293-4765-8a8c-cc7a412cf0c5",
+    "missing": false
+  },
+  "E:\\education_game\\game\\assets\\scripts\\manager\\map_manager\\MapManager.ts": {
+    "time": 1707121318237.4482,
+    "uuid": "94156142-d557-46ac-a278-814d83eac4f2",
+    "missing": false
+  },
+  "E:\\education_game\\game\\assets\\scripts\\manager\\ui_manager\\Name2Panel.ts": {
+    "time": 1704974491775.212,
+    "uuid": "3f7c16d5-7b74-4b13-a24e-30122c281d50",
+    "missing": false
+  },
+  "E:\\education_game\\game\\assets\\scripts\\manager\\ui_manager\\UIManager.ts": {
+    "time": 1704974491775.212,
+    "uuid": "d8957c8a-bce5-4b89-bf24-4ffec746662c",
+    "missing": false
+  },
+  "E:\\education_game\\game\\assets\\scripts\\manager\\ui_manager\\UIPanel.ts": {
+    "time": 1704974491776.2085,
+    "uuid": "6634887d-9853-4958-8455-d03fd3b71c56",
+    "missing": false
+  },
+  "E:\\education_game\\game\\assets\\scripts\\modules\\game\\ObjectBase.ts": {
+    "time": 1707135267508.0806,
+    "uuid": "9be97f86-2434-4426-a8ed-ff43677d5258",
+    "missing": false
+  },
+  "E:\\education_game\\game\\assets\\scripts\\modules\\game\\ObjectFactory.ts": {
+    "time": 1707123251964.5515,
+    "uuid": "f677770a-7929-4d61-b303-c4605e6d6107",
+    "missing": false
+  },
+  "E:\\education_game\\game\\assets\\scripts\\modules\\game\\game_objects\\RightTriangleObject.ts": {
+    "time": 1707123290022.8804,
+    "uuid": "494eaf8d-7121-43fe-aa3e-65dd58bfeb44",
+    "missing": false
+  },
+  "E:\\education_game\\game\\assets\\scripts\\modules\\game\\game_objects\\SquareObject.ts": {
+    "time": 1707123280295.7634,
+    "uuid": "b005a48e-1ab6-41eb-bf7c-473e4ede4608",
+    "missing": false
+  },
+  "E:\\education_game\\game\\assets\\scripts\\modules\\ui\\game_panel\\GamePanel.ts": {
+    "time": 1704974491779.639,
+    "uuid": "144a39ec-e39c-489c-b334-f95ce0adbf56",
+    "missing": false
+  },
+  "E:\\education_game\\game\\assets\\scripts\\modules\\ui\\game_panel\\GameToolsItem.ts": {
+    "time": 1704974491780.8457,
+    "uuid": "ca859d45-2a20-454b-bf51-d6ba558c2b26",
+    "missing": false
+  },
+  "E:\\education_game\\game\\assets\\scripts\\modules\\ui\\game_panel\\GameToolsView.ts": {
+    "time": 1704974491781.2007,
+    "uuid": "10c532ea-c28a-47c5-9387-c873b57380e9",
+    "missing": false
+  },
+  "E:\\education_game\\game\\assets\\scripts\\modules\\ui\\game_panel\\GridSquare.ts": {
+    "time": 1704974491781.8145,
+    "uuid": "0cf80906-a490-414b-b5a6-ea04b8fdf286",
+    "missing": false
+  },
+  "E:\\education_game\\game\\assets\\scripts\\modules\\ui\\game_start_menu\\GameStartMenuView.ts": {
+    "time": 1704974491782.2466,
+    "uuid": "90390aa9-b615-45a1-a6ab-7893210a1ae4",
+    "missing": false
+  },
+  "E:\\education_game\\game\\assets\\scripts\\modules\\ui\\game_tip\\GameTipItem.ts": {
+    "time": 1704974491783.2446,
+    "uuid": "f74a8a2a-5287-47c4-a4bc-d2503c2d932c",
+    "missing": false
+  },
+  "E:\\education_game\\game\\assets\\scripts\\modules\\ui\\game_tip\\GameTipManager.ts": {
+    "time": 1707123645198.9734,
+    "uuid": "f11bed6c-fd22-4bbf-b05e-8b572c8f00e8",
+    "missing": false
+  },
+  "E:\\education_game\\game\\assets\\scripts\\modules\\ui\\game_tip\\GameTipView.ts": {
+    "time": 1704974491784.242,
+    "uuid": "d48cfd4d-e312-405e-861e-d1e181d15052",
+    "missing": false
+  },
+  "E:\\education_game\\game\\assets\\scripts\\modules\\ui\\main_menu\\MainMenu.ts": {
+    "time": 1704974491785.2383,
+    "uuid": "4940401e-8f41-4d3d-b253-d16f9148c532",
+    "missing": false
+  },
+  "E:\\education_game\\game\\assets\\res.meta": {
+    "time": 1704974491746.854
+  },
+  "E:\\education_game\\game\\assets\\scenes.meta": {
+    "time": 1704974491763.5085
+  },
+  "E:\\education_game\\game\\assets\\scripts.meta": {
+    "time": 1704974491764.9863
+  },
+  "E:\\education_game\\game\\assets\\res\\map.meta": {
+    "time": 1704974491747.8503
+  },
+  "E:\\education_game\\game\\assets\\res\\ui.meta": {
+    "time": 1704974491748.8472
+  },
+  "E:\\education_game\\game\\assets\\scripts\\common.meta": {
+    "time": 1704974491765.8245
+  },
+  "E:\\education_game\\game\\assets\\scripts\\manager.meta": {
+    "time": 1704974491768.408
+  },
+  "E:\\education_game\\game\\assets\\scripts\\modules.meta": {
+    "time": 1704974491776.6477
+  },
+  "E:\\education_game\\game\\assets\\scripts\\utils.meta": {
+    "time": 1704974491785.2383
+  },
+  "E:\\education_game\\game\\assets\\res\\ui\\game_panel.meta": {
+    "time": 1704974491748.8472
+  },
+  "E:\\education_game\\game\\assets\\res\\ui\\game_start_menu.meta": {
+    "time": 1704974491756.8208
+  },
+  "E:\\education_game\\game\\assets\\res\\ui\\game_tip.meta": {
+    "time": 1704974491758.8645
+  },
+  "E:\\education_game\\game\\assets\\res\\ui\\main_menu.meta": {
+    "time": 1704974491761.5237
+  },
+  "E:\\education_game\\game\\assets\\scripts\\common\\m_scroll_view.meta": {
+    "time": 1704974491767.41
+  },
+  "E:\\education_game\\game\\assets\\scripts\\manager\\event_manager.meta": {
+    "time": 1704974491770.4016
+  },
+  "E:\\education_game\\game\\assets\\scripts\\manager\\game_manager.meta": {
+    "time": 1704974491771.833
+  },
+  "E:\\education_game\\game\\assets\\scripts\\manager\\map_manager.meta": {
+    "time": 1704974491773.796
+  },
+  "E:\\education_game\\game\\assets\\scripts\\manager\\ui_manager.meta": {
+    "time": 1704974491774.214
+  },
+  "E:\\education_game\\game\\assets\\scripts\\modules\\game.meta": {
+    "time": 1704974491776.6477
+  },
+  "E:\\education_game\\game\\assets\\scripts\\modules\\ui.meta": {
+    "time": 1704974491779.639
+  },
+  "E:\\education_game\\game\\assets\\res\\ui\\game_panel\\res.meta": {
+    "time": 1704974491750.84
+  },
+  "E:\\education_game\\game\\assets\\res\\ui\\game_start_menu\\res.meta": {
+    "time": 1704974491757.8174
+  },
+  "E:\\education_game\\game\\assets\\res\\ui\\game_tip\\res.meta": {
+    "time": 1704974491760.5273
+  },
+  "E:\\education_game\\game\\assets\\res\\ui\\main_menu\\res.meta": {
+    "time": 1704974491762.5203
+  },
+  "E:\\education_game\\game\\assets\\scripts\\modules\\game\\game_objects.meta": {
+    "time": 1704974491777.6458
+  },
+  "E:\\education_game\\game\\assets\\scripts\\modules\\ui\\game_panel.meta": {
+    "time": 1704974491779.639
+  },
+  "E:\\education_game\\game\\assets\\scripts\\modules\\ui\\game_start_menu.meta": {
+    "time": 1704974491782.2466
+  },
+  "E:\\education_game\\game\\assets\\scripts\\modules\\ui\\game_tip.meta": {
+    "time": 1704974491782.2466
+  },
+  "E:\\education_game\\game\\assets\\scripts\\modules\\ui\\main_menu.meta": {
+    "time": 1704974491784.242
+  },
+  "E:\\education_game\\game\\assets\\scripts\\GameApp.ts.meta": {
+    "time": 1704974491765.8245
+  },
+  "E:\\education_game\\game\\assets\\scripts\\GameLaunch.ts.meta": {
+    "time": 1704974491765.8245
+  },
+  "E:\\education_game\\game\\assets\\scripts\\common\\IPreInit.ts.meta": {
+    "time": 1704974491766.862
+  },
+  "E:\\education_game\\game\\assets\\scripts\\common\\Singleton.ts.meta": {
+    "time": 1704974491767.41
+  },
+  "E:\\education_game\\game\\assets\\scripts\\manager\\InputManager.ts.meta": {
+    "time": 1704974491769.4043
+  },
+  "E:\\education_game\\game\\assets\\scripts\\manager\\ResManager.ts.meta": {
+    "time": 1704974491769.4043
+  },
+  "E:\\education_game\\game\\assets\\scripts\\manager\\TimerManager.ts.meta": {
+    "time": 1704974491770.4016
+  },
+  "E:\\education_game\\game\\assets\\scripts\\utils\\LogManager.ts.meta": {
+    "time": 1704974491786.2346
+  },
+  "E:\\education_game\\game\\assets\\scripts\\utils\\PriorityQueue.ts.meta": {
+    "time": 1704974491786.2346
+  },
+  "E:\\education_game\\game\\assets\\scripts\\utils\\Utils.ts.meta": {
+    "time": 1704974491787.2961
+  },
+  "E:\\education_game\\game\\assets\\scripts\\common\\m_scroll_view\\MScrollItem.ts.meta": {
+    "time": 1704974491768.408
+  },
+  "E:\\education_game\\game\\assets\\scripts\\common\\m_scroll_view\\MScrollView.ts.meta": {
+    "time": 1704974491768.408
+  },
+  "E:\\education_game\\game\\assets\\scripts\\manager\\event_manager\\EventConstants.ts.meta": {
+    "time": 1704974491771.398
+  },
+  "E:\\education_game\\game\\assets\\scripts\\manager\\event_manager\\EventManager.ts.meta": {
+    "time": 1704974491771.833
+  },
+  "E:\\education_game\\game\\assets\\scripts\\manager\\game_manager\\GameDefinition.ts.meta": {
+    "time": 1704974491772.5781
+  },
+  "E:\\education_game\\game\\assets\\scripts\\manager\\game_manager\\GameManager.ts.meta": {
+    "time": 1704974491772.8008
+  },
+  "E:\\education_game\\game\\assets\\scripts\\manager\\game_manager\\PhysicsController.ts.meta": {
+    "time": 1704974491773.5537
+  },
+  "E:\\education_game\\game\\assets\\scripts\\manager\\map_manager\\MapData.ts.meta": {
+    "time": 1704974491774.214
+  },
+  "E:\\education_game\\game\\assets\\scripts\\manager\\map_manager\\MapManager.ts.meta": {
+    "time": 1704974491774.214
+  },
+  "E:\\education_game\\game\\assets\\scripts\\manager\\ui_manager\\Name2Panel.ts.meta": {
+    "time": 1704974491775.212
+  },
+  "E:\\education_game\\game\\assets\\scripts\\manager\\ui_manager\\UIManager.ts.meta": {
+    "time": 1704974491775.212
+  },
+  "E:\\education_game\\game\\assets\\scripts\\manager\\ui_manager\\UIPanel.ts.meta": {
+    "time": 1704974491776.6477
+  },
+  "E:\\education_game\\game\\assets\\scripts\\modules\\game\\ObjectBase.ts.meta": {
+    "time": 1704974491777.6458
+  },
+  "E:\\education_game\\game\\assets\\scripts\\modules\\game\\ObjectFactory.ts.meta": {
+    "time": 1704974491777.6458
+  },
+  "E:\\education_game\\game\\assets\\scripts\\modules\\game\\game_objects\\RightTriangleObject.ts.meta": {
+    "time": 1704974491778.6423
+  },
+  "E:\\education_game\\game\\assets\\scripts\\modules\\game\\game_objects\\SquareObject.ts.meta": {
+    "time": 1704974491778.6423
+  },
+  "E:\\education_game\\game\\assets\\scripts\\modules\\ui\\game_panel\\GamePanel.ts.meta": {
+    "time": 1704974491780.6355
+  },
+  "E:\\education_game\\game\\assets\\scripts\\modules\\ui\\game_panel\\GameToolsItem.ts.meta": {
+    "time": 1704974491780.8457
+  },
+  "E:\\education_game\\game\\assets\\scripts\\modules\\ui\\game_panel\\GameToolsView.ts.meta": {
+    "time": 1704974491781.5806
+  },
+  "E:\\education_game\\game\\assets\\scripts\\modules\\ui\\game_panel\\GridSquare.ts.meta": {
+    "time": 1704974491781.8145
+  },
+  "E:\\education_game\\game\\assets\\scripts\\modules\\ui\\game_start_menu\\GameStartMenuView.ts.meta": {
+    "time": 1704974491782.2466
+  },
+  "E:\\education_game\\game\\assets\\scripts\\modules\\ui\\game_tip\\GameTipItem.ts.meta": {
+    "time": 1704974491783.2446
+  },
+  "E:\\education_game\\game\\assets\\scripts\\modules\\ui\\game_tip\\GameTipManager.ts.meta": {
+    "time": 1704974491783.2446
+  },
+  "E:\\education_game\\game\\assets\\scripts\\modules\\ui\\game_tip\\GameTipView.ts.meta": {
+    "time": 1704974491784.242
+  },
+  "E:\\education_game\\game\\assets\\scripts\\modules\\ui\\main_menu\\MainMenu.ts.meta": {
+    "time": 1704974491785.2383
+  },
+  "E:\\education_game\\game\\assets\\scenes\\main_scene.scene": {
+    "time": 1705900406521.575,
+    "uuid": "2ec3e41c-be32-4462-adfa-159b01697d6e",
+    "missing": false
+  },
+  "E:\\education_game\\game\\assets\\res\\map\\100001.json": {
+    "time": 1707123730838.9004,
+    "uuid": "343a532f-c4af-4a2d-98cd-7788ea28b917",
+    "missing": false
+  },
+  "E:\\education_game\\game\\assets\\res\\ui\\game_panel\\game_panel.prefab": {
+    "time": 1704974491749.8438,
+    "uuid": "4528400f-fb32-435a-8408-143a2ad0266b",
+    "missing": false
+  },
+  "E:\\education_game\\game\\assets\\res\\ui\\game_panel\\game_tools_item.prefab": {
+    "time": 1704974491749.8438,
+    "uuid": "4b76f3e5-b37d-421f-83b8-fc841cd4286c",
+    "missing": false
+  },
+  "E:\\education_game\\game\\assets\\res\\ui\\game_panel\\game_tools_view.prefab": {
+    "time": 1704974491749.8438,
+    "uuid": "ce8f6606-e38f-4c20-8f2c-a8264518d93d",
+    "missing": false
+  },
+  "E:\\education_game\\game\\assets\\res\\ui\\game_start_menu\\game_start_menu_view.prefab": {
+    "time": 1704974491757.8174,
+    "uuid": "d0b905de-856a-4da3-b25d-90a102f75b5e",
+    "missing": false
+  },
+  "E:\\education_game\\game\\assets\\res\\ui\\game_tip\\game_tip_item.prefab": {
+    "time": 1704974491759.5288,
+    "uuid": "36cf78fe-7d01-4e99-bd8c-19f1ac13da52",
+    "missing": false
+  },
+  "E:\\education_game\\game\\assets\\res\\ui\\game_tip\\game_tip_view.prefab": {
+    "time": 1704974491759.5288,
+    "uuid": "213c7271-e0ef-4885-9c85-e1ef5ed83475",
+    "missing": false
+  },
+  "E:\\education_game\\game\\assets\\res\\ui\\main_menu\\main_menu.prefab": {
+    "time": 1704974491761.5237,
+    "uuid": "295c2bf6-a2b5-4066-be9f-4a8d8504c8a0",
+    "missing": false
+  },
+  "E:\\education_game\\game\\assets\\res\\ui\\game_panel\\res\\game_scene.png": {
+    "time": 1704974491755.8245,
+    "uuid": "fe0583d1-7752-4fb2-9cb5-1adcef562b9b",
+    "missing": false
+  },
+  "E:\\education_game\\game\\assets\\res\\ui\\game_panel\\res\\square_style.jpg": {
+    "time": 1704974491756.8208,
+    "uuid": "fbe1a4ae-0333-4d71-9c7c-5b5f68dfb7c9",
+    "missing": false
+  },
+  "E:\\education_game\\game\\assets\\res\\ui\\game_start_menu\\res\\tip_bg_1.png": {
+    "time": 1704974491758.8645,
+    "uuid": "cb453272-284f-41b0-ac2f-4bb823c43b1c",
+    "missing": true
+  },
+  "E:\\education_game\\game\\assets\\res\\ui\\game_tip\\res\\tip_bg_1.png": {
+    "time": 1704974491760.5273,
+    "uuid": "a387bd7d-c75a-433b-92d7-f3ee1c6c5208",
+    "missing": false
+  },
+  "E:\\education_game\\game\\assets\\res\\ui\\main_menu\\res\\鸡哥.png": {
+    "time": 1704974491762.7358,
+    "uuid": "71103c41-bead-46dd-9777-836ab901494c",
+    "missing": false
+  },
+  "E:\\education_game\\game\\assets\\res\\ui\\game_panel\\game_tools_item.prefab.meta": {
+    "time": 1704974491749.8438
+  },
+  "E:\\education_game\\game\\assets\\scenes\\main_scene.scene.meta": {
+    "time": 1704974491764.076
+  },
+  "E:\\education_game\\game\\assets\\res\\map\\100001.json.meta": {
+    "time": 1704974491747.8503
+  },
+  "E:\\education_game\\game\\assets\\res\\ui\\game_panel\\game_panel.prefab.meta": {
+    "time": 1704974491749.8438
+  },
+  "E:\\education_game\\game\\assets\\res\\ui\\game_panel\\game_tools_view.prefab.meta": {
+    "time": 1704974491750.84
+  },
+  "E:\\education_game\\game\\assets\\res\\ui\\game_start_menu\\game_start_menu_view.prefab.meta": {
+    "time": 1704974491757.8174
+  },
+  "E:\\education_game\\game\\assets\\res\\ui\\game_tip\\game_tip_item.prefab.meta": {
+    "time": 1704974491759.5288
+  },
+  "E:\\education_game\\game\\assets\\res\\ui\\game_tip\\game_tip_view.prefab.meta": {
+    "time": 1704974491759.5288
+  },
+  "E:\\education_game\\game\\assets\\res\\ui\\main_menu\\main_menu.prefab.meta": {
+    "time": 1704974491761.5237
+  },
+  "E:\\education_game\\game\\assets\\res\\ui\\game_panel\\res\\square_style.jpg.meta": {
+    "time": 1704974491756.8208
+  },
+  "E:\\education_game\\game\\assets\\res\\ui\\main_menu\\res\\鸡哥.png.meta": {
+    "time": 1704974491763.2576
+  },
+  "E:\\education_game\\game\\assets\\res\\ui\\game_start_menu\\res\\tip_bg_1.png.meta": {
+    "time": 1704974491758.8645
+  },
+  "E:\\education_game\\game\\assets\\res\\ui\\game_tip\\res\\tip_bg_1.png.meta": {
+    "time": 1704974491760.5273
+  },
+  "E:\\education_game\\game\\assets\\res\\ui\\game_panel\\res\\game_scene.png.meta": {
+    "time": 1704974491755.8245
+  },
+  "E:\\education_game\\game\\assets\\scenes\\test_scene.scene.meta": {
+    "time": 1705561884287.0386
+  },
+  "E:\\education_game\\game\\assets\\scenes\\test_scene.scene": {
+    "time": 1705561884276.0774,
+    "uuid": "59cc90b8-54ad-4faf-9ffb-bc3d71347f30",
+    "missing": false
+  },
+  "E:\\education_game\\game\\assets\\scripts\\test.meta": {
+    "time": 1705563027454.2795
+  },
+  "E:\\education_game\\game\\assets\\scripts\\test\\start.ts.meta": {
+    "time": 1705561917092.8164
+  },
+  "E:\\education_game\\game\\assets\\scripts\\test\\test.ts.meta": {
+    "time": 1705561929268.195
+  },
+  "E:\\education_game\\game\\assets\\scripts\\test": {
+    "time": 1705561929267.1985,
+    "uuid": "515e5582-9ced-4899-981e-7e8e5e692760",
+    "missing": false
+  },
+  "E:\\education_game\\game\\assets\\scripts\\test\\start.ts": {
+    "time": 1705562358997.3655,
+    "uuid": "ca979bef-4a51-4b97-a872-fa89ca9941a1",
+    "missing": false
+  },
+  "E:\\education_game\\game\\assets\\scripts\\test\\test.ts": {
+    "time": 1705562351514.9778,
+    "uuid": "eb6ae732-c016-4451-916c-c9fb6b640237",
+    "missing": false
+  },
+  "E:\\education_game\\game\\assets\\scripts\\manager\\game_manager\\InteractSpace.ts.meta": {
+    "time": 1705901690595.244
+  },
+  "E:\\education_game\\game\\assets\\scripts\\manager\\game_manager\\InteractSpace.ts": {
+    "time": 1707135259627.507,
+    "uuid": "f6ae7ac9-922c-4716-8b47-37ed6c8f8ffb",
+    "missing": false
+  },
+  "E:\\education_game\\game\\assets\\scripts\\manager\\game_manager\\InteractManager.ts.meta": {
+    "time": 1707134505824.945
+  },
+  "E:\\education_game\\game\\assets\\scripts\\manager\\game_manager\\InteractManager.ts": {
+    "time": 1707135025405.3228,
+    "uuid": "4fad704c-1e3c-4b2e-a286-c71da37e1095",
+    "missing": false
+  },
+  "D:\\cocos_projects\\physics_education_game\\assets\\scripts\\test": {
+    "time": 1707366015619.5203,
+    "uuid": "515e5582-9ced-4899-981e-7e8e5e692760",
+    "missing": false
+  },
+  "D:\\cocos_projects\\physics_education_game\\assets\\scripts\\test\\start.ts": {
+    "time": 1707366015619.5203,
+    "uuid": "ca979bef-4a51-4b97-a872-fa89ca9941a1",
+    "missing": false
+  },
+  "D:\\cocos_projects\\physics_education_game\\assets\\scripts\\test\\test.ts": {
+    "time": 1707366015619.5203,
+    "uuid": "eb6ae732-c016-4451-916c-c9fb6b640237",
+    "missing": false
+  },
+  "D:\\cocos_projects\\physics_education_game\\assets\\scripts\\manager\\game_manager\\InteractManager.ts": {
+    "time": 1707366015603.8987,
+    "uuid": "4fad704c-1e3c-4b2e-a286-c71da37e1095",
+    "missing": false
+  },
+  "D:\\cocos_projects\\physics_education_game\\assets\\scripts\\manager\\game_manager\\InteractSpace.ts": {
+    "time": 1707366015603.8987,
+    "uuid": "f6ae7ac9-922c-4716-8b47-37ed6c8f8ffb",
+    "missing": false
+  },
+  "D:\\cocos_projects\\physics_education_game\\assets\\scripts\\test.meta": {
+    "time": 1707366015619.5203
+  },
+  "D:\\cocos_projects\\physics_education_game\\assets\\scripts\\test\\start.ts.meta": {
+    "time": 1707366015619.5203
+  },
+  "D:\\cocos_projects\\physics_education_game\\assets\\scripts\\test\\test.ts.meta": {
+    "time": 1707366015619.5203
+  },
+  "D:\\cocos_projects\\physics_education_game\\assets\\scripts\\manager\\game_manager\\InteractManager.ts.meta": {
+    "time": 1707366015603.8987
+  },
+  "D:\\cocos_projects\\physics_education_game\\assets\\scripts\\manager\\game_manager\\InteractSpace.ts.meta": {
+    "time": 1707366015603.8987
+  },
+  "D:\\cocos_projects\\physics_education_game\\assets\\scenes\\test_scene.scene": {
+    "time": 1707366015603.8987,
+    "uuid": "59cc90b8-54ad-4faf-9ffb-bc3d71347f30",
+    "missing": false
+  },
+  "D:\\cocos_projects\\physics_education_game\\assets\\scenes\\test_scene.scene.meta": {
+    "time": 1707366015603.8987
   }
 }

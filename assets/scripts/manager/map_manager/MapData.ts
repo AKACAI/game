@@ -4,6 +4,7 @@ import { Singleton } from "../../common/Singleton";
 import LogManager from "../../utils/LogManager";
 import { ResManager, LoadType } from "../ResManager";
 import { IPreInit } from "../../common/IPreInit";
+import { PhysicsParam } from "../../modules/game/ObjectBase";
 
 const { ccclass, property } = _decorator;
 
@@ -16,6 +17,7 @@ export interface IOpenObjectData {
     objectType: number,
     shapeParam: any,
     objectParam: any,
+    physicsParam: PhysicsParam,
 }
 
 export interface IOpenMapData {

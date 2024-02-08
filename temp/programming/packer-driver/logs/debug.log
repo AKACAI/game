@@ -1,4 +1,4 @@
-debug: Thu, 08 Feb 2024 04:16:18 GMT
+debug: Thu, 08 Feb 2024 07:55:59 GMT
 debug: Project: D:\cocos_projects\physics_education_game
 debug: Targets: editor,preview
 error: Failed to load import map at project://: Error: EISDIR: illegal operation on a directory, read
@@ -6,7 +6,7 @@ debug: Incremental file seems great.
 debug: Engine path: C:\ProgramData\cocos\editors\Creator\3.7.4\resources\resources\3d\engine
 debug: Initializing target [Editor]
 debug: Loading cache
-debug: Loading cache costs 41.975600242614746ms.
+debug: Loading cache costs 7.968100070953369ms.
 debug: Engine features shipped in editor: base,gfx-webgl,gfx-webgl2,gfx-empty,3d,animation,skeletal-animation,2d,ui,particle,particle-2d,physics-framework,physics-2d-framework,intersection-2d,primitive,profiler,occlusion-query,geometry-renderer,debug-renderer,audio,video,xr,light-probe,terrain,webview,tween,tiled-map,spine,dragon-bones,marionette,custom-pipeline,websocket,websocket-server
 debug: Our import map(foo:/bar): {
   "imports": {
@@ -15,7 +15,7 @@ debug: Our import map(foo:/bar): {
 }
 debug: Initializing target [Preview]
 debug: Loading cache
-debug: Loading cache costs 37.518200397491455ms.
+debug: Loading cache costs 7.962899684906006ms.
 debug: Our import map(foo:/bar): {
   "imports": {
     "cc": "cce:/internal/x/cc"
@@ -47,12 +47,12 @@ debug: Our import map(foo:/bar): {
   }
 }
 debug: Pulling asset-db.
-debug: Fetch asset-db cost: 52.660799980163574ms.
+debug: Fetch asset-db cost: 49.760000228881836ms.
 debug: Build iteration starts.
-Number of accumulated asset changes: 44
+Number of accumulated asset changes: 48
 Feature changed: false
 debug: Target(editor) build started.
-debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 08:00:18 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:22 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 08:00:07 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:17 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/x/cc
 debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl.
@@ -83,39 +83,58 @@ debug: Resolve cce:/internal/x/cc-fu/tiled-map from cce:/internal/x/cc as extern
 debug: Resolve cce:/internal/x/cc-fu/spine from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/spine.
 debug: Resolve cce:/internal/x/cc-fu/dragon-bones from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/dragon-bones.
 debug: Resolve cce:/internal/x/cc-fu/custom-pipeline from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/custom-pipeline.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:58:51 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:22 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 13:48:30 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:18 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/x/prerequisite-imports
 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.7.4/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.7.4/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+debug: Detected change: file:///C:/ProgramData/cocos/editors/Creator/3.7.4/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts. Last mtime: Thu Jan 11 2024 20:10:45 GMT+0800 (中国标准时间)@b2bd1fa7-8d7c-49c5-a158-df29a6d3a594, Current mtime: Sun Sep 17 2023 19:30:23 GMT+0800 (中国标准时间)@b2bd1fa7-8d7c-49c5-a158-df29a6d3a594
+debug: Inspect file:///C:/ProgramData/cocos/editors/Creator/3.7.4/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts
 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.7.4/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.7.4/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.7.4/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
 debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/GameApp.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/GameApp.ts.
+debug: Detected change: file:///D:/cocos_projects/physics_education_game/assets/scripts/GameApp.ts. Last mtime: Thu Dec 28 2023 00:03:01 GMT+0800 (中国标准时间)@5c68ed08-7494-4ffc-9306-526d6545f865, Current mtime: Thu Feb 08 2024 13:03:25 GMT+0800 (中国标准时间)@5c68ed08-7494-4ffc-9306-526d6545f865
+debug: Inspect file:///D:/cocos_projects/physics_education_game/assets/scripts/GameApp.ts
 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocos_projects/physics_education_game/assets/scripts/GameApp.ts as cce:/internal/code-quality/cr.mjs.
-debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Sun Jan 28 2024 12:34:41 GMT+0800 (中国标准时间), Current mtime: Thu Feb 08 2024 12:15:56 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Mon Feb 05 2024 14:25:57 GMT+0800 (中国标准时间), Current mtime: Thu Feb 08 2024 15:55:41 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/code-quality/cr.mjs
 debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/GameApp.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/GameApp.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/GameApp.ts as cce:/internal/x/cc.
 debug: Resolve ./manager/game_manager/GameManager from file:///D:/cocos_projects/physics_education_game/assets/scripts/GameApp.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/game_manager/GameManager.ts.
+debug: Detected change: file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/game_manager/GameManager.ts. Last mtime: Thu Jan 04 2024 00:55:00 GMT+0800 (中国标准时间)@cf8771f3-8649-4f9c-8d02-7c048246eab8, Current mtime: Thu Feb 08 2024 12:20:46 GMT+0800 (中国标准时间)@cf8771f3-8649-4f9c-8d02-7c048246eab8
+debug: Inspect file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/game_manager/GameManager.ts
 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/game_manager/GameManager.ts as cce:/internal/code-quality/cr.mjs.
 debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/game_manager/GameManager.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/game_manager/GameManager.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/game_manager/GameManager.ts as cce:/internal/x/cc.
 debug: Resolve ../../common/Singleton from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/game_manager/GameManager.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/common/Singleton.ts.
+debug: Detected change: file:///D:/cocos_projects/physics_education_game/assets/scripts/common/Singleton.ts. Last mtime: Tue Oct 03 2023 11:02:50 GMT+0800 (中国标准时间)@acb6eac7-ba3a-40f6-b5fc-c60cff1469fc, Current mtime: Thu Feb 08 2024 12:20:15 GMT+0800 (中国标准时间)@acb6eac7-ba3a-40f6-b5fc-c60cff1469fc
+debug: Inspect file:///D:/cocos_projects/physics_education_game/assets/scripts/common/Singleton.ts
 debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/common/Singleton.ts as cce:/internal/x/cc.
-debug: Resolve ../../modules/ui/game_tip/GameTipManager from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/game_manager/GameManager.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_tip/GameTipManager.ts.
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_tip/GameTipManager.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_tip/GameTipManager.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_tip/GameTipManager.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_tip/GameTipManager.ts as cce:/internal/x/cc.
-debug: Resolve ../../../common/Singleton from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_tip/GameTipManager.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/common/Singleton.ts.
-debug: Resolve ../../../manager/ui_manager/Name2Panel from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_tip/GameTipManager.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/Name2Panel.ts.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/Name2Panel.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/Name2Panel.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/Name2Panel.ts as cce:/internal/x/cc.
-debug: Resolve ../../../manager/ui_manager/UIManager from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_tip/GameTipManager.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/UIManager.ts.
-debug: Detected change: file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/UIManager.ts. Last mtime: Sun Jan 28 2024 13:33:32 GMT+0800 (中国标准时间)@d8957c8a-bce5-4b89-bf24-4ffec746662c, Current mtime: Sun Jan 28 2024 13:34:02 GMT+0800 (中国标准时间)@d8957c8a-bce5-4b89-bf24-4ffec746662c
-debug: Inspect file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/UIManager.ts
+debug: Resolve ../../modules/game/ObjectBase from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/game_manager/GameManager.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/ObjectBase.ts.
+debug: Detected change: file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/ObjectBase.ts. Last mtime: Thu Jan 04 2024 01:01:43 GMT+0800 (中国标准时间)@9be97f86-2434-4426-a8ed-ff43677d5258, Current mtime: Thu Feb 08 2024 12:21:00 GMT+0800 (中国标准时间)@9be97f86-2434-4426-a8ed-ff43677d5258
+debug: Inspect file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/ObjectBase.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/ObjectBase.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/ObjectBase.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/ObjectBase.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/ObjectBase.ts as cce:/internal/x/cc.
+debug: Resolve ../../manager/game_manager/GameDefinition from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/ObjectBase.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/game_manager/GameDefinition.ts.
+debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/game_manager/GameDefinition.ts as cce:/internal/x/cc.
+debug: Resolve ../../manager/game_manager/InteractSpace from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/ObjectBase.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/game_manager/InteractSpace.ts.
+debug: Inspect file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/game_manager/InteractSpace.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/game_manager/InteractSpace.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/game_manager/InteractSpace.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/game_manager/InteractSpace.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/game_manager/InteractSpace.ts as cce:/internal/x/cc.
+debug: Resolve ../InputManager from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/game_manager/GameManager.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/InputManager.ts.
+debug: Detected change: file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/InputManager.ts. Last mtime: Sat Dec 09 2023 20:21:31 GMT+0800 (中国标准时间)@83797cca-9c36-446c-993e-a8c017c0b7d2, Current mtime: Thu Feb 08 2024 12:20:15 GMT+0800 (中国标准时间)@83797cca-9c36-446c-993e-a8c017c0b7d2
+debug: Inspect file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/InputManager.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/InputManager.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/InputManager.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/InputManager.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/InputManager.ts as cce:/internal/x/cc.
+debug: Resolve ../common/Singleton from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/InputManager.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/common/Singleton.ts.
+debug: Resolve ./ui_manager/UIManager from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/InputManager.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/UIManager.ts.
 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/UIManager.ts as cce:/internal/code-quality/cr.mjs.
 debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/UIManager.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/UIManager.ts as cce:/internal/x/cc.
@@ -128,6 +147,9 @@ debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/s
 debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ResManager.ts as cce:/internal/x/cc.
 debug: Resolve ../common/Singleton from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ResManager.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/common/Singleton.ts.
 debug: Resolve ./Name2Panel from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/UIManager.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/Name2Panel.ts.
+debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/Name2Panel.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/Name2Panel.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/Name2Panel.ts as cce:/internal/x/cc.
 debug: Resolve ./UIPanel from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/UIManager.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/UIPanel.ts.
 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/UIPanel.ts as cce:/internal/code-quality/cr.mjs.
 debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/UIPanel.ts as cce:/internal/x/cc.
@@ -135,245 +157,12 @@ debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/s
 debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/UIPanel.ts as cce:/internal/x/cc.
 debug: Resolve ./UIManager from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/UIPanel.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/UIManager.ts.
 debug: Resolve ../../utils/Stack from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/UIManager.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/utils/Stack.ts.
+debug: Inspect file:///D:/cocos_projects/physics_education_game/assets/scripts/utils/Stack.ts
 debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/utils/Stack.ts as cce:/internal/x/cc.
-debug: Resolve ../InputManager from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/game_manager/GameManager.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/InputManager.ts.
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/InputManager.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/InputManager.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/InputManager.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/InputManager.ts as cce:/internal/x/cc.
-debug: Resolve ../common/Singleton from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/InputManager.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/common/Singleton.ts.
-debug: Resolve ./ui_manager/UIManager from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/InputManager.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/UIManager.ts.
-debug: Resolve ../map_manager/MapManager from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/game_manager/GameManager.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/map_manager/MapManager.ts.
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/map_manager/MapManager.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/map_manager/MapManager.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/map_manager/MapManager.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/map_manager/MapManager.ts as cce:/internal/x/cc.
-debug: Resolve ../../common/Singleton from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/map_manager/MapManager.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/common/Singleton.ts.
-debug: Resolve ../../modules/game/ObjectFactory from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/map_manager/MapManager.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/ObjectFactory.ts.
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/ObjectFactory.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/ObjectFactory.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/ObjectFactory.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/ObjectFactory.ts as cce:/internal/x/cc.
-debug: Resolve ../../common/Singleton from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/ObjectFactory.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/common/Singleton.ts.
-debug: Resolve ../../manager/game_manager/GameManager from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/ObjectFactory.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/game_manager/GameManager.ts.
-debug: Resolve ./ObjectBase from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/ObjectFactory.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/ObjectBase.ts.
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/ObjectBase.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/ObjectBase.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/ObjectBase.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/ObjectBase.ts as cce:/internal/x/cc.
-debug: Resolve ../../manager/game_manager/GameDefinition from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/ObjectBase.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/game_manager/GameDefinition.ts.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/game_manager/GameDefinition.ts as cce:/internal/x/cc.
-debug: Resolve ./game_objects/RightTriangleObject from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/ObjectFactory.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/game_objects/RightTriangleObject.ts.
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/game_objects/RightTriangleObject.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/game_objects/RightTriangleObject.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/game_objects/RightTriangleObject.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/game_objects/RightTriangleObject.ts as cce:/internal/x/cc.
-debug: Resolve ../../../utils/Utils from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/game_objects/RightTriangleObject.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/utils/Utils.ts.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/utils/Utils.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/utils/Utils.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/utils/Utils.ts as cce:/internal/x/cc.
-debug: Resolve ../ObjectBase from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/game_objects/RightTriangleObject.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/ObjectBase.ts.
-debug: Resolve ./game_objects/SquareObject from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/ObjectFactory.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/game_objects/SquareObject.ts.
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/game_objects/SquareObject.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/game_objects/SquareObject.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/game_objects/SquareObject.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/game_objects/SquareObject.ts as cce:/internal/x/cc.
-debug: Resolve ../ObjectBase from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/game_objects/SquareObject.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/ObjectBase.ts.
-debug: Resolve ../../../utils/Utils from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/game_objects/SquareObject.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/utils/Utils.ts.
-debug: Resolve ../../utils/Utils from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/map_manager/MapManager.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/utils/Utils.ts.
-debug: Resolve ../game_manager/GameManager from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/map_manager/MapManager.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/game_manager/GameManager.ts.
-debug: Resolve ./MapData from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/map_manager/MapManager.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/map_manager/MapData.ts.
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/map_manager/MapData.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/map_manager/MapData.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/map_manager/MapData.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/map_manager/MapData.ts as cce:/internal/x/cc.
-debug: Resolve ../../common/Singleton from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/map_manager/MapData.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/common/Singleton.ts.
-debug: Resolve ../../utils/LogManager from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/map_manager/MapData.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/utils/LogManager.ts.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/utils/LogManager.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/utils/LogManager.ts as cce:/internal/x/cc.
-debug: Resolve ../ResManager from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/map_manager/MapData.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ResManager.ts.
-debug: Resolve ../event_manager/EventManager from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/map_manager/MapManager.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/event_manager/EventManager.ts.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/event_manager/EventManager.ts as cce:/internal/x/cc.
-debug: Resolve ../event_manager/EventConstants from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/map_manager/MapManager.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/event_manager/EventConstants.ts.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/event_manager/EventConstants.ts as cce:/internal/x/cc.
-debug: Resolve ./manager/ui_manager/UIManager from file:///D:/cocos_projects/physics_education_game/assets/scripts/GameApp.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/UIManager.ts.
-debug: Resolve ./manager/InputManager from file:///D:/cocos_projects/physics_education_game/assets/scripts/GameApp.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/InputManager.ts.
-debug: Resolve ./manager/map_manager/MapManager from file:///D:/cocos_projects/physics_education_game/assets/scripts/GameApp.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/map_manager/MapManager.ts.
-debug: Resolve ./modules/game/ObjectFactory from file:///D:/cocos_projects/physics_education_game/assets/scripts/GameApp.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/ObjectFactory.ts.
-debug: Resolve ./modules/ui/game_tip/GameTipManager from file:///D:/cocos_projects/physics_education_game/assets/scripts/GameApp.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_tip/GameTipManager.ts.
-debug: Resolve ./manager/ResManager from file:///D:/cocos_projects/physics_education_game/assets/scripts/GameApp.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ResManager.ts.
-debug: Resolve ./manager/event_manager/EventManager from file:///D:/cocos_projects/physics_education_game/assets/scripts/GameApp.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/event_manager/EventManager.ts.
-debug: Resolve ./manager/event_manager/EventConstants from file:///D:/cocos_projects/physics_education_game/assets/scripts/GameApp.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/event_manager/EventConstants.ts.
-debug: Resolve ./manager/ui_manager/Name2Panel from file:///D:/cocos_projects/physics_education_game/assets/scripts/GameApp.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/Name2Panel.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/GameLaunch.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/GameLaunch.ts.
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocos_projects/physics_education_game/assets/scripts/GameLaunch.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/GameLaunch.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/GameLaunch.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/GameLaunch.ts as cce:/internal/x/cc.
-debug: Resolve ./GameApp from file:///D:/cocos_projects/physics_education_game/assets/scripts/GameLaunch.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/GameApp.ts.
-debug: Resolve ./manager/ResManager from file:///D:/cocos_projects/physics_education_game/assets/scripts/GameLaunch.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ResManager.ts.
-debug: Resolve ./manager/TimerManager from file:///D:/cocos_projects/physics_education_game/assets/scripts/GameLaunch.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/TimerManager.ts.
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/TimerManager.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/TimerManager.ts as cce:/internal/x/cc.
-debug: Resolve ../utils/PriorityQueue from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/TimerManager.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/utils/PriorityQueue.ts.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/utils/PriorityQueue.ts as cce:/internal/x/cc.
-debug: Resolve ../utils/Utils from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/TimerManager.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/utils/Utils.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/common/Display.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/common/Display.ts.
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocos_projects/physics_education_game/assets/scripts/common/Display.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/common/Display.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/common/Display.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/common/Display.ts as cce:/internal/x/cc.
-debug: Resolve ./Singleton from file:///D:/cocos_projects/physics_education_game/assets/scripts/common/Display.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/common/Singleton.ts.
-debug: Resolve ../utils/LogManager from file:///D:/cocos_projects/physics_education_game/assets/scripts/common/Display.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/utils/LogManager.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/common/IPreInit.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/common/IPreInit.ts.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/common/IPreInit.ts as cce:/internal/x/cc.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/common/NodeHelper.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/common/NodeHelper.ts.
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocos_projects/physics_education_game/assets/scripts/common/NodeHelper.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/common/NodeHelper.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/common/NodeHelper.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/common/NodeHelper.ts as cce:/internal/x/cc.
-debug: Resolve ../manager/ui_manager/component/ComButton from file:///D:/cocos_projects/physics_education_game/assets/scripts/common/NodeHelper.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/component/ComButton.ts.
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/component/ComButton.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/component/ComButton.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/component/ComButton.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/component/ComButton.ts as cce:/internal/x/cc.
-debug: Resolve ../../../utils/LogManager from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/component/ComButton.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/utils/LogManager.ts.
-debug: Resolve ../../../utils/Utils from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/component/ComButton.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/utils/Utils.ts.
-debug: Resolve ../../event_manager/EventManager from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/component/ComButton.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/event_manager/EventManager.ts.
-debug: Resolve ../../event_manager/EventConstants from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/component/ComButton.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/event_manager/EventConstants.ts.
-debug: Resolve ./Display from file:///D:/cocos_projects/physics_education_game/assets/scripts/common/NodeHelper.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/common/Display.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/common/Singleton.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/common/Singleton.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/common/m_scroll_view/MScrollItem.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/common/m_scroll_view/MScrollItem.ts.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/common/m_scroll_view/MScrollItem.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/common/m_scroll_view/MScrollItem.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/common/m_scroll_view/MScrollItem.ts as cce:/internal/x/cc.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/common/m_scroll_view/MScrollView.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/common/m_scroll_view/MScrollView.ts.
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocos_projects/physics_education_game/assets/scripts/common/m_scroll_view/MScrollView.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/common/m_scroll_view/MScrollView.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/common/m_scroll_view/MScrollView.ts as cce:/internal/x/cc.
-debug: Resolve ./MScrollItem from file:///D:/cocos_projects/physics_education_game/assets/scripts/common/m_scroll_view/MScrollView.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/common/m_scroll_view/MScrollItem.ts.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/common/m_scroll_view/MScrollView.ts as cce:/internal/x/cc.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/InputManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/InputManager.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ResManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ResManager.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/TimerManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/TimerManager.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/event_manager/EventConstants.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/event_manager/EventConstants.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/event_manager/EventManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/event_manager/EventManager.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/game_manager/GameDefinition.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/game_manager/GameDefinition.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/game_manager/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/game_manager/GameManager.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/game_manager/PhysicsController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/game_manager/PhysicsController.ts.
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/game_manager/PhysicsController.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/game_manager/PhysicsController.ts as cce:/internal/x/cc.
-debug: Resolve ../../common/Singleton from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/game_manager/PhysicsController.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/common/Singleton.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/map_manager/MapData.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/map_manager/MapData.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/map_manager/MapManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/map_manager/MapManager.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/Name2Panel.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/Name2Panel.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/UIManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/UIManager.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/UIPanel.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/UIPanel.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/component/ComButton.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/component/ComButton.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/ObjectBase.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/ObjectBase.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/ObjectFactory.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/ObjectFactory.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/game_objects/RightTriangleObject.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/game_objects/RightTriangleObject.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/game_objects/SquareObject.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/game_objects/SquareObject.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_main_ui/GameMainUIView.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_main_ui/GameMainUIView.ts.
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_main_ui/GameMainUIView.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_main_ui/GameMainUIView.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_main_ui/GameMainUIView.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_main_ui/GameMainUIView.ts as cce:/internal/x/cc.
-debug: Resolve ../../../manager/ui_manager/UIPanel from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_main_ui/GameMainUIView.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/UIPanel.ts.
-debug: Resolve ../../../manager/ui_manager/UIManager from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_main_ui/GameMainUIView.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/UIManager.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_panel/GamePanel.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_panel/GamePanel.ts.
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_panel/GamePanel.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_panel/GamePanel.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_panel/GamePanel.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_panel/GamePanel.ts as cce:/internal/x/cc.
-debug: Resolve ../../../manager/ui_manager/UIManager from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_panel/GamePanel.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/UIManager.ts.
-debug: Resolve ../../../manager/ui_manager/UIPanel from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_panel/GamePanel.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/UIPanel.ts.
-debug: Resolve ./GameToolsView from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_panel/GamePanel.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_panel/GameToolsView.ts.
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_panel/GameToolsView.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_panel/GameToolsView.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_panel/GameToolsView.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_panel/GameToolsView.ts as cce:/internal/x/cc.
-debug: Resolve ../../../common/m_scroll_view/MScrollView from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_panel/GameToolsView.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/common/m_scroll_view/MScrollView.ts.
-debug: Resolve ./GridSquare from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_panel/GamePanel.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_panel/GridSquare.ts.
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_panel/GridSquare.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_panel/GridSquare.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_panel/GridSquare.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_panel/GridSquare.ts as cce:/internal/x/cc.
-debug: Resolve ../../../utils/Utils from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_panel/GridSquare.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/utils/Utils.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_panel/GameToolsItem.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_panel/GameToolsItem.ts.
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_panel/GameToolsItem.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_panel/GameToolsItem.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_panel/GameToolsItem.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_panel/GameToolsItem.ts as cce:/internal/x/cc.
-debug: Resolve ../../../common/m_scroll_view/MScrollItem from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_panel/GameToolsItem.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/common/m_scroll_view/MScrollItem.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_panel/GameToolsView.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_panel/GameToolsView.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_panel/GridSquare.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_panel/GridSquare.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_ui/GameStartMenuView.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_ui/GameStartMenuView.ts.
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_ui/GameStartMenuView.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_ui/GameStartMenuView.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_ui/GameStartMenuView.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_ui/GameStartMenuView.ts as cce:/internal/x/cc.
-debug: Resolve ../../../manager/ui_manager/UIPanel from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_ui/GameStartMenuView.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/UIPanel.ts.
-debug: Resolve ../../../manager/ui_manager/UIManager from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_ui/GameStartMenuView.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/UIManager.ts.
-debug: Resolve ../../../manager/game_manager/GameManager from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_ui/GameStartMenuView.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/game_manager/GameManager.ts.
-debug: Resolve ../../../common/NodeHelper from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_ui/GameStartMenuView.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/common/NodeHelper.ts.
-debug: Resolve ../../../manager/ui_manager/Name2Panel from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_ui/GameStartMenuView.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/Name2Panel.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_ui/LevelItem.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_ui/LevelItem.ts.
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_ui/LevelItem.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_ui/LevelItem.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_ui/LevelItem.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_ui/LevelItem.ts as cce:/internal/x/cc.
-debug: Resolve ../../../common/NodeHelper from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_ui/LevelItem.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/common/NodeHelper.ts.
-debug: Resolve ../../../manager/map_manager/MapManager from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_ui/LevelItem.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/map_manager/MapManager.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_ui/LevelSelectModeItem.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_ui/LevelSelectModeItem.ts.
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_ui/LevelSelectModeItem.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_ui/LevelSelectModeItem.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_ui/LevelSelectModeItem.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_ui/LevelSelectModeItem.ts as cce:/internal/x/cc.
-debug: Resolve ../../../common/NodeHelper from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_ui/LevelSelectModeItem.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/common/NodeHelper.ts.
-debug: Resolve ../../../utils/Utils from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_ui/LevelSelectModeItem.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/utils/Utils.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_ui/LevelSelectView.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_ui/LevelSelectView.ts.
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_ui/LevelSelectView.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_ui/LevelSelectView.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_ui/LevelSelectView.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_ui/LevelSelectView.ts as cce:/internal/x/cc.
-debug: Resolve ../../../manager/ui_manager/UIPanel from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_ui/LevelSelectView.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/UIPanel.ts.
-debug: Resolve ../../../manager/ui_manager/UIManager from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_ui/LevelSelectView.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/UIManager.ts.
-debug: Resolve ../../../utils/LogManager from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_ui/LevelSelectView.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/utils/LogManager.ts.
-debug: Resolve ../../../common/NodeHelper from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_ui/LevelSelectView.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/common/NodeHelper.ts.
-debug: Resolve ../../../manager/ResManager from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_ui/LevelSelectView.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ResManager.ts.
-debug: Resolve ./LevelSelectModeItem from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_ui/LevelSelectView.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_ui/LevelSelectModeItem.ts.
-debug: Resolve ../../../common/Display from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_ui/LevelSelectView.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/common/Display.ts.
-debug: Resolve ./LevelItem from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_ui/LevelSelectView.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_ui/LevelItem.ts.
-debug: Resolve ../../../manager/map_manager/MapData from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_ui/LevelSelectView.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/map_manager/MapData.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_tip/GameTipItem.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_tip/GameTipItem.ts.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_tip/GameTipItem.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_tip/GameTipItem.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_tip/GameTipItem.ts as cce:/internal/x/cc.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_tip/GameTipManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_tip/GameTipManager.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_tip/GameTipView.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_tip/GameTipView.ts.
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_tip/GameTipView.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_tip/GameTipView.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_tip/GameTipView.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_tip/GameTipView.ts as cce:/internal/x/cc.
-debug: Resolve ../../../manager/ResManager from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_tip/GameTipView.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ResManager.ts.
-debug: Resolve ../../../manager/ui_manager/UIManager from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_tip/GameTipView.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/UIManager.ts.
-debug: Resolve ../../../manager/ui_manager/UIPanel from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_tip/GameTipView.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/UIPanel.ts.
-debug: Resolve ./GameTipItem from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_tip/GameTipView.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_tip/GameTipItem.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/main_menu/MainMenu.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/main_menu/MainMenu.ts.
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/main_menu/MainMenu.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/main_menu/MainMenu.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/main_menu/MainMenu.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/main_menu/MainMenu.ts as cce:/internal/x/cc.
-debug: Resolve ../../../manager/ui_manager/UIManager from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/main_menu/MainMenu.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/UIManager.ts.
-debug: Resolve ../../../manager/ui_manager/UIPanel from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/main_menu/MainMenu.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/UIPanel.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/utils/LogManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/utils/LogManager.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/utils/PriorityQueue.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/utils/PriorityQueue.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/utils/Stack.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/utils/Stack.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/utils/Utils.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/utils/Utils.ts.
-debug: Target(editor) ends with cost 675.0355000495911ms.
+error: AssertionError [ERR_ASSERTION]: undefined undefined undefined
+debug: Target(editor) ends with cost 1036.6730999946594ms.
 debug: Target(preview) build started.
-debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 08:00:18 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:22 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 08:00:07 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:17 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/x/cc
 debug: Resolve cce:/internal/x/cc-fu/2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/2d.
 debug: Resolve cce:/internal/x/cc-fu/sorting from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/sorting.
@@ -403,39 +192,58 @@ debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external d
 debug: Resolve cce:/internal/x/cc-fu/ui from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/ui.
 debug: Resolve cce:/internal/x/cc-fu/video from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/video.
 debug: Resolve cce:/internal/x/cc-fu/webview from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/webview.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:58:52 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:23 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 13:48:31 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:19 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/x/prerequisite-imports
 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.7.4/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.7.4/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+debug: Detected change: file:///C:/ProgramData/cocos/editors/Creator/3.7.4/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts. Last mtime: Thu Jan 11 2024 20:10:45 GMT+0800 (中国标准时间)@b2bd1fa7-8d7c-49c5-a158-df29a6d3a594, Current mtime: Sun Sep 17 2023 19:30:23 GMT+0800 (中国标准时间)@b2bd1fa7-8d7c-49c5-a158-df29a6d3a594
+debug: Inspect file:///C:/ProgramData/cocos/editors/Creator/3.7.4/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts
 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.7.4/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.7.4/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.7.4/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
 debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/GameApp.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/GameApp.ts.
+debug: Detected change: file:///D:/cocos_projects/physics_education_game/assets/scripts/GameApp.ts. Last mtime: Thu Dec 28 2023 00:03:01 GMT+0800 (中国标准时间)@5c68ed08-7494-4ffc-9306-526d6545f865, Current mtime: Thu Feb 08 2024 13:03:25 GMT+0800 (中国标准时间)@5c68ed08-7494-4ffc-9306-526d6545f865
+debug: Inspect file:///D:/cocos_projects/physics_education_game/assets/scripts/GameApp.ts
 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocos_projects/physics_education_game/assets/scripts/GameApp.ts as cce:/internal/code-quality/cr.mjs.
-debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Sun Jan 28 2024 12:34:41 GMT+0800 (中国标准时间), Current mtime: Thu Feb 08 2024 12:15:56 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Mon Feb 05 2024 14:25:57 GMT+0800 (中国标准时间), Current mtime: Thu Feb 08 2024 15:55:41 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/code-quality/cr.mjs
 debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/GameApp.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/GameApp.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/GameApp.ts as cce:/internal/x/cc.
 debug: Resolve ./manager/game_manager/GameManager from file:///D:/cocos_projects/physics_education_game/assets/scripts/GameApp.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/game_manager/GameManager.ts.
+debug: Detected change: file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/game_manager/GameManager.ts. Last mtime: Thu Jan 04 2024 00:55:00 GMT+0800 (中国标准时间)@cf8771f3-8649-4f9c-8d02-7c048246eab8, Current mtime: Thu Feb 08 2024 12:20:46 GMT+0800 (中国标准时间)@cf8771f3-8649-4f9c-8d02-7c048246eab8
+debug: Inspect file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/game_manager/GameManager.ts
 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/game_manager/GameManager.ts as cce:/internal/code-quality/cr.mjs.
 debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/game_manager/GameManager.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/game_manager/GameManager.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/game_manager/GameManager.ts as cce:/internal/x/cc.
 debug: Resolve ../../common/Singleton from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/game_manager/GameManager.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/common/Singleton.ts.
+debug: Detected change: file:///D:/cocos_projects/physics_education_game/assets/scripts/common/Singleton.ts. Last mtime: Tue Oct 03 2023 11:02:50 GMT+0800 (中国标准时间)@acb6eac7-ba3a-40f6-b5fc-c60cff1469fc, Current mtime: Thu Feb 08 2024 12:20:15 GMT+0800 (中国标准时间)@acb6eac7-ba3a-40f6-b5fc-c60cff1469fc
+debug: Inspect file:///D:/cocos_projects/physics_education_game/assets/scripts/common/Singleton.ts
 debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/common/Singleton.ts as cce:/internal/x/cc.
-debug: Resolve ../../modules/ui/game_tip/GameTipManager from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/game_manager/GameManager.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_tip/GameTipManager.ts.
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_tip/GameTipManager.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_tip/GameTipManager.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_tip/GameTipManager.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_tip/GameTipManager.ts as cce:/internal/x/cc.
-debug: Resolve ../../../common/Singleton from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_tip/GameTipManager.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/common/Singleton.ts.
-debug: Resolve ../../../manager/ui_manager/Name2Panel from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_tip/GameTipManager.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/Name2Panel.ts.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/Name2Panel.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/Name2Panel.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/Name2Panel.ts as cce:/internal/x/cc.
-debug: Resolve ../../../manager/ui_manager/UIManager from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_tip/GameTipManager.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/UIManager.ts.
-debug: Detected change: file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/UIManager.ts. Last mtime: Sun Jan 28 2024 13:33:32 GMT+0800 (中国标准时间)@d8957c8a-bce5-4b89-bf24-4ffec746662c, Current mtime: Sun Jan 28 2024 13:34:02 GMT+0800 (中国标准时间)@d8957c8a-bce5-4b89-bf24-4ffec746662c
-debug: Inspect file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/UIManager.ts
+debug: Resolve ../../modules/game/ObjectBase from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/game_manager/GameManager.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/ObjectBase.ts.
+debug: Detected change: file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/ObjectBase.ts. Last mtime: Thu Jan 04 2024 01:01:43 GMT+0800 (中国标准时间)@9be97f86-2434-4426-a8ed-ff43677d5258, Current mtime: Thu Feb 08 2024 12:21:00 GMT+0800 (中国标准时间)@9be97f86-2434-4426-a8ed-ff43677d5258
+debug: Inspect file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/ObjectBase.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/ObjectBase.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/ObjectBase.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/ObjectBase.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/ObjectBase.ts as cce:/internal/x/cc.
+debug: Resolve ../../manager/game_manager/GameDefinition from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/ObjectBase.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/game_manager/GameDefinition.ts.
+debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/game_manager/GameDefinition.ts as cce:/internal/x/cc.
+debug: Resolve ../../manager/game_manager/InteractSpace from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/ObjectBase.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/game_manager/InteractSpace.ts.
+debug: Inspect file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/game_manager/InteractSpace.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/game_manager/InteractSpace.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/game_manager/InteractSpace.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/game_manager/InteractSpace.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/game_manager/InteractSpace.ts as cce:/internal/x/cc.
+debug: Resolve ../InputManager from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/game_manager/GameManager.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/InputManager.ts.
+debug: Detected change: file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/InputManager.ts. Last mtime: Sat Dec 09 2023 20:21:31 GMT+0800 (中国标准时间)@83797cca-9c36-446c-993e-a8c017c0b7d2, Current mtime: Thu Feb 08 2024 12:20:15 GMT+0800 (中国标准时间)@83797cca-9c36-446c-993e-a8c017c0b7d2
+debug: Inspect file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/InputManager.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/InputManager.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/InputManager.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/InputManager.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/InputManager.ts as cce:/internal/x/cc.
+debug: Resolve ../common/Singleton from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/InputManager.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/common/Singleton.ts.
+debug: Resolve ./ui_manager/UIManager from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/InputManager.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/UIManager.ts.
 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/UIManager.ts as cce:/internal/code-quality/cr.mjs.
 debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/UIManager.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/UIManager.ts as cce:/internal/x/cc.
@@ -448,6 +256,9 @@ debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/s
 debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ResManager.ts as cce:/internal/x/cc.
 debug: Resolve ../common/Singleton from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ResManager.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/common/Singleton.ts.
 debug: Resolve ./Name2Panel from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/UIManager.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/Name2Panel.ts.
+debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/Name2Panel.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/Name2Panel.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/Name2Panel.ts as cce:/internal/x/cc.
 debug: Resolve ./UIPanel from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/UIManager.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/UIPanel.ts.
 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/UIPanel.ts as cce:/internal/code-quality/cr.mjs.
 debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/UIPanel.ts as cce:/internal/x/cc.
@@ -455,341 +266,26 @@ debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/s
 debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/UIPanel.ts as cce:/internal/x/cc.
 debug: Resolve ./UIManager from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/UIPanel.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/UIManager.ts.
 debug: Resolve ../../utils/Stack from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/UIManager.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/utils/Stack.ts.
+debug: Inspect file:///D:/cocos_projects/physics_education_game/assets/scripts/utils/Stack.ts
 debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/utils/Stack.ts as cce:/internal/x/cc.
-debug: Resolve ../InputManager from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/game_manager/GameManager.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/InputManager.ts.
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/InputManager.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/InputManager.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/InputManager.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/InputManager.ts as cce:/internal/x/cc.
-debug: Resolve ../common/Singleton from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/InputManager.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/common/Singleton.ts.
-debug: Resolve ./ui_manager/UIManager from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/InputManager.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/UIManager.ts.
-debug: Resolve ../map_manager/MapManager from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/game_manager/GameManager.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/map_manager/MapManager.ts.
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/map_manager/MapManager.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/map_manager/MapManager.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/map_manager/MapManager.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/map_manager/MapManager.ts as cce:/internal/x/cc.
-debug: Resolve ../../common/Singleton from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/map_manager/MapManager.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/common/Singleton.ts.
-debug: Resolve ../../modules/game/ObjectFactory from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/map_manager/MapManager.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/ObjectFactory.ts.
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/ObjectFactory.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/ObjectFactory.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/ObjectFactory.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/ObjectFactory.ts as cce:/internal/x/cc.
-debug: Resolve ../../common/Singleton from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/ObjectFactory.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/common/Singleton.ts.
-debug: Resolve ../../manager/game_manager/GameManager from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/ObjectFactory.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/game_manager/GameManager.ts.
-debug: Resolve ./ObjectBase from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/ObjectFactory.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/ObjectBase.ts.
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/ObjectBase.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/ObjectBase.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/ObjectBase.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/ObjectBase.ts as cce:/internal/x/cc.
-debug: Resolve ../../manager/game_manager/GameDefinition from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/ObjectBase.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/game_manager/GameDefinition.ts.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/game_manager/GameDefinition.ts as cce:/internal/x/cc.
-debug: Resolve ./game_objects/RightTriangleObject from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/ObjectFactory.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/game_objects/RightTriangleObject.ts.
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/game_objects/RightTriangleObject.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/game_objects/RightTriangleObject.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/game_objects/RightTriangleObject.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/game_objects/RightTriangleObject.ts as cce:/internal/x/cc.
-debug: Resolve ../../../utils/Utils from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/game_objects/RightTriangleObject.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/utils/Utils.ts.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/utils/Utils.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/utils/Utils.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/utils/Utils.ts as cce:/internal/x/cc.
-debug: Resolve ../ObjectBase from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/game_objects/RightTriangleObject.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/ObjectBase.ts.
-debug: Resolve ./game_objects/SquareObject from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/ObjectFactory.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/game_objects/SquareObject.ts.
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/game_objects/SquareObject.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/game_objects/SquareObject.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/game_objects/SquareObject.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/game_objects/SquareObject.ts as cce:/internal/x/cc.
-debug: Resolve ../ObjectBase from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/game_objects/SquareObject.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/ObjectBase.ts.
-debug: Resolve ../../../utils/Utils from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/game_objects/SquareObject.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/utils/Utils.ts.
-debug: Resolve ../../utils/Utils from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/map_manager/MapManager.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/utils/Utils.ts.
-debug: Resolve ../game_manager/GameManager from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/map_manager/MapManager.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/game_manager/GameManager.ts.
-debug: Resolve ./MapData from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/map_manager/MapManager.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/map_manager/MapData.ts.
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/map_manager/MapData.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/map_manager/MapData.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/map_manager/MapData.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/map_manager/MapData.ts as cce:/internal/x/cc.
-debug: Resolve ../../common/Singleton from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/map_manager/MapData.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/common/Singleton.ts.
-debug: Resolve ../../utils/LogManager from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/map_manager/MapData.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/utils/LogManager.ts.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/utils/LogManager.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/utils/LogManager.ts as cce:/internal/x/cc.
-debug: Resolve ../ResManager from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/map_manager/MapData.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ResManager.ts.
-debug: Resolve ../event_manager/EventManager from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/map_manager/MapManager.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/event_manager/EventManager.ts.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/event_manager/EventManager.ts as cce:/internal/x/cc.
-debug: Resolve ../event_manager/EventConstants from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/map_manager/MapManager.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/event_manager/EventConstants.ts.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/event_manager/EventConstants.ts as cce:/internal/x/cc.
-debug: Resolve ./manager/ui_manager/UIManager from file:///D:/cocos_projects/physics_education_game/assets/scripts/GameApp.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/UIManager.ts.
-debug: Resolve ./manager/InputManager from file:///D:/cocos_projects/physics_education_game/assets/scripts/GameApp.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/InputManager.ts.
-debug: Resolve ./manager/map_manager/MapManager from file:///D:/cocos_projects/physics_education_game/assets/scripts/GameApp.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/map_manager/MapManager.ts.
-debug: Resolve ./modules/game/ObjectFactory from file:///D:/cocos_projects/physics_education_game/assets/scripts/GameApp.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/ObjectFactory.ts.
-debug: Resolve ./modules/ui/game_tip/GameTipManager from file:///D:/cocos_projects/physics_education_game/assets/scripts/GameApp.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_tip/GameTipManager.ts.
-debug: Resolve ./manager/ResManager from file:///D:/cocos_projects/physics_education_game/assets/scripts/GameApp.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ResManager.ts.
-debug: Resolve ./manager/event_manager/EventManager from file:///D:/cocos_projects/physics_education_game/assets/scripts/GameApp.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/event_manager/EventManager.ts.
-debug: Resolve ./manager/event_manager/EventConstants from file:///D:/cocos_projects/physics_education_game/assets/scripts/GameApp.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/event_manager/EventConstants.ts.
-debug: Resolve ./manager/ui_manager/Name2Panel from file:///D:/cocos_projects/physics_education_game/assets/scripts/GameApp.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/Name2Panel.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/GameLaunch.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/GameLaunch.ts.
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocos_projects/physics_education_game/assets/scripts/GameLaunch.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/GameLaunch.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/GameLaunch.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/GameLaunch.ts as cce:/internal/x/cc.
-debug: Resolve ./GameApp from file:///D:/cocos_projects/physics_education_game/assets/scripts/GameLaunch.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/GameApp.ts.
-debug: Resolve ./manager/ResManager from file:///D:/cocos_projects/physics_education_game/assets/scripts/GameLaunch.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ResManager.ts.
-debug: Resolve ./manager/TimerManager from file:///D:/cocos_projects/physics_education_game/assets/scripts/GameLaunch.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/TimerManager.ts.
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/TimerManager.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/TimerManager.ts as cce:/internal/x/cc.
-debug: Resolve ../utils/PriorityQueue from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/TimerManager.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/utils/PriorityQueue.ts.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/utils/PriorityQueue.ts as cce:/internal/x/cc.
-debug: Resolve ../utils/Utils from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/TimerManager.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/utils/Utils.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/common/Display.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/common/Display.ts.
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocos_projects/physics_education_game/assets/scripts/common/Display.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/common/Display.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/common/Display.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/common/Display.ts as cce:/internal/x/cc.
-debug: Resolve ./Singleton from file:///D:/cocos_projects/physics_education_game/assets/scripts/common/Display.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/common/Singleton.ts.
-debug: Resolve ../utils/LogManager from file:///D:/cocos_projects/physics_education_game/assets/scripts/common/Display.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/utils/LogManager.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/common/IPreInit.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/common/IPreInit.ts.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/common/IPreInit.ts as cce:/internal/x/cc.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/common/NodeHelper.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/common/NodeHelper.ts.
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocos_projects/physics_education_game/assets/scripts/common/NodeHelper.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/common/NodeHelper.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/common/NodeHelper.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/common/NodeHelper.ts as cce:/internal/x/cc.
-debug: Resolve ../manager/ui_manager/component/ComButton from file:///D:/cocos_projects/physics_education_game/assets/scripts/common/NodeHelper.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/component/ComButton.ts.
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/component/ComButton.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/component/ComButton.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/component/ComButton.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/component/ComButton.ts as cce:/internal/x/cc.
-debug: Resolve ../../../utils/LogManager from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/component/ComButton.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/utils/LogManager.ts.
-debug: Resolve ../../../utils/Utils from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/component/ComButton.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/utils/Utils.ts.
-debug: Resolve ../../event_manager/EventManager from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/component/ComButton.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/event_manager/EventManager.ts.
-debug: Resolve ../../event_manager/EventConstants from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/component/ComButton.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/event_manager/EventConstants.ts.
-debug: Resolve ./Display from file:///D:/cocos_projects/physics_education_game/assets/scripts/common/NodeHelper.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/common/Display.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/common/Singleton.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/common/Singleton.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/common/m_scroll_view/MScrollItem.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/common/m_scroll_view/MScrollItem.ts.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/common/m_scroll_view/MScrollItem.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/common/m_scroll_view/MScrollItem.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/common/m_scroll_view/MScrollItem.ts as cce:/internal/x/cc.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/common/m_scroll_view/MScrollView.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/common/m_scroll_view/MScrollView.ts.
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocos_projects/physics_education_game/assets/scripts/common/m_scroll_view/MScrollView.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/common/m_scroll_view/MScrollView.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/common/m_scroll_view/MScrollView.ts as cce:/internal/x/cc.
-debug: Resolve ./MScrollItem from file:///D:/cocos_projects/physics_education_game/assets/scripts/common/m_scroll_view/MScrollView.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/common/m_scroll_view/MScrollItem.ts.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/common/m_scroll_view/MScrollView.ts as cce:/internal/x/cc.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/InputManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/InputManager.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ResManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ResManager.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/TimerManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/TimerManager.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/event_manager/EventConstants.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/event_manager/EventConstants.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/event_manager/EventManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/event_manager/EventManager.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/game_manager/GameDefinition.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/game_manager/GameDefinition.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/game_manager/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/game_manager/GameManager.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/game_manager/PhysicsController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/game_manager/PhysicsController.ts.
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/game_manager/PhysicsController.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/game_manager/PhysicsController.ts as cce:/internal/x/cc.
-debug: Resolve ../../common/Singleton from file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/game_manager/PhysicsController.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/common/Singleton.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/map_manager/MapData.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/map_manager/MapData.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/map_manager/MapManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/map_manager/MapManager.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/Name2Panel.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/Name2Panel.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/UIManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/UIManager.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/UIPanel.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/UIPanel.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/component/ComButton.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/component/ComButton.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/ObjectBase.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/ObjectBase.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/ObjectFactory.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/ObjectFactory.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/game_objects/RightTriangleObject.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/game_objects/RightTriangleObject.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/game_objects/SquareObject.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/game_objects/SquareObject.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_main_ui/GameMainUIView.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_main_ui/GameMainUIView.ts.
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_main_ui/GameMainUIView.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_main_ui/GameMainUIView.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_main_ui/GameMainUIView.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_main_ui/GameMainUIView.ts as cce:/internal/x/cc.
-debug: Resolve ../../../manager/ui_manager/UIPanel from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_main_ui/GameMainUIView.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/UIPanel.ts.
-debug: Resolve ../../../manager/ui_manager/UIManager from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_main_ui/GameMainUIView.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/UIManager.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_panel/GamePanel.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_panel/GamePanel.ts.
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_panel/GamePanel.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_panel/GamePanel.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_panel/GamePanel.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_panel/GamePanel.ts as cce:/internal/x/cc.
-debug: Resolve ../../../manager/ui_manager/UIManager from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_panel/GamePanel.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/UIManager.ts.
-debug: Resolve ../../../manager/ui_manager/UIPanel from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_panel/GamePanel.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/UIPanel.ts.
-debug: Resolve ./GameToolsView from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_panel/GamePanel.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_panel/GameToolsView.ts.
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_panel/GameToolsView.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_panel/GameToolsView.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_panel/GameToolsView.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_panel/GameToolsView.ts as cce:/internal/x/cc.
-debug: Resolve ../../../common/m_scroll_view/MScrollView from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_panel/GameToolsView.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/common/m_scroll_view/MScrollView.ts.
-debug: Resolve ./GridSquare from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_panel/GamePanel.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_panel/GridSquare.ts.
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_panel/GridSquare.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_panel/GridSquare.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_panel/GridSquare.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_panel/GridSquare.ts as cce:/internal/x/cc.
-debug: Resolve ../../../utils/Utils from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_panel/GridSquare.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/utils/Utils.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_panel/GameToolsItem.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_panel/GameToolsItem.ts.
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_panel/GameToolsItem.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_panel/GameToolsItem.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_panel/GameToolsItem.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_panel/GameToolsItem.ts as cce:/internal/x/cc.
-debug: Resolve ../../../common/m_scroll_view/MScrollItem from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_panel/GameToolsItem.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/common/m_scroll_view/MScrollItem.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_panel/GameToolsView.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_panel/GameToolsView.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_panel/GridSquare.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_panel/GridSquare.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_ui/GameStartMenuView.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_ui/GameStartMenuView.ts.
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_ui/GameStartMenuView.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_ui/GameStartMenuView.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_ui/GameStartMenuView.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_ui/GameStartMenuView.ts as cce:/internal/x/cc.
-debug: Resolve ../../../manager/ui_manager/UIPanel from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_ui/GameStartMenuView.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/UIPanel.ts.
-debug: Resolve ../../../manager/ui_manager/UIManager from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_ui/GameStartMenuView.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/UIManager.ts.
-debug: Resolve ../../../manager/game_manager/GameManager from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_ui/GameStartMenuView.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/game_manager/GameManager.ts.
-debug: Resolve ../../../common/NodeHelper from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_ui/GameStartMenuView.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/common/NodeHelper.ts.
-debug: Resolve ../../../manager/ui_manager/Name2Panel from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_ui/GameStartMenuView.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/Name2Panel.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_ui/LevelItem.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_ui/LevelItem.ts.
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_ui/LevelItem.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_ui/LevelItem.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_ui/LevelItem.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_ui/LevelItem.ts as cce:/internal/x/cc.
-debug: Resolve ../../../common/NodeHelper from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_ui/LevelItem.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/common/NodeHelper.ts.
-debug: Resolve ../../../manager/map_manager/MapManager from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_ui/LevelItem.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/map_manager/MapManager.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_ui/LevelSelectModeItem.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_ui/LevelSelectModeItem.ts.
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_ui/LevelSelectModeItem.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_ui/LevelSelectModeItem.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_ui/LevelSelectModeItem.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_ui/LevelSelectModeItem.ts as cce:/internal/x/cc.
-debug: Resolve ../../../common/NodeHelper from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_ui/LevelSelectModeItem.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/common/NodeHelper.ts.
-debug: Resolve ../../../utils/Utils from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_ui/LevelSelectModeItem.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/utils/Utils.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_ui/LevelSelectView.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_ui/LevelSelectView.ts.
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_ui/LevelSelectView.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_ui/LevelSelectView.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_ui/LevelSelectView.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_ui/LevelSelectView.ts as cce:/internal/x/cc.
-debug: Resolve ../../../manager/ui_manager/UIPanel from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_ui/LevelSelectView.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/UIPanel.ts.
-debug: Resolve ../../../manager/ui_manager/UIManager from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_ui/LevelSelectView.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/UIManager.ts.
-debug: Resolve ../../../utils/LogManager from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_ui/LevelSelectView.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/utils/LogManager.ts.
-debug: Resolve ../../../common/NodeHelper from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_ui/LevelSelectView.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/common/NodeHelper.ts.
-debug: Resolve ../../../manager/ResManager from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_ui/LevelSelectView.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ResManager.ts.
-debug: Resolve ./LevelSelectModeItem from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_ui/LevelSelectView.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_ui/LevelSelectModeItem.ts.
-debug: Resolve ../../../common/Display from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_ui/LevelSelectView.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/common/Display.ts.
-debug: Resolve ./LevelItem from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_ui/LevelSelectView.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_ui/LevelItem.ts.
-debug: Resolve ../../../manager/map_manager/MapData from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_ui/LevelSelectView.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/map_manager/MapData.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_tip/GameTipItem.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_tip/GameTipItem.ts.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_tip/GameTipItem.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_tip/GameTipItem.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_tip/GameTipItem.ts as cce:/internal/x/cc.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_tip/GameTipManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_tip/GameTipManager.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_tip/GameTipView.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_tip/GameTipView.ts.
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_tip/GameTipView.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_tip/GameTipView.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_tip/GameTipView.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_tip/GameTipView.ts as cce:/internal/x/cc.
-debug: Resolve ../../../manager/ResManager from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_tip/GameTipView.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ResManager.ts.
-debug: Resolve ../../../manager/ui_manager/UIManager from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_tip/GameTipView.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/UIManager.ts.
-debug: Resolve ../../../manager/ui_manager/UIPanel from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_tip/GameTipView.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/UIPanel.ts.
-debug: Resolve ./GameTipItem from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_tip/GameTipView.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_tip/GameTipItem.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/main_menu/MainMenu.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/main_menu/MainMenu.ts.
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/main_menu/MainMenu.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/main_menu/MainMenu.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/main_menu/MainMenu.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/main_menu/MainMenu.ts as cce:/internal/x/cc.
-debug: Resolve ../../../manager/ui_manager/UIManager from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/main_menu/MainMenu.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/UIManager.ts.
-debug: Resolve ../../../manager/ui_manager/UIPanel from file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/main_menu/MainMenu.ts as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/UIPanel.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/utils/LogManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/utils/LogManager.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/utils/PriorityQueue.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/utils/PriorityQueue.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/utils/Stack.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/utils/Stack.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/utils/Utils.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/utils/Utils.ts.
-debug: Target(preview) ends with cost 626.7041001319885ms.
+error: AssertionError [ERR_ASSERTION]: undefined undefined undefined
+debug: Target(preview) ends with cost 743.3787999153137ms.
 debug: Pulling asset-db.
-debug: Fetch asset-db cost: 6460.312999725342ms.
+debug: Fetch asset-db cost: 4840.760499954224ms.
 debug: Build iteration starts.
-Number of accumulated asset changes: 44
+Number of accumulated asset changes: 48
 Feature changed: false
 debug: Target(editor) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:22 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:42 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:18 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:37 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/x/prerequisite-imports
 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.7.4/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.7.4/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
 debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/GameApp.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/GameApp.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/GameLaunch.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/GameLaunch.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/common/Display.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/common/Display.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/common/IPreInit.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/common/IPreInit.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/common/NodeHelper.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/common/NodeHelper.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/common/Singleton.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/common/Singleton.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/common/m_scroll_view/MScrollItem.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/common/m_scroll_view/MScrollItem.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/common/m_scroll_view/MScrollView.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/common/m_scroll_view/MScrollView.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/InputManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/InputManager.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ResManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ResManager.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/TimerManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/TimerManager.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/event_manager/EventConstants.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/event_manager/EventConstants.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/event_manager/EventManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/event_manager/EventManager.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/game_manager/GameDefinition.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/game_manager/GameDefinition.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/game_manager/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/game_manager/GameManager.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/game_manager/PhysicsController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/game_manager/PhysicsController.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/map_manager/MapData.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/map_manager/MapData.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/map_manager/MapManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/map_manager/MapManager.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/Name2Panel.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/Name2Panel.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/UIManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/UIManager.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/UIPanel.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/UIPanel.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/component/ComButton.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/component/ComButton.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/ObjectBase.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/ObjectBase.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/ObjectFactory.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/ObjectFactory.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/game_objects/RightTriangleObject.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/game_objects/RightTriangleObject.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/game_objects/SquareObject.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/game_objects/SquareObject.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_main_ui/GameMainUIView.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_main_ui/GameMainUIView.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_panel/GamePanel.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_panel/GamePanel.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_panel/GameToolsItem.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_panel/GameToolsItem.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_panel/GameToolsView.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_panel/GameToolsView.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_panel/GridSquare.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_panel/GridSquare.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_ui/GameStartMenuView.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_ui/GameStartMenuView.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_ui/LevelItem.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_ui/LevelItem.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_ui/LevelSelectModeItem.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_ui/LevelSelectModeItem.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_ui/LevelSelectView.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_ui/LevelSelectView.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_tip/GameTipItem.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_tip/GameTipItem.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_tip/GameTipManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_tip/GameTipManager.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_tip/GameTipView.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_tip/GameTipView.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/main_menu/MainMenu.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/main_menu/MainMenu.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/utils/LogManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/utils/LogManager.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/utils/PriorityQueue.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/utils/PriorityQueue.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/utils/Stack.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/utils/Stack.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/utils/Utils.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/utils/Utils.ts.
-debug: Target(editor) ends with cost 245.73160028457642ms.
+error: AssertionError [ERR_ASSERTION]: undefined undefined undefined
+debug: Target(editor) ends with cost 60.9689998626709ms.
 debug: Target(preview) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:23 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:42 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:19 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:37 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/x/prerequisite-imports
 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.7.4/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.7.4/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
 debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/GameApp.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/GameApp.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/GameLaunch.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/GameLaunch.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/common/Display.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/common/Display.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/common/IPreInit.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/common/IPreInit.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/common/NodeHelper.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/common/NodeHelper.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/common/Singleton.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/common/Singleton.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/common/m_scroll_view/MScrollItem.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/common/m_scroll_view/MScrollItem.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/common/m_scroll_view/MScrollView.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/common/m_scroll_view/MScrollView.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/InputManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/InputManager.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ResManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ResManager.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/TimerManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/TimerManager.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/event_manager/EventConstants.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/event_manager/EventConstants.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/event_manager/EventManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/event_manager/EventManager.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/game_manager/GameDefinition.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/game_manager/GameDefinition.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/game_manager/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/game_manager/GameManager.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/game_manager/PhysicsController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/game_manager/PhysicsController.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/map_manager/MapData.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/map_manager/MapData.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/map_manager/MapManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/map_manager/MapManager.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/Name2Panel.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/Name2Panel.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/UIManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/UIManager.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/UIPanel.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/UIPanel.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/component/ComButton.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/manager/ui_manager/component/ComButton.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/ObjectBase.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/ObjectBase.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/ObjectFactory.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/ObjectFactory.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/game_objects/RightTriangleObject.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/game_objects/RightTriangleObject.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/game_objects/SquareObject.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/game/game_objects/SquareObject.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_main_ui/GameMainUIView.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_main_ui/GameMainUIView.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_panel/GamePanel.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_panel/GamePanel.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_panel/GameToolsItem.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_panel/GameToolsItem.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_panel/GameToolsView.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_panel/GameToolsView.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_panel/GridSquare.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_panel/GridSquare.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_ui/GameStartMenuView.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_ui/GameStartMenuView.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_ui/LevelItem.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_ui/LevelItem.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_ui/LevelSelectModeItem.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_ui/LevelSelectModeItem.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_ui/LevelSelectView.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_start_ui/LevelSelectView.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_tip/GameTipItem.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_tip/GameTipItem.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_tip/GameTipManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_tip/GameTipManager.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_tip/GameTipView.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/game_tip/GameTipView.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/main_menu/MainMenu.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/modules/ui/main_menu/MainMenu.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/utils/LogManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/utils/LogManager.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/utils/PriorityQueue.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/utils/PriorityQueue.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/utils/Stack.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/utils/Stack.ts.
-debug: Resolve file:///D:/cocos_projects/physics_education_game/assets/scripts/utils/Utils.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocos_projects/physics_education_game/assets/scripts/utils/Utils.ts.
-debug: Target(preview) ends with cost 447.5102000236511ms.
+error: AssertionError [ERR_ASSERTION]: undefined undefined undefined
+debug: Target(preview) ends with cost 75.30780029296875ms.

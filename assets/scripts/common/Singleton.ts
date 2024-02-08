@@ -5,4 +5,8 @@ export class Singleton {
         }
         return (<any>this)._instance
     }
+
+    public constructor() {
+
+    }
 }
